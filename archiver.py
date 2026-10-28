@@ -8,16 +8,20 @@ import hashlib
 import asyncio
 import requests
 import subprocess
+
 from telethon import TelegramClient, utils
 from telethon.utils import get_peer_id
 from telethon.errors import FloodWaitError
 from telethon.network import MTProtoSender
-from telethon.tl.alltlobjects import LAYER
+from telethon.tl.alltlobjects import LAYER, requests as tl_requests
 from telethon.tl.functions import InvokeWithLayerRequest
-from telethon.tl.functions.InitConnectionRequest import InitConnectionRequest
 from telethon.tl.functions.auth import ExportAuthorizationRequest, ImportAuthorizationRequest
 from telethon.tl.functions.upload import SaveFilePartRequest, SaveBigFilePartRequest
 from telethon.tl.types import InputFile, InputFileBig
+
+# Use tl_requests for InitConnectionRequest so it never fails
+InitConnectionRequest = tl_requests.InitConnectionRequest
+
 
 # --- CONFIGURATION FROM GITHUB SECRETS ---
 GH_USERNAME = os.environ["GH_USERNAME"].strip()
