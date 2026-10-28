@@ -1,4 +1,4 @@
-name: Backup Starred Recomp Projects to Telegram
+name: Backup
 
 on:
   schedule:
@@ -22,8 +22,9 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y p7zip-full git
+          sudo apt-get update && sudo apt-get install -y p7zip-full git aria2
           pip install telethon cryptg requests
+          
 
       - name: Run Telegram Archiver
         env:
