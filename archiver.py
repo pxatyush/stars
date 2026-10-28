@@ -7,16 +7,18 @@ import asyncio
 import requests
 import subprocess
 from telethon import TelegramClient
-from telethon.tl.functions.channels import CreateForumTopicRequest
+from telethon.utils import get_peer_id
 from telethon.errors import FloodWaitError
 
 # --- CONFIGURATION FROM GITHUB SECRETS ---
-GH_USERNAME = os.environ["GH_USERNAME"]
-GH_TOKEN = os.environ.get("GH_TOKEN", "")
-TG_API_ID = int(os.environ["TG_API_ID"])
-TG_API_HASH = os.environ["TG_API_HASH"]
-TG_BOT_TOKEN = os.environ["TG_BOT_TOKEN"]
-TG_GROUP_ID = int(os.environ["TG_GROUP_ID"])
+GH_USERNAME = os.environ["GH_USERNAME"].strip()
+GH_TOKEN = os.environ.get("GH_TOKEN", "").strip()
+TG_API_ID = int(os.environ["TG_API_ID"].strip())
+TG_API_HASH = os.environ["TG_API_HASH"].strip()
+TG_BOT_TOKEN = os.environ["TG_BOT_TOKEN"].strip()
+
+raw_group_id = os.environ["TG_GROUP_ID"].strip()
+TG_GROUP_ID = int(raw_group_id) if raw_group_id.lstrip("-").isdigit() else raw_group_id
 
 DB_FILE = "database.json"
 WORK_DIR = "temp_downloads"
@@ -52,7 +54,7 @@ def get_sha256_short(file_path):
     with open(file_path, "rb") as f:
         while chunk := f.read(1024 * 1024):
             h.update(chunk)
-    return h.hexdigest()[:16]  # First 16 chars for clean display
+    return h.hexdigest()[:16]
 
 
 def get_file_icon(filename):
@@ -133,17 +135,23 @@ async def safe_tg_call(coro):
             await asyncio.sleep(e.seconds + 2)
 
 
-async def create_topic(client, title):
-    result = await safe_tg_call(
-        client(CreateForumTopicRequest(channel=TG_GROUP_ID, title=title[:120]))
-    )
-    for update in result.updates:
-        if hasattr(update, "message") and hasattr(update.message, "id"):
-            return update.message.id
-    raise RuntimeError(f"Could not extract Topic ID for {title}")
+async def create_topic(chat_id, title):
+    """Creates a Forum Topic using the official Bot API (immune to Telethon TL version changes)."""
+    url = f"https://api.telegram.org/bot{TG_BOT_TOKEN}/createForumTopic"
+    while True:
+        r = requests.post(url, json={"chat_id": chat_id, "name": title[:120]})
+        data = r.json()
+        if data.get("ok"):
+            return data["result"]["message_thread_id"]
+        if data.get("error_code") == 429:
+            retry_after = data.get("parameters", {}).get("retry_after", 10)
+            print(f"Topic creation rate-limited. Waiting {retry_after + 2}s...")
+            await asyncio.sleep(retry_after + 2)
+        else:
+            raise RuntimeError(f"Failed to create topic '{title}': {data}")
 
 
-async def upload_file_or_split(client, topic_id, file_path, title_html, tag_name):
+async def upload_file_or_split(client, group_entity, topic_id, file_path, title_html, tag_name):
     max_size = 1950 * 1024 * 1024  # 1.95 GB safe limit per file
     file_size = os.path.getsize(file_path)
     size_str = format_size(file_size)
@@ -159,7 +167,7 @@ async def upload_file_or_split(client, topic_id, file_path, title_html, tag_name
     if file_size <= max_size:
         msg = await safe_tg_call(
             client.send_file(
-                TG_GROUP_ID,
+                group_entity,
                 file_path,
                 caption=caption,
                 parse_mode="html",
@@ -179,7 +187,7 @@ async def upload_file_or_split(client, topic_id, file_path, title_html, tag_name
             part_caption = f"{caption}\n🧩 <b>Part {idx} of {len(parts)}</b> (<code>{html.escape(fname)}</code>)"
             msg = await safe_tg_call(
                 client.send_file(
-                    TG_GROUP_ID,
+                    group_entity,
                     part_path,
                     caption=part_caption,
                     parse_mode="html",
@@ -195,9 +203,14 @@ async def upload_file_or_split(client, topic_id, file_path, title_html, tag_name
 async def main():
     os.makedirs(WORK_DIR, exist_ok=True)
     db = load_db()
+    save_db(db)  # Ensure database.json exists on disk immediately
 
     client = TelegramClient("bot_session", TG_API_ID, TG_API_HASH)
     await client.start(bot_token=TG_BOT_TOKEN)
+
+    # Resolve group entity once at startup so Telethon caches its access_hash
+    group_entity = await client.get_entity(TG_GROUP_ID)
+    bot_api_chat_id = get_peer_id(group_entity)
 
     starred_repos = get_starred_repos(GH_USERNAME)
     print(f"Found {len(starred_repos)} starred repositories.")
@@ -219,7 +232,7 @@ async def main():
         # 1. Create Dedicated Project Topic & First Pinned Header Message
         if full_name not in db["projects"]:
             print(f"Creating dedicated topic for {full_name}...")
-            topic_id = await create_topic(client, f"🕹️ {repo_name} ({owner_login})")
+            topic_id = await create_topic(bot_api_chat_id, f"🕹️ {repo_name} ({owner_login})")
 
             header_html = (
                 f"📦 <b>{html.escape(repo_name)}</b>\n"
@@ -236,7 +249,7 @@ async def main():
 
             header_msg = await safe_tg_call(
                 client.send_message(
-                    TG_GROUP_ID,
+                    group_entity,
                     header_html,
                     parse_mode="html",
                     reply_to=topic_id,
@@ -244,9 +257,8 @@ async def main():
                 )
             )
 
-            # Pin the first message inside the Topic so it stays at the top
             try:
-                await safe_tg_call(client.pin_message(TG_GROUP_ID, header_msg.id, notify=False))
+                await safe_tg_call(client.pin_message(group_entity, header_msg.id, notify=False))
             except Exception as e:
                 print(f"Could not pin header in {repo_name}: {e}")
 
@@ -281,7 +293,6 @@ async def main():
             published_date = (rel.get("published_at") or "N/A")[:10]
             raw_body = (rel.get("body") or "No changelog provided.").strip()
 
-            # Trim huge changelogs so they fit cleanly in a single Telegram message
             if len(raw_body) > 3000:
                 raw_body = raw_body[:3000] + "\n... [Changelog truncated]"
 
@@ -295,7 +306,7 @@ async def main():
 
             changelog_msg = await safe_tg_call(
                 client.send_message(
-                    TG_GROUP_ID,
+                    group_entity,
                     changelog_html,
                     parse_mode="html",
                     reply_to=topic_id,
@@ -316,16 +327,22 @@ async def main():
             if rel.get("zipball_url"):
                 src_zip_name = f"{repo_name}-{tag_name}-source.zip".replace("/", "_")
                 src_zip_path = os.path.join(WORK_DIR, src_zip_name)
-                download_file(rel["zipball_url"], src_zip_path)
-                msg_ids = await upload_file_or_split(
-                    client,
-                    topic_id,
-                    src_zip_path,
-                    f"Source Code Snapshot ({html.escape(src_zip_name)})",
-                    tag_name
-                )
-                rel_record["source_zip_msg_id"] = msg_ids
-                os.remove(src_zip_path)
+                try:
+                    download_file(rel["zipball_url"], src_zip_path)
+                    msg_ids = await upload_file_or_split(
+                        client,
+                        group_entity,
+                        topic_id,
+                        src_zip_path,
+                        f"Source Code Snapshot ({html.escape(src_zip_name)})",
+                        tag_name
+                    )
+                    rel_record["source_zip_msg_id"] = msg_ids
+                except Exception as e:
+                    print(f"  -> Failed to backup source zip for {tag_name}: {e}")
+                finally:
+                    if os.path.exists(src_zip_path):
+                        os.remove(src_zip_path)
 
             # 2b. All Release Binaries (.apk, .exe, .dmg, .zip, etc.)
             for asset in rel.get("assets", []):
@@ -334,16 +351,22 @@ async def main():
                 asset_path = os.path.join(WORK_DIR, asset_name)
 
                 print(f"  -> Downloading {asset_name}...")
-                download_file(asset_url, asset_path)
-                msg_ids = await upload_file_or_split(
-                    client,
-                    topic_id,
-                    asset_path,
-                    html.escape(asset_name),
-                    tag_name
-                )
-                rel_record["assets"][asset_name] = msg_ids
-                os.remove(asset_path)
+                try:
+                    download_file(asset_url, asset_path)
+                    msg_ids = await upload_file_or_split(
+                        client,
+                        group_entity,
+                        topic_id,
+                        asset_path,
+                        html.escape(asset_name),
+                        tag_name
+                    )
+                    rel_record["assets"][asset_name] = msg_ids
+                except Exception as e:
+                    print(f"  -> Failed to backup asset {asset_name}: {e}")
+                finally:
+                    if os.path.exists(asset_path):
+                        os.remove(asset_path)
 
             proj["releases"][rel_id] = rel_record
             save_db(db)
@@ -358,15 +381,18 @@ async def main():
                 head_sha = create_git_bundle(repo["clone_url"], bundle_path)
                 msg_ids = await upload_file_or_split(
                     client,
+                    group_entity,
                     topic_id,
                     bundle_path,
                     f"Full Git Repository Bundle (Commit #{head_sha})",
-                    f"HEAD @ {pushed_at[:10]}"
+                    f"HEAD @ {(pushed_at or 'N/A')[:10]}"
                 )
                 proj["latest_bundle_msg_id"] = msg_ids
                 proj["last_pushed_at"] = pushed_at
                 save_db(db)
                 db_updated = True
+            except Exception as e:
+                print(f"  -> Could not create Git bundle for {full_name}: {e}")
             finally:
                 if os.path.exists(bundle_path):
                     os.remove(bundle_path)
@@ -374,12 +400,12 @@ async def main():
     # 4. Upload Updated Database File to the Dedicated Database Topic
     if db_updated:
         if not db.get("db_topic_id"):
-            db["db_topic_id"] = await create_topic(client, "🗄️ 00_ARCHIVE_DATABASE")
+            db["db_topic_id"] = await create_topic(bot_api_chat_id, "🗄️ 00_ARCHIVE_DATABASE")
             save_db(db)
 
         await safe_tg_call(
             client.send_file(
-                TG_GROUP_ID,
+                group_entity,
                 DB_FILE,
                 caption=(
                     f"🔄 <b>Updated Archive Database</b>\n"
@@ -396,4 +422,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-                      
