@@ -1,0 +1,45 @@
+name: Backup Starred Recomp Projects to Telegram
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' 
+  workflow_dispatch:      
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Tracker Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y p7zip-full git
+          pip install telethon cryptg requests
+
+      - name: Run Telegram Archiver
+        env:
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_GROUP_ID: ${{ secrets.TG_GROUP_ID }}
+        run: python archiver.py
+
+      - name: Save Updated Database to Repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add database.json
+          git diff --staged --quiet || git commit -m "chore: update archive database [skip ci]"
+          gi
+t push
