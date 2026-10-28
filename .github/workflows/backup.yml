@@ -2,15 +2,20 @@ name: Backup
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Runs automatically every 12 hours
-  workflow_dispatch:       
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: telegram-archiver
+  cancel-in-progress: false
+
 jobs:
   backup:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - name: Checkout Tracker Repository
         uses: actions/checkout@v4
@@ -22,11 +27,12 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y p7zip-full git aria2
-          pip install telethon cryptg requests
-          
+          sudo apt-get update
+          sudo apt-get install -y git aria2
+          pip install "telethon>=1.36,<2" cryptg requests
 
       - name: Run Telegram Archiver
+        timeout-minutes: 330
         env:
           GH_USERNAME: ${{ secrets.GH_USERNAME }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -37,12 +43,14 @@ jobs:
         run: python archiver.py
 
       - name: Save Updated Database to Repo
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -f database.json ]; then
             git add database.json
             git diff --staged --quiet || git commit -m "chore: update archive database [skip ci]"
+            git pull --rebase --autostash || true
             git push
           else
             echo "database.json not found, skipping commit."
