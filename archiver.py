@@ -1,14 +1,23 @@
 import os
 import html
 import json
+import math
+import random
 import shutil
 import hashlib
 import asyncio
 import requests
 import subprocess
-from telethon import TelegramClient
+from telethon import TelegramClient, utils
 from telethon.utils import get_peer_id
 from telethon.errors import FloodWaitError
+from telethon.network import MTProtoSender
+from telethon.tl.alltlobjects import LAYER
+from telethon.tl.functions import InvokeWithLayerRequest
+from telethon.tl.functions.InitConnectionRequest import InitConnectionRequest
+from telethon.tl.functions.auth import ExportAuthorizationRequest, ImportAuthorizationRequest
+from telethon.tl.functions.upload import SaveFilePartRequest, SaveBigFilePartRequest
+from telethon.tl.types import InputFile, InputFileBig
 
 # --- CONFIGURATION FROM GITHUB SECRETS ---
 GH_USERNAME = os.environ["GH_USERNAME"].strip()
@@ -28,8 +37,118 @@ if GH_TOKEN:
     gh_headers["Authorization"] = f"Bearer {GH_TOKEN}"
 
 
+# ============================================================================
+# MULTI-SOCKET PARALLEL MTPROTO UPLOADER (4 TO 8 DEDICATED TCP CONNECTIONS)
+# ============================================================================
+class ParallelTransferrer:
+    """Opens multiple independent TCP sockets to Telegram DC for 40-60 MB/s uploads."""
+    def __init__(self, client: TelegramClient):
+        self.client = client
+        self.senders = []
+
+    async def _create_sender(self, dc_id):
+        dc = await self.client._get_dc(dc_id)
+        sender = MTProtoSender(None, loggers=self.client._log)
+        await sender.connect(
+            self.client._connection(
+                dc.ip_address,
+                dc.port,
+                dc.id,
+                loggers=self.client._log,
+                proxy=self.client._proxy,
+            )
+        )
+        auth = await self.client(ExportAuthorizationRequest(dc_id))
+        req = InvokeWithLayerRequest(
+            LAYER,
+            InitConnectionRequest(
+                api_id=self.client.api_id,
+                device_model="GitHubActionsArchiver",
+                system_version="Linux",
+                app_version="2.0",
+                system_lang_code="en",
+                lang_pack="",
+                lang_code="en",
+                query=ImportAuthorizationRequest(id=auth.id, bytes=auth.bytes),
+            ),
+        )
+        await sender.send(req)
+        return sender
+
+    async def init_pool(self, connection_count=4):
+        if self.senders:
+            return
+        dc_id = self.client.session.dc_id
+        # First exported sender initializes safely, then rest in parallel
+        first = await self._create_sender(dc_id)
+        self.senders.append(first)
+        for _ in range(connection_count - 1):
+            try:
+                s = await self._create_sender(dc_id)
+                self.senders.append(s)
+            except Exception as e:
+                print(f"Extra socket init skipped: {e}")
+                break
+        print(f"⚡ Initialized {len(self.senders)} parallel TCP upload sockets to Telegram DC{dc_id}")
+
+    async def upload_file(self, file_path: str):
+        file_size = os.path.getsize(file_path)
+        if file_size == 0:
+            return file_path
+
+        await self.init_pool(connection_count=4)
+
+        part_size = 512 * 1024  # 512 KB max MTProto chunk
+        part_count = math.ceil(file_size / part_size)
+        is_big = file_size > 10 * 1024 * 1024
+        file_id = random.getrandbits(63)
+
+        # Allow 4 in-flight requests per independent TCP socket (16 concurrent chunks across 4 sockets)
+        sem = asyncio.Semaphore(len(self.senders) * 4)
+
+        async def send_chunk(part_idx: int, chunk: bytes):
+            async with sem:
+                sender = self.senders[part_idx % len(self.senders)]
+                if is_big:
+                    req = SaveBigFilePartRequest(file_id, part_idx, part_count, chunk)
+                else:
+                    req = SaveFilePartRequest(file_id, part_idx, chunk)
+                while True:
+                    try:
+                        await sender.send(req)
+                        break
+                    except FloodWaitError as e:
+                        await asyncio.sleep(e.seconds + 1)
+
+        tasks = []
+        with open(file_path, "rb") as f:
+            for i in range(part_count):
+                chunk = f.read(part_size)
+                tasks.append(asyncio.create_task(send_chunk(i, chunk)))
+                if len(tasks) >= 64:
+                    await asyncio.gather(*tasks)
+                    tasks.clear()
+            if tasks:
+                await asyncio.gather(*tasks)
+
+        file_name = os.path.basename(file_path)
+        if is_big:
+            return InputFileBig(file_id, part_count, file_name)
+        return InputFile(file_id, part_count, file_name, "")
+
+    async def close(self):
+        for s in self.senders:
+            try:
+                await s.disconnect()
+            except Exception:
+                pass
+        self.senders.clear()
+
+
+# ============================================================================
+# HELPER FUNCTIONS
+# ============================================================================
 def load_db():
-    """Automatically creates a fresh database in memory if database.json doesn't exist yet."""
     if os.path.exists(DB_FILE):
         with open(DB_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -52,7 +171,7 @@ def format_size(size_bytes):
 def get_sha256_short(file_path):
     h = hashlib.sha256()
     with open(file_path, "rb") as f:
-        while chunk := f.read(1024 * 1024):
+        while chunk := f.read(8 * 1024 * 1024):
             h.update(chunk)
     return h.hexdigest()[:16]
 
@@ -102,12 +221,32 @@ def get_repo_releases(full_name):
     return list(reversed(releases))
 
 
-def download_file(url, dest_path):
-    with requests.get(url, headers=gh_headers, stream=True) as r:
-        r.raise_for_status()
-        with open(dest_path, "wb") as f:
-            for chunk in r.iter_content(chunk_size=8192 * 16):
-                f.write(chunk)
+def fast_download_aria2(url, dest_path):
+    """Uses aria2c with 16 parallel connections per file to max out GitHub CDN speed."""
+    if shutil.which("aria2c"):
+        out_dir = os.path.dirname(os.path.abspath(dest_path))
+        out_name = os.path.basename(dest_path)
+        cmd = [
+            "aria2c",
+            "-x", "16",
+            "-s", "16",
+            "-k", "1M",
+            "--file-allocation=none",
+            "--allow-overwrite=true",
+            "--auto-file-renaming=false",
+            "--quiet=true",
+            "-d", out_dir,
+            "-o", out_name,
+            url,
+        ]
+        subprocess.run(cmd, check=True)
+    else:
+        with requests.get(url, headers=gh_headers, stream=True, timeout=120) as r:
+            r.raise_for_status()
+            with open(dest_path, "wb") as f:
+                for chunk in r.iter_content(chunk_size=1024 * 1024):
+                    if chunk:
+                        f.write(chunk)
 
 
 def create_git_bundle(clone_url, bundle_path):
@@ -126,17 +265,16 @@ def create_git_bundle(clone_url, bundle_path):
     return head_sha
 
 
-async def safe_tg_call(coro):
+async def safe_tg_call(coro_factory):
     while True:
         try:
-            return await coro
+            return await coro_factory()
         except FloodWaitError as e:
-            print(f"Telegram rate limit hit. Waiting {e.seconds + 2}s...")
+            print(f"Telegram rate limit hit. Sleeping {e.seconds + 2}s...")
             await asyncio.sleep(e.seconds + 2)
 
 
 async def create_topic(chat_id, title):
-    """Creates a Forum Topic using the official Bot API (immune to Telethon TL version changes)."""
     url = f"https://api.telegram.org/bot{TG_BOT_TOKEN}/createForumTopic"
     while True:
         r = requests.post(url, json={"chat_id": chat_id, "name": title[:120]})
@@ -151,7 +289,7 @@ async def create_topic(chat_id, title):
             raise RuntimeError(f"Failed to create topic '{title}': {data}")
 
 
-async def upload_file_or_split(client, group_entity, topic_id, file_path, title_html, tag_name):
+async def upload_file_or_split(client, transferrer, group_entity, topic_id, file_path, title_html, tag_name):
     max_size = 1950 * 1024 * 1024  # 1.95 GB safe limit per file
     file_size = os.path.getsize(file_path)
     size_str = format_size(file_size)
@@ -165,16 +303,17 @@ async def upload_file_or_split(client, group_entity, topic_id, file_path, title_
     )
 
     if file_size <= max_size:
+        input_file = await transferrer.upload_file(file_path)
         msg = await safe_tg_call(
-            client.send_file(
+            lambda: client.send_file(
                 group_entity,
-                file_path,
+                input_file,
                 caption=caption,
                 parse_mode="html",
+                force_document=True,
                 reply_to=topic_id
             )
         )
-        await asyncio.sleep(3)
         return [msg.id]
     else:
         split_prefix = file_path + ".part"
@@ -185,30 +324,32 @@ async def upload_file_or_split(client, group_entity, topic_id, file_path, title_
         for idx, fname in enumerate(parts, 1):
             part_path = os.path.join(folder, fname)
             part_caption = f"{caption}\n🧩 <b>Part {idx} of {len(parts)}</b> (<code>{html.escape(fname)}</code>)"
+            input_file = await transferrer.upload_file(part_path)
             msg = await safe_tg_call(
-                client.send_file(
+                lambda: client.send_file(
                     group_entity,
-                    part_path,
+                    input_file,
                     caption=part_caption,
                     parse_mode="html",
+                    force_document=True,
                     reply_to=topic_id
                 )
             )
             msg_ids.append(msg.id)
             os.remove(part_path)
-            await asyncio.sleep(3)
         return msg_ids
 
 
 async def main():
     os.makedirs(WORK_DIR, exist_ok=True)
     db = load_db()
-    save_db(db)  # Ensure database.json exists on disk immediately
+    save_db(db)
 
     client = TelegramClient("bot_session", TG_API_ID, TG_API_HASH)
+    client.flood_sleep_threshold = 3600
     await client.start(bot_token=TG_BOT_TOKEN)
 
-    # Resolve group entity once at startup so Telethon caches its access_hash
+    transferrer = ParallelTransferrer(client)
     group_entity = await client.get_entity(TG_GROUP_ID)
     bot_api_chat_id = get_peer_id(group_entity)
 
@@ -216,6 +357,7 @@ async def main():
     print(f"Found {len(starred_repos)} starred repositories.")
 
     db_updated = False
+    loop = asyncio.get_running_loop()
 
     for repo in starred_repos:
         full_name = repo["full_name"]
@@ -248,7 +390,7 @@ async def main():
             )
 
             header_msg = await safe_tg_call(
-                client.send_message(
+                lambda: client.send_message(
                     group_entity,
                     header_html,
                     parse_mode="html",
@@ -258,7 +400,7 @@ async def main():
             )
 
             try:
-                await safe_tg_call(client.pin_message(group_entity, header_msg.id, notify=False))
+                await safe_tg_call(lambda: client.pin_message(group_entity, header_msg.id, notify=False))
             except Exception as e:
                 print(f"Could not pin header in {repo_name}: {e}")
 
@@ -276,12 +418,11 @@ async def main():
             }
             save_db(db)
             db_updated = True
-            await asyncio.sleep(2)
 
         proj = db["projects"][full_name]
         topic_id = proj["topic_id"]
 
-        # 2. Check & Backup All Releases (Oldest to Newest)
+        # 2. Check & Backup Release Assets ONLY (No redundant per-version source zips!)
         releases = get_repo_releases(full_name)
         for rel in releases:
             rel_id = str(rel["id"])
@@ -305,7 +446,7 @@ async def main():
             )
 
             changelog_msg = await safe_tg_call(
-                client.send_message(
+                lambda: client.send_message(
                     group_entity,
                     changelog_html,
                     parse_mode="html",
@@ -319,42 +460,22 @@ async def main():
                 "name": rel_name,
                 "published_at": published_date,
                 "changelog_msg_id": changelog_msg.id,
-                "source_zip_msg_id": None,
                 "assets": {}
             }
 
-            # 2a. Source Code Zip for this specific version
-            if rel.get("zipball_url"):
-                src_zip_name = f"{repo_name}-{tag_name}-source.zip".replace("/", "_")
-                src_zip_path = os.path.join(WORK_DIR, src_zip_name)
-                try:
-                    download_file(rel["zipball_url"], src_zip_path)
-                    msg_ids = await upload_file_or_split(
-                        client,
-                        group_entity,
-                        topic_id,
-                        src_zip_path,
-                        f"Source Code Snapshot ({html.escape(src_zip_name)})",
-                        tag_name
-                    )
-                    rel_record["source_zip_msg_id"] = msg_ids
-                except Exception as e:
-                    print(f"  -> Failed to backup source zip for {tag_name}: {e}")
-                finally:
-                    if os.path.exists(src_zip_path):
-                        os.remove(src_zip_path)
-
-            # 2b. All Release Binaries (.apk, .exe, .dmg, .zip, etc.)
+            # Download and upload compiled release binaries only (.apk, .exe, .dmg, .zip)
             for asset in rel.get("assets", []):
                 asset_name = asset["name"]
                 asset_url = asset["browser_download_url"]
                 asset_path = os.path.join(WORK_DIR, asset_name)
 
-                print(f"  -> Downloading {asset_name}...")
+                print(f"  -> [aria2c 16x] Downloading {asset_name}...")
                 try:
-                    download_file(asset_url, asset_path)
+                    await loop.run_in_executor(None, fast_download_aria2, asset_url, asset_path)
+                    print(f"  -> [Multi-Socket] Uploading {asset_name}...")
                     msg_ids = await upload_file_or_split(
                         client,
+                        transferrer,
                         group_entity,
                         topic_id,
                         asset_path,
@@ -372,19 +493,31 @@ async def main():
             save_db(db)
             db_updated = True
 
-        # 3. Full Git History Bundle (Only runs if new commits were pushed since last check)
+        # 3. Single Latest Full Git Bundle (Contains ALL branches, commits, & past release tags!)
         if proj.get("last_pushed_at") != pushed_at:
-            print(f"Updating full Git bundle for {full_name}...")
+            print(f"Updating latest full Git bundle for {full_name}...")
             bundle_name = f"{repo_name}-full-history.bundle"
             bundle_path = os.path.join(WORK_DIR, bundle_name)
             try:
-                head_sha = create_git_bundle(repo["clone_url"], bundle_path)
+                head_sha = await loop.run_in_executor(
+                    None, create_git_bundle, repo["clone_url"], bundle_path
+                )
+
+                # Delete old outdated bundle from the topic so only the latest one remains
+                old_bundle_ids = proj.get("latest_bundle_msg_id")
+                if old_bundle_ids:
+                    try:
+                        await safe_tg_call(lambda: client.delete_messages(group_entity, old_bundle_ids))
+                    except Exception:
+                        pass
+
                 msg_ids = await upload_file_or_split(
                     client,
+                    transferrer,
                     group_entity,
                     topic_id,
                     bundle_path,
-                    f"Full Git Repository Bundle (Commit #{head_sha})",
+                    f"Latest Full Source & Git History (Commit #{head_sha} — Includes All Past Tags)",
                     f"HEAD @ {(pushed_at or 'N/A')[:10]}"
                 )
                 proj["latest_bundle_msg_id"] = msg_ids
@@ -404,7 +537,7 @@ async def main():
             save_db(db)
 
         await safe_tg_call(
-            client.send_file(
+            lambda: client.send_file(
                 group_entity,
                 DB_FILE,
                 caption=(
@@ -417,6 +550,7 @@ async def main():
             )
         )
 
+    await transferrer.close()
     await client.disconnect()
 
 
