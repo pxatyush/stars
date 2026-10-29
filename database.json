@@ -600,9 +600,9 @@
       "topic_id": 160,
       "header_msg_id": 161,
       "latest_bundle_msg_id": [
-        183
+        4734
       ],
-      "last_pushed_at": "2026-10-28T19:57:51Z",
+      "last_pushed_at": "2026-10-28T21:24:01Z",
       "releases": {
         "418079030": {
           "tag_name": "v5.2.1",
@@ -1807,9 +1807,9 @@
       "topic_id": 438,
       "header_msg_id": 439,
       "latest_bundle_msg_id": [
-        528
+        4735
       ],
-      "last_pushed_at": "2026-10-28T15:46:20Z",
+      "last_pushed_at": "2026-10-29T04:09:19Z",
       "releases": {
         "265375024": {
           "tag_name": "v2.0.3",
@@ -2455,9 +2455,9 @@
       "topic_id": 550,
       "header_msg_id": 551,
       "latest_bundle_msg_id": [
-        1651
+        4736
       ],
-      "last_pushed_at": "2026-10-28T20:26:42Z",
+      "last_pushed_at": "2026-10-29T04:07:41Z",
       "releases": {
         "139154184": {
           "tag_name": "v1.0.0",
@@ -14240,9 +14240,9 @@
       "topic_id": 3165,
       "header_msg_id": 3166,
       "latest_bundle_msg_id": [
-        3167
+        4739
       ],
-      "last_pushed_at": "2026-10-28T21:03:54Z",
+      "last_pushed_at": "2026-10-29T04:02:31Z",
       "releases": {}
     },
     "snes19xx/surface-dots": {
@@ -14556,9 +14556,9 @@
       "topic_id": 3222,
       "header_msg_id": 3223,
       "latest_bundle_msg_id": [
-        3263
+        4740
       ],
-      "last_pushed_at": "2026-10-28T21:06:15Z",
+      "last_pushed_at": "2026-10-29T03:57:13Z",
       "releases": {
         "352658215": {
           "tag_name": "rea-0.2.0",
@@ -14897,9 +14897,9 @@
       "topic_id": 3267,
       "header_msg_id": 3268,
       "latest_bundle_msg_id": [
-        3278
+        4741
       ],
-      "last_pushed_at": "2026-10-28T20:56:06Z",
+      "last_pushed_at": "2026-10-29T00:53:08Z",
       "releases": {
         "411874563": {
           "tag_name": "v1.0.0",
@@ -14957,9 +14957,9 @@
       "topic_id": 3279,
       "header_msg_id": 3280,
       "latest_bundle_msg_id": [
-        3331
+        4742
       ],
-      "last_pushed_at": "2026-10-28T21:04:29Z",
+      "last_pushed_at": "2026-10-29T03:28:28Z",
       "releases": {
         "422405806": {
           "tag_name": "beta_5",
@@ -15421,9 +15421,9 @@
       "topic_id": 3374,
       "header_msg_id": 3375,
       "latest_bundle_msg_id": [
-        3422
+        4743
       ],
-      "last_pushed_at": "2026-10-27T11:33:51Z",
+      "last_pushed_at": "2026-10-29T02:45:26Z",
       "releases": {
         "414873814": {
           "tag_name": "v0.1.0",
@@ -16905,9 +16905,9 @@
       "topic_id": 3665,
       "header_msg_id": 3666,
       "latest_bundle_msg_id": [
-        3747
+        4744
       ],
-      "last_pushed_at": "2026-10-28T20:24:40Z",
+      "last_pushed_at": "2026-10-29T03:01:03Z",
       "releases": {
         "358839850": {
           "tag_name": "1.0",
@@ -17868,9 +17868,9 @@
       "topic_id": 3890,
       "header_msg_id": 3891,
       "latest_bundle_msg_id": [
-        3893
+        4745
       ],
-      "last_pushed_at": "2026-10-28T20:18:26Z",
+      "last_pushed_at": "2026-10-29T02:24:18Z",
       "releases": {
         "423412726": {
           "tag_name": "v2026.10.25",
@@ -17891,9 +17891,9 @@
       "topic_id": 3894,
       "header_msg_id": 3895,
       "latest_bundle_msg_id": [
-        4053
+        4757
       ],
-      "last_pushed_at": "2026-10-28T20:55:21Z",
+      "last_pushed_at": "2026-10-29T03:43:14Z",
       "releases": {
         "404130988": {
           "tag_name": "v0.1.0",
@@ -18485,6 +18485,45 @@
             ]
           },
           "complete": true
+        },
+        "427409581": {
+          "tag_name": "devel-build",
+          "name": "Development build (devel @ e1790a4, 2026-10-29)",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4746,
+          "assets": {
+            "SHA256SUMS.txt": [
+              4747
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-android-arm64.apk": [
+              4748
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-android-x86_64.apk": [
+              4749
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-linux-aarch64.AppImage": [
+              4750
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-linux-aarch64.zip": [
+              4751
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-linux-x86_64.AppImage": [
+              4752
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-linux-x86_64.zip": [
+              4753
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-macos-arm64.zip": [
+              4754
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-windows-arm64.zip": [
+              4755
+            ],
+            "WindWakerHD-v0.4.0-devel.e1790a41-windows-x86_64.zip": [
+              4756
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -18511,9 +18550,9 @@
       "topic_id": 4057,
       "header_msg_id": 4058,
       "latest_bundle_msg_id": [
-        4069
+        4758
       ],
-      "last_pushed_at": "2026-10-28T20:46:02Z",
+      "last_pushed_at": "2026-10-28T21:44:47Z",
       "releases": {
         "415611760": {
           "tag_name": "v0.1.0-alpha.1",
@@ -18580,9 +18619,9 @@
       "topic_id": 4070,
       "header_msg_id": 4071,
       "latest_bundle_msg_id": [
-        4106
+        4759
       ],
-      "last_pushed_at": "2026-10-28T21:02:00Z",
+      "last_pushed_at": "2026-10-28T23:02:17Z",
       "releases": {
         "418720681": {
           "tag_name": "0.40.0-alpha",
@@ -18850,9 +18889,9 @@
       "topic_id": 4116,
       "header_msg_id": 4117,
       "latest_bundle_msg_id": [
-        4121
+        4760
       ],
-      "last_pushed_at": "2026-10-28T09:43:35Z",
+      "last_pushed_at": "2026-10-29T02:35:07Z",
       "releases": {
         "422252542": {
           "tag_name": "v0.3.0",
@@ -19000,9 +19039,9 @@
       "topic_id": 4141,
       "header_msg_id": 4142,
       "latest_bundle_msg_id": [
-        4246
+        4761
       ],
-      "last_pushed_at": "2026-10-28T04:07:58Z",
+      "last_pushed_at": "2026-10-29T04:09:31Z",
       "releases": {
         "409242998": {
           "tag_name": "windows-v2.0",
@@ -19486,9 +19525,9 @@
       "topic_id": 4247,
       "header_msg_id": 4248,
       "latest_bundle_msg_id": [
-        4249
+        4762
       ],
-      "last_pushed_at": "2026-10-28T17:15:55Z",
+      "last_pushed_at": "2026-10-29T04:07:21Z",
       "releases": {}
     },
     "scarletnx/ScarletNX": {
@@ -19500,9 +19539,9 @@
       "topic_id": 4250,
       "header_msg_id": 4251,
       "latest_bundle_msg_id": [
-        4253
+        4763
       ],
-      "last_pushed_at": "2026-10-28T20:58:18Z",
+      "last_pushed_at": "2026-10-29T04:08:59Z",
       "releases": {
         "415454328": {
           "tag_name": "nightly",
@@ -20003,9 +20042,9 @@
       "topic_id": 4384,
       "header_msg_id": 4385,
       "latest_bundle_msg_id": [
-        4398
+        4764
       ],
-      "last_pushed_at": "2026-10-28T18:39:23Z",
+      "last_pushed_at": "2026-10-29T03:54:22Z",
       "releases": {
         "425102420": {
           "tag_name": "v0.3.0",
@@ -20125,9 +20164,9 @@
       "topic_id": 4409,
       "header_msg_id": 4410,
       "latest_bundle_msg_id": [
-        4457
+        4765
       ],
-      "last_pushed_at": "2026-10-28T21:03:58Z",
+      "last_pushed_at": "2026-10-29T00:10:02Z",
       "releases": {
         "419862397": {
           "tag_name": "v0.1.0",
@@ -20394,9 +20433,9 @@
       "topic_id": 4461,
       "header_msg_id": 4462,
       "latest_bundle_msg_id": [
-        4465
+        4766
       ],
-      "last_pushed_at": "2026-10-28T18:39:40Z",
+      "last_pushed_at": "2026-10-29T00:38:43Z",
       "releases": {
         "423368718": {
           "tag_name": "v0.1.0-beta",
@@ -20421,9 +20460,9 @@
       "topic_id": 4466,
       "header_msg_id": 4467,
       "latest_bundle_msg_id": [
-        4501
+        4767
       ],
-      "last_pushed_at": "2026-10-28T01:39:19Z",
+      "last_pushed_at": "2026-10-29T02:48:29Z",
       "releases": {
         "422431048": {
           "tag_name": "v0.1.0-beta",
@@ -20952,9 +20991,9 @@
       "topic_id": 4573,
       "header_msg_id": 4574,
       "latest_bundle_msg_id": [
-        4581
+        4768
       ],
-      "last_pushed_at": "2026-10-28T18:57:00Z",
+      "last_pushed_at": "2026-10-29T04:04:47Z",
       "releases": {
         "425032335": {
           "tag_name": "v0.1.0",
@@ -21003,9 +21042,9 @@
       "topic_id": 4582,
       "header_msg_id": 4583,
       "latest_bundle_msg_id": [
-        4618
+        4771
       ],
-      "last_pushed_at": "2026-10-28T18:40:41Z",
+      "last_pushed_at": "2026-10-29T03:56:29Z",
       "releases": {
         "425041585": {
           "tag_name": "v0.13",
@@ -21207,6 +21246,18 @@
           "assets": {
             "PokemonShield-v0.35.apk": [
               4617
+            ]
+          },
+          "complete": true
+        },
+        "427463699": {
+          "tag_name": "v0.36",
+          "name": "v0.36 (pre-release)",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4769,
+          "assets": {
+            "PokemonShield-v0.36.apk": [
+              4770
             ]
           },
           "complete": true
@@ -21506,9 +21557,9 @@
       "topic_id": 4672,
       "header_msg_id": 4673,
       "latest_bundle_msg_id": [
-        4678
+        4772
       ],
-      "last_pushed_at": "2026-10-27T03:13:05Z",
+      "last_pushed_at": "2026-10-28T23:34:06Z",
       "releases": {
         "423861539": {
           "tag_name": "v2.0.0",
@@ -21814,6 +21865,105 @@
           "assets": {
             "mw2-campaign-android-arm64-20261018-1c62070-tu0.apk": [
               4730
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "shenbolado1/MK8D-Launcher": {
+      "name": "MK8D-Launcher",
+      "owner": "shenbolado1",
+      "owner_url": "https://github.com/shenbolado1",
+      "repo_url": "https://github.com/shenbolado1/MK8D-Launcher",
+      "description": "Ported from Switch to Android",
+      "topic_id": 4773,
+      "header_msg_id": 4774,
+      "latest_bundle_msg_id": [
+        4777
+      ],
+      "last_pushed_at": "2026-10-28T15:34:27Z",
+      "releases": {
+        "426802511": {
+          "tag_name": "v0.1",
+          "name": "v0.1",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 4775,
+          "assets": {
+            "MKart8Port-release04.apk": [
+              4776
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "josiahg2502-glitch/BrawlRecompiled": {
+      "name": "BrawlRecompiled",
+      "owner": "josiahg2502-glitch",
+      "owner_url": "https://github.com/josiahg2502-glitch",
+      "repo_url": "https://github.com/josiahg2502-glitch/BrawlRecompiled",
+      "description": "Native PC port of Super Smash Bros. Brawl (static recompilation): 4K, widescreen, gamepads, and Wii SD mods (Project+, Project+Ex, REX, Brawl Minus, Legacy XP). Bring your own disc.",
+      "topic_id": 4778,
+      "header_msg_id": 4779,
+      "latest_bundle_msg_id": [
+        4791
+      ],
+      "last_pushed_at": "2026-10-29T02:09:13Z",
+      "releases": {
+        "421189372": {
+          "tag_name": "v0.2.0",
+          "name": "Brawl Recompiled 0.2.0: Wii mods (REX, Project+Ex, Legacy XP, Brawl Minus, Project+)",
+          "published_at": "2026-10-22",
+          "changelog_msg_id": 4780,
+          "assets": {
+            "BrawlRecompiled-v0.2.0-Windows.zip": [
+              4781
+            ]
+          },
+          "complete": true
+        },
+        "421217477": {
+          "tag_name": "v0.3.0",
+          "name": "Brawl Recompiled 0.3.0: new launcher, keyboard controls, mods (REX and more)",
+          "published_at": "2026-10-22",
+          "changelog_msg_id": 4782,
+          "assets": {
+            "BrawlRecompiled-v0.3.0-Linux.tar.gz": [
+              4783
+            ],
+            "BrawlRecompiled-v0.3.0-Windows.zip": [
+              4784
+            ]
+          },
+          "complete": true
+        },
+        "422494873": {
+          "tag_name": "v0.4.0",
+          "name": "Brawl Recompiled v0.4.0: online play",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 4785,
+          "assets": {
+            "BrawlRecompiled-v0.4.0-Linux.tar.gz": [
+              4786
+            ],
+            "BrawlRecompiled-v0.4.0-Windows.zip": [
+              4787
+            ]
+          },
+          "complete": true
+        },
+        "427390077": {
+          "tag_name": "v0.5.0",
+          "name": "Brawl Recompiled v0.5.0: 240 FPS, online with your save, mod fixes",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4788,
+          "assets": {
+            "BrawlRecompiled-v0.5.0-Linux.tar.gz": [
+              4789
+            ],
+            "BrawlRecompiled-v0.5.0-Windows.zip": [
+              4790
             ]
           },
           "complete": true
