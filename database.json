@@ -600,9 +600,9 @@
       "topic_id": 160,
       "header_msg_id": 161,
       "latest_bundle_msg_id": [
-        4734
+        4793
       ],
-      "last_pushed_at": "2026-10-28T21:24:01Z",
+      "last_pushed_at": "2026-10-29T17:16:39Z",
       "releases": {
         "418079030": {
           "tag_name": "v5.2.1",
@@ -1807,9 +1807,9 @@
       "topic_id": 438,
       "header_msg_id": 439,
       "latest_bundle_msg_id": [
-        4735
+        4794
       ],
-      "last_pushed_at": "2026-10-29T04:09:19Z",
+      "last_pushed_at": "2026-10-29T14:51:38Z",
       "releases": {
         "265375024": {
           "tag_name": "v2.0.3",
@@ -2350,9 +2350,9 @@
       "topic_id": 529,
       "header_msg_id": 530,
       "latest_bundle_msg_id": [
-        531
+        4795
       ],
-      "last_pushed_at": "2026-10-22T16:38:20Z",
+      "last_pushed_at": "2026-10-29T06:24:18Z",
       "releases": {}
     },
     "karthikraman/panchangam": {
@@ -2380,9 +2380,9 @@
       "topic_id": 537,
       "header_msg_id": 538,
       "latest_bundle_msg_id": [
-        549
+        4796
       ],
-      "last_pushed_at": "2026-10-23T10:42:08Z",
+      "last_pushed_at": "2026-10-29T11:56:32Z",
       "releases": {
         "341558150": {
           "tag_name": "1",
@@ -2455,9 +2455,9 @@
       "topic_id": 550,
       "header_msg_id": 551,
       "latest_bundle_msg_id": [
-        4736
+        4797
       ],
-      "last_pushed_at": "2026-10-29T04:07:41Z",
+      "last_pushed_at": "2026-10-29T12:08:57Z",
       "releases": {
         "139154184": {
           "tag_name": "v1.0.0",
@@ -10406,9 +10406,9 @@
       "topic_id": 2019,
       "header_msg_id": 2020,
       "latest_bundle_msg_id": [
-        3164
+        4798
       ],
-      "last_pushed_at": "2026-10-28T14:33:18Z",
+      "last_pushed_at": "2026-10-29T13:17:22Z",
       "releases": {
         "40610586": {
           "tag_name": "v0.0.1",
@@ -14240,9 +14240,9 @@
       "topic_id": 3165,
       "header_msg_id": 3166,
       "latest_bundle_msg_id": [
-        4739
+        4799
       ],
-      "last_pushed_at": "2026-10-29T04:02:31Z",
+      "last_pushed_at": "2026-10-29T17:13:09Z",
       "releases": {}
     },
     "snes19xx/surface-dots": {
@@ -14556,9 +14556,9 @@
       "topic_id": 3222,
       "header_msg_id": 3223,
       "latest_bundle_msg_id": [
-        4740
+        4800
       ],
-      "last_pushed_at": "2026-10-29T03:57:13Z",
+      "last_pushed_at": "2026-10-29T16:07:42Z",
       "releases": {
         "352658215": {
           "tag_name": "rea-0.2.0",
@@ -14883,9 +14883,9 @@
       "topic_id": 3264,
       "header_msg_id": 3265,
       "latest_bundle_msg_id": [
-        3266
+        4801
       ],
-      "last_pushed_at": "2026-10-28T09:57:57Z",
+      "last_pushed_at": "2026-10-29T10:16:18Z",
       "releases": {}
     },
     "keepvaibin/nebula": {
@@ -14897,9 +14897,9 @@
       "topic_id": 3267,
       "header_msg_id": 3268,
       "latest_bundle_msg_id": [
-        4741
+        4802
       ],
-      "last_pushed_at": "2026-10-29T00:53:08Z",
+      "last_pushed_at": "2026-10-29T15:07:50Z",
       "releases": {
         "411874563": {
           "tag_name": "v1.0.0",
@@ -14957,9 +14957,9 @@
       "topic_id": 3279,
       "header_msg_id": 3280,
       "latest_bundle_msg_id": [
-        4742
+        4808
       ],
-      "last_pushed_at": "2026-10-29T03:28:28Z",
+      "last_pushed_at": "2026-10-29T17:44:49Z",
       "releases": {
         "422405806": {
           "tag_name": "beta_5",
@@ -15167,6 +15167,27 @@
             ],
             "LAS.Recomp-test-463-bowwow-windows.zip": [
               3330
+            ]
+          },
+          "complete": true
+        },
+        "428189819": {
+          "tag_name": "beta_5.4",
+          "name": "Beta 5.4",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4803,
+          "assets": {
+            "LAS.Recomp-beta_5.4-linux-aarch64.AppImage": [
+              4804
+            ],
+            "LAS.Recomp-beta_5.4-linux-x86_64.AppImage": [
+              4805
+            ],
+            "LAS.Recomp-beta_5.4-macOS.dmg": [
+              4806
+            ],
+            "LAS.Recomp-beta_5.4-windows.zip": [
+              4807
             ]
           },
           "complete": true
@@ -16518,9 +16539,9 @@
       "topic_id": 3582,
       "header_msg_id": 3583,
       "latest_bundle_msg_id": [
-        3646
+        4809
       ],
-      "last_pushed_at": "2026-10-27T01:41:37Z",
+      "last_pushed_at": "2026-10-29T14:39:52Z",
       "releases": {
         "411077931": {
           "tag_name": "v0.2.0-preview.1",
@@ -16905,9 +16926,9 @@
       "topic_id": 3665,
       "header_msg_id": 3666,
       "latest_bundle_msg_id": [
-        4744
+        4810
       ],
-      "last_pushed_at": "2026-10-29T03:01:03Z",
+      "last_pushed_at": "2026-10-29T17:32:19Z",
       "releases": {
         "358839850": {
           "tag_name": "1.0",
@@ -17292,9 +17313,9 @@
       "topic_id": 3748,
       "header_msg_id": 3749,
       "latest_bundle_msg_id": [
-        3792
+        4811
       ],
-      "last_pushed_at": "2026-10-26T07:04:21Z",
+      "last_pushed_at": "2026-10-29T09:04:01Z",
       "releases": {
         "399199022": {
           "tag_name": "v0.1.0",
@@ -17868,9 +17889,9 @@
       "topic_id": 3890,
       "header_msg_id": 3891,
       "latest_bundle_msg_id": [
-        4745
+        4812
       ],
-      "last_pushed_at": "2026-10-29T02:24:18Z",
+      "last_pushed_at": "2026-10-29T17:25:34Z",
       "releases": {
         "423412726": {
           "tag_name": "v2026.10.25",
@@ -17891,9 +17912,9 @@
       "topic_id": 3894,
       "header_msg_id": 3895,
       "latest_bundle_msg_id": [
-        4757
+        4836
       ],
-      "last_pushed_at": "2026-10-29T03:43:14Z",
+      "last_pushed_at": "2026-10-29T16:37:24Z",
       "releases": {
         "404130988": {
           "tag_name": "v0.1.0",
@@ -18524,6 +18545,87 @@
             ]
           },
           "complete": true
+        },
+        "428128596": {
+          "tag_name": "devel-build",
+          "name": "Development build (devel @ 8f9334f, 2026-10-29)",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4813,
+          "assets": {
+            "SHA256SUMS.txt": [
+              4814
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-android-arm64.apk": [
+              4815
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-android-x86_64.apk": [
+              4816
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-linux-aarch64.AppImage": [
+              4817
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-linux-aarch64.zip": [
+              4818
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-linux-x86_64.AppImage": [
+              4819
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-linux-x86_64.zip": [
+              4820
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-macos-arm64.zip": [
+              4821
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-windows-arm64.zip": [
+              4822
+            ],
+            "WindWakerHD-v0.5.0-devel.8f9334f0-windows-x86_64.zip": [
+              4823
+            ]
+          },
+          "complete": true
+        },
+        "427999235": {
+          "tag_name": "v0.5.0",
+          "name": "v0.5.0: far fewer stutters, smoother play and settings in the pause menu",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4824,
+          "assets": {
+            "SHA256SUMS.txt": [
+              4825
+            ],
+            "vt-report.json": [
+              4826
+            ],
+            "WindWakerHD-v0.5.0-android-arm64.apk": [
+              4827
+            ],
+            "WindWakerHD-v0.5.0-android-x86_64.apk": [
+              4828
+            ],
+            "WindWakerHD-v0.5.0-linux-aarch64.AppImage": [
+              4829
+            ],
+            "WindWakerHD-v0.5.0-linux-aarch64.zip": [
+              4830
+            ],
+            "WindWakerHD-v0.5.0-linux-x86_64.AppImage": [
+              4831
+            ],
+            "WindWakerHD-v0.5.0-linux-x86_64.zip": [
+              4832
+            ],
+            "WindWakerHD-v0.5.0-macos-arm64.zip": [
+              4833
+            ],
+            "WindWakerHD-v0.5.0-windows-arm64.zip": [
+              4834
+            ],
+            "WindWakerHD-v0.5.0-windows-x86_64.zip": [
+              4835
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -18550,9 +18652,9 @@
       "topic_id": 4057,
       "header_msg_id": 4058,
       "latest_bundle_msg_id": [
-        4758
+        4837
       ],
-      "last_pushed_at": "2026-10-28T21:44:47Z",
+      "last_pushed_at": "2026-10-29T17:49:42Z",
       "releases": {
         "415611760": {
           "tag_name": "v0.1.0-alpha.1",
@@ -18619,9 +18721,9 @@
       "topic_id": 4070,
       "header_msg_id": 4071,
       "latest_bundle_msg_id": [
-        4759
+        4838
       ],
-      "last_pushed_at": "2026-10-28T23:02:17Z",
+      "last_pushed_at": "2026-10-29T13:44:29Z",
       "releases": {
         "418720681": {
           "tag_name": "0.40.0-alpha",
@@ -18889,9 +18991,9 @@
       "topic_id": 4116,
       "header_msg_id": 4117,
       "latest_bundle_msg_id": [
-        4760
+        4839
       ],
-      "last_pushed_at": "2026-10-29T02:35:07Z",
+      "last_pushed_at": "2026-10-29T10:51:23Z",
       "releases": {
         "422252542": {
           "tag_name": "v0.3.0",
@@ -19525,9 +19627,9 @@
       "topic_id": 4247,
       "header_msg_id": 4248,
       "latest_bundle_msg_id": [
-        4762
+        4840
       ],
-      "last_pushed_at": "2026-10-29T04:07:21Z",
+      "last_pushed_at": "2026-10-29T17:51:18Z",
       "releases": {}
     },
     "scarletnx/ScarletNX": {
@@ -19539,9 +19641,9 @@
       "topic_id": 4250,
       "header_msg_id": 4251,
       "latest_bundle_msg_id": [
-        4763
+        4841
       ],
-      "last_pushed_at": "2026-10-29T04:08:59Z",
+      "last_pushed_at": "2026-10-29T17:25:50Z",
       "releases": {
         "415454328": {
           "tag_name": "nightly",
@@ -20042,9 +20144,9 @@
       "topic_id": 4384,
       "header_msg_id": 4385,
       "latest_bundle_msg_id": [
-        4764
+        4848
       ],
-      "last_pushed_at": "2026-10-29T03:54:22Z",
+      "last_pushed_at": "2026-10-29T17:54:34Z",
       "releases": {
         "425102420": {
           "tag_name": "v0.3.0",
@@ -20096,6 +20198,30 @@
             ],
             "libvulkan_freedreno.so": [
               4397
+            ]
+          },
+          "complete": true
+        },
+        "428222628": {
+          "tag_name": "v0.6.0",
+          "name": "ACNHRecomp 0.6: ready to play with ACNHRecomp-Importer",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4842,
+          "assets": {
+            "ACNHRecomp-v0.6.0-android.apk": [
+              4843
+            ],
+            "ACNHRecomp-v0.6.0-linux-x64.tar.gz": [
+              4844
+            ],
+            "ACNHRecomp-v0.6.0-macOS-arm64.zip": [
+              4845
+            ],
+            "ACNHRecomp-v0.6.0-windows-x64.zip": [
+              4846
+            ],
+            "libvulkan_freedreno.so": [
+              4847
             ]
           },
           "complete": true
@@ -20164,9 +20290,9 @@
       "topic_id": 4409,
       "header_msg_id": 4410,
       "latest_bundle_msg_id": [
-        4765
+        4853
       ],
-      "last_pushed_at": "2026-10-29T00:10:02Z",
+      "last_pushed_at": "2026-10-29T17:52:01Z",
       "releases": {
         "419862397": {
           "tag_name": "v0.1.0",
@@ -20407,6 +20533,24 @@
             ]
           },
           "complete": true
+        },
+        "428199599": {
+          "tag_name": "v0.7.0",
+          "name": "v0.7.0 — 引导式首次启动、云存档、主机模式 / Guided first run, cloud saves, console mode",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4849,
+          "assets": {
+            "NS-Port-Builder-macOS-arm64.zip": [
+              4850
+            ],
+            "NX2Apple-macOS-arm64.zip": [
+              4851
+            ],
+            "nxnative-macOS-arm64.zip": [
+              4852
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20433,9 +20577,9 @@
       "topic_id": 4461,
       "header_msg_id": 4462,
       "latest_bundle_msg_id": [
-        4766
+        4854
       ],
-      "last_pushed_at": "2026-10-29T00:38:43Z",
+      "last_pushed_at": "2026-10-29T17:06:23Z",
       "releases": {
         "423368718": {
           "tag_name": "v0.1.0-beta",
@@ -20460,9 +20604,9 @@
       "topic_id": 4466,
       "header_msg_id": 4467,
       "latest_bundle_msg_id": [
-        4767
+        4857
       ],
-      "last_pushed_at": "2026-10-29T02:48:29Z",
+      "last_pushed_at": "2026-10-29T17:06:38Z",
       "releases": {
         "422431048": {
           "tag_name": "v0.1.0-beta",
@@ -20658,6 +20802,18 @@
             ]
           },
           "complete": true
+        },
+        "428012589": {
+          "tag_name": "v0.2.4-beta",
+          "name": "BOTWRecompAndroid 0.2.4 (beta 17): Mali mais rápida / Mali speed back",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4855,
+          "assets": {
+            "BOTWRecompAndroid-0.2.4-beta.apk": [
+              4856
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20670,9 +20826,9 @@
       "topic_id": 4502,
       "header_msg_id": 4503,
       "latest_bundle_msg_id": [
-        4524
+        4860
       ],
-      "last_pushed_at": "2026-10-28T09:39:34Z",
+      "last_pushed_at": "2026-10-29T13:20:20Z",
       "releases": {
         "422587701": {
           "tag_name": "v0.1.0",
@@ -20793,6 +20949,18 @@
             ]
           },
           "complete": true
+        },
+        "427892602": {
+          "tag_name": "v0.2.9",
+          "name": "uncharted-android 0.2.9",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4858,
+          "assets": {
+            "uncharted-android-0.2.9.apk": [
+              4859
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20805,9 +20973,9 @@
       "topic_id": 4525,
       "header_msg_id": 4526,
       "latest_bundle_msg_id": [
-        4572
+        4870
       ],
-      "last_pushed_at": "2026-10-26T19:45:14Z",
+      "last_pushed_at": "2026-10-29T12:16:14Z",
       "releases": {
         "420601197": {
           "tag_name": "v1.0",
@@ -20979,6 +21147,39 @@
             ]
           },
           "complete": true
+        },
+        "427850690": {
+          "tag_name": "v1.4.1",
+          "name": "Glassline 1.4.1",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4861,
+          "assets": {
+            "glassline-android-1.4.1.apk": [
+              4862
+            ],
+            "glassline-linux-x64-1.4.1.AppImage": [
+              4863
+            ],
+            "glassline-linux-x64-1.4.1.AppImage.sig": [
+              4864
+            ],
+            "glassline-linux-x64-1.4.1.tar.gz": [
+              4865
+            ],
+            "glassline-web-1.4.1.zip": [
+              4866
+            ],
+            "glassline-web-1.4.1.zip.sig": [
+              4867
+            ],
+            "glassline-windows-x64-1.4.1.zip": [
+              4868
+            ],
+            "glassline-windows-x64-1.4.1.zip.sig": [
+              4869
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20991,9 +21192,9 @@
       "topic_id": 4573,
       "header_msg_id": 4574,
       "latest_bundle_msg_id": [
-        4768
+        4873
       ],
-      "last_pushed_at": "2026-10-29T04:04:47Z",
+      "last_pushed_at": "2026-10-29T16:41:30Z",
       "releases": {
         "425032335": {
           "tag_name": "v0.1.0",
@@ -21030,6 +21231,18 @@
             ]
           },
           "complete": true
+        },
+        "428112250": {
+          "tag_name": "v0.1.3",
+          "name": "nx2android v0.1.3",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4871,
+          "assets": {
+            "nx2android-v0.1.3-windows-x64.zip": [
+              4872
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -21042,9 +21255,9 @@
       "topic_id": 4582,
       "header_msg_id": 4583,
       "latest_bundle_msg_id": [
-        4771
+        4874
       ],
-      "last_pushed_at": "2026-10-29T03:56:29Z",
+      "last_pushed_at": "2026-10-29T04:22:09Z",
       "releases": {
         "425041585": {
           "tag_name": "v0.13",
@@ -21273,9 +21486,9 @@
       "topic_id": 4619,
       "header_msg_id": 4620,
       "latest_bundle_msg_id": [
-        4631
+        4881
       ],
-      "last_pushed_at": "2026-10-27T00:43:31Z",
+      "last_pushed_at": "2026-10-29T11:30:55Z",
       "releases": {
         "423573729": {
           "tag_name": "v1.0.1",
@@ -21318,6 +21531,30 @@
             ]
           },
           "complete": true
+        },
+        "427782278": {
+          "tag_name": "v1.0.3",
+          "name": "Rayman 3 HD Recompiled — v1.0.3",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4875,
+          "assets": {
+            "r3hd-lgpl-source-1.0.3.zip": [
+              4876
+            ],
+            "rayman3hd-turkish-1.0.1.zip": [
+              4877
+            ],
+            "Rayman3HDRecompiled-1.0.3-portable.zip": [
+              4878
+            ],
+            "Rayman3HDRecompiled-1.0.3-setup.exe": [
+              4879
+            ],
+            "SHA256SUMS.txt": [
+              4880
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -21330,9 +21567,9 @@
       "topic_id": 4632,
       "header_msg_id": 4633,
       "latest_bundle_msg_id": [
-        4654
+        4886
       ],
-      "last_pushed_at": "2026-10-28T20:24:48Z",
+      "last_pushed_at": "2026-10-29T13:38:17Z",
       "releases": {
         "424305159": {
           "tag_name": "V1.0.0",
@@ -21450,6 +21687,30 @@
           "assets": {
             "NxNative_Launcher.dmg": [
               4653
+            ]
+          },
+          "complete": true
+        },
+        "427767611": {
+          "tag_name": "v1.8.0",
+          "name": "v1.8.0 — Apple Liquid Glass Appearance & Multi-Language (13 Locales)",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4882,
+          "assets": {
+            "NxNative_Launcher.dmg": [
+              4883
+            ]
+          },
+          "complete": true
+        },
+        "427808040": {
+          "tag_name": "v1.8.1",
+          "name": "NxNative Launcher v1.8.1 — Taskbar Icon Customization & iOS Deployment Fixes",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4884,
+          "assets": {
+            "NxNative_Launcher.dmg": [
+              4885
             ]
           },
           "complete": true
@@ -21880,9 +22141,9 @@
       "topic_id": 4773,
       "header_msg_id": 4774,
       "latest_bundle_msg_id": [
-        4777
+        4889
       ],
-      "last_pushed_at": "2026-10-28T15:34:27Z",
+      "last_pushed_at": "2026-10-29T14:40:53Z",
       "releases": {
         "426802511": {
           "tag_name": "v0.1",
@@ -21892,6 +22153,18 @@
           "assets": {
             "MKart8Port-release04.apk": [
               4776
+            ]
+          },
+          "complete": true
+        },
+        "427986716": {
+          "tag_name": "v0.2",
+          "name": "v0.2",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4887,
+          "assets": {
+            "MKart8Port-release07.apk": [
+              4888
             ]
           },
           "complete": true
@@ -21907,9 +22180,9 @@
       "topic_id": 4778,
       "header_msg_id": 4779,
       "latest_bundle_msg_id": [
-        4791
+        4890
       ],
-      "last_pushed_at": "2026-10-29T02:09:13Z",
+      "last_pushed_at": "2026-10-29T13:15:42Z",
       "releases": {
         "421189372": {
           "tag_name": "v0.2.0",
@@ -21964,6 +22237,491 @@
             ],
             "BrawlRecompiled-v0.5.0-Windows.zip": [
               4790
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "BoyClinton/Cha-Cha": {
+      "name": "Cha-Cha",
+      "owner": "BoyClinton",
+      "owner_url": "https://github.com/BoyClinton",
+      "repo_url": "https://github.com/BoyClinton/Cha-Cha",
+      "description": "Cha-Cha: A MH3U Recomp. Monster Hunter 3 Ultimate running natively on Windows and Linux. Bring your own dump.",
+      "topic_id": 4891,
+      "header_msg_id": 4892,
+      "latest_bundle_msg_id": [
+        4896
+      ],
+      "last_pushed_at": "2026-10-28T21:55:01Z",
+      "releases": {
+        "427228156": {
+          "tag_name": "v0.1.0",
+          "name": "Cha-Cha 0.1.0",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 4893,
+          "assets": {
+            "Cha-Cha-0.1.0-windows-x64.zip": [
+              4894
+            ],
+            "Cha-Cha-0.1.0-x86_64.AppImage": [
+              4895
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "josiahg2502-glitch/Smash4PC": {
+      "name": "Smash4PC",
+      "owner": "josiahg2502-glitch",
+      "owner_url": "https://github.com/josiahg2502-glitch",
+      "repo_url": "https://github.com/josiahg2502-glitch/Smash4PC",
+      "description": "Super Smash Bros. for Wii U, natively on Windows: a static recompilation (bring your own game)",
+      "topic_id": 4897,
+      "header_msg_id": 4898,
+      "latest_bundle_msg_id": [
+        4903
+      ],
+      "last_pushed_at": "2026-10-29T01:38:03Z",
+      "releases": {
+        "423346221": {
+          "tag_name": "v0.1.0",
+          "name": "Smash 4 PC v0.1.0: first release",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 4899,
+          "assets": {
+            "Smash4PC-v0.1.0-Windows.zip": [
+              4900
+            ]
+          },
+          "complete": true
+        },
+        "427358986": {
+          "tag_name": "v0.1.1",
+          "name": "Smash 4 PC v0.1.1: netplay rooms (beta), older CPUs, smoother play",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4901,
+          "assets": {
+            "Smash4PC-v0.1.1-Windows.zip": [
+              4902
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "exoteric33/ps2-native-recomp": {
+      "name": "ps2-native-recomp",
+      "owner": "exoteric33",
+      "owner_url": "https://github.com/exoteric33",
+      "repo_url": "https://github.com/exoteric33/ps2-native-recomp",
+      "description": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
+      "topic_id": 4904,
+      "header_msg_id": 4905,
+      "latest_bundle_msg_id": [
+        4906
+      ],
+      "last_pushed_at": "2026-10-29T17:26:52Z",
+      "releases": {}
+    },
+    "GioPixelGH/Crash-Twinsanity-Windows": {
+      "name": "Crash-Twinsanity-Windows",
+      "owner": "GioPixelGH",
+      "owner_url": "https://github.com/GioPixelGH",
+      "repo_url": "https://github.com/GioPixelGH/Crash-Twinsanity-Windows",
+      "description": "Crash Twinsanity (PS2, PAL) running natively on Windows, played through to the credits: a Windows port of HAB3X's Mac port of Smartkin's C++ decompilation. No game data included: bring your own disc image.",
+      "topic_id": 4907,
+      "header_msg_id": 4908,
+      "latest_bundle_msg_id": [
+        4949
+      ],
+      "last_pushed_at": "2026-10-28T20:49:24Z",
+      "releases": {
+        "409748009": {
+          "tag_name": "v1.0.0",
+          "name": "Crash Twinsanity for Windows 1.0.0 (preview)",
+          "published_at": "2026-10-11",
+          "changelog_msg_id": 4909,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4910
+            ]
+          },
+          "complete": true
+        },
+        "409809132": {
+          "tag_name": "v1.0.1",
+          "name": "Crash Twinsanity for Windows 1.0.1 (preview)",
+          "published_at": "2026-10-11",
+          "changelog_msg_id": 4911,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4912
+            ]
+          },
+          "complete": true
+        },
+        "409853495": {
+          "tag_name": "v1.0.2",
+          "name": "Crash Twinsanity for Windows 1.0.2 (preview)",
+          "published_at": "2026-10-11",
+          "changelog_msg_id": 4913,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4914
+            ]
+          },
+          "complete": true
+        },
+        "409943909": {
+          "tag_name": "v1.0.3",
+          "name": "Crash Twinsanity for Windows 1.0.3 (preview)",
+          "published_at": "2026-10-11",
+          "changelog_msg_id": 4915,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4916
+            ]
+          },
+          "complete": true
+        },
+        "411027781": {
+          "tag_name": "v1.0.4",
+          "name": "Crash Twinsanity for Windows 1.0.4 (preview)",
+          "published_at": "2026-10-12",
+          "changelog_msg_id": 4917,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4918
+            ]
+          },
+          "complete": true
+        },
+        "415437010": {
+          "tag_name": "v1.0.5",
+          "name": "Crash Twinsanity for Windows 1.0.5 (preview)",
+          "published_at": "2026-10-16",
+          "changelog_msg_id": 4919,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4920
+            ]
+          },
+          "complete": true
+        },
+        "415885619": {
+          "tag_name": "v1.0.6",
+          "name": "Crash Twinsanity for Windows 1.0.6 (preview)",
+          "published_at": "2026-10-17",
+          "changelog_msg_id": 4921,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4922
+            ]
+          },
+          "complete": true
+        },
+        "416129226": {
+          "tag_name": "v1.0.7",
+          "name": "Crash Twinsanity for Windows 1.0.7 (preview)",
+          "published_at": "2026-10-17",
+          "changelog_msg_id": 4923,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4924
+            ]
+          },
+          "complete": true
+        },
+        "416477694": {
+          "tag_name": "v1.0.8",
+          "name": "Crash Twinsanity for Windows 1.0.8",
+          "published_at": "2026-10-18",
+          "changelog_msg_id": 4925,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4926
+            ]
+          },
+          "complete": true
+        },
+        "416692124": {
+          "tag_name": "v1.0.9",
+          "name": "Crash Twinsanity for Windows 1.0.9",
+          "published_at": "2026-10-18",
+          "changelog_msg_id": 4927,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4928
+            ]
+          },
+          "complete": true
+        },
+        "417785776": {
+          "tag_name": "v1.0.10",
+          "name": "Crash Twinsanity for Windows 1.0.10",
+          "published_at": "2026-10-19",
+          "changelog_msg_id": 4929,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4930
+            ]
+          },
+          "complete": true
+        },
+        "418854252": {
+          "tag_name": "v1.0.11",
+          "name": "Crash Twinsanity for Windows 1.0.11",
+          "published_at": "2026-10-20",
+          "changelog_msg_id": 4931,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4932
+            ]
+          },
+          "complete": true
+        },
+        "419881333": {
+          "tag_name": "v1.0.12",
+          "name": "Crash Twinsanity for Windows 1.0.12",
+          "published_at": "2026-10-21",
+          "changelog_msg_id": 4933,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4934
+            ]
+          },
+          "complete": true
+        },
+        "421971446": {
+          "tag_name": "v1.0.13",
+          "name": "Crash Twinsanity for Windows 1.0.13",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 4935,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4936
+            ]
+          },
+          "complete": true
+        },
+        "422185507": {
+          "tag_name": "v1.0.14",
+          "name": "Crash Twinsanity for Windows 1.0.14",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 4937,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4938
+            ]
+          },
+          "complete": true
+        },
+        "422685543": {
+          "tag_name": "v1.0.15",
+          "name": "Crash Twinsanity for Windows 1.0.15",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 4939,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4940
+            ]
+          },
+          "complete": true
+        },
+        "422710736": {
+          "tag_name": "v1.0.16",
+          "name": "Crash Twinsanity for Windows 1.0.16",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 4941,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4942
+            ]
+          },
+          "complete": true
+        },
+        "423140813": {
+          "tag_name": "v1.0.17",
+          "name": "Crash Twinsanity for Windows 1.0.17",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 4943,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4944
+            ]
+          },
+          "complete": true
+        },
+        "423445617": {
+          "tag_name": "v1.0.18",
+          "name": "Crash Twinsanity for Windows 1.0.18",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 4945,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4946
+            ]
+          },
+          "complete": true
+        },
+        "424852382": {
+          "tag_name": "v1.0.19",
+          "name": "Crash Twinsanity for Windows 1.0.19",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 4947,
+          "assets": {
+            "Crash-Twinsanity-Windows.zip": [
+              4948
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "ttom795/Skyrim_Android": {
+      "name": "Skyrim_Android",
+      "owner": "ttom795",
+      "owner_url": "https://github.com/ttom795",
+      "repo_url": "https://github.com/ttom795/Skyrim_Android",
+      "description": "A static recompilation of Skyrim (2011) for Android devices.",
+      "topic_id": 4950,
+      "header_msg_id": 4951,
+      "latest_bundle_msg_id": [
+        4974
+      ],
+      "last_pushed_at": "2026-10-29T11:00:03Z",
+      "releases": {
+        "423163844": {
+          "tag_name": "0.17",
+          "name": "Version 0.17",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 4952,
+          "assets": {
+            "Skyrim-0.17.apk": [
+              4953
+            ]
+          },
+          "complete": true
+        },
+        "423183801": {
+          "tag_name": "0.18",
+          "name": "Version 0.18",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 4954,
+          "assets": {
+            "Skyrim-0.18.apk": [
+              4955
+            ]
+          },
+          "complete": true
+        },
+        "423630480": {
+          "tag_name": "0.19.1",
+          "name": "Version 0.19.1",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 4956,
+          "assets": {
+            "Skyrim-0.19.1.apk": [
+              4957
+            ]
+          },
+          "complete": true
+        },
+        "423635507": {
+          "tag_name": "0.20",
+          "name": "Version 0.20",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 4958,
+          "assets": {
+            "Skyrim-0.20.apk": [
+              4959
+            ]
+          },
+          "complete": true
+        },
+        "423682520": {
+          "tag_name": "0.21",
+          "name": "Version 0.21",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 4960,
+          "assets": {
+            "Skyrim-0.21.apk": [
+              4961
+            ]
+          },
+          "complete": true
+        },
+        "424702114": {
+          "tag_name": "0.22",
+          "name": "Version 0.22",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 4962,
+          "assets": {
+            "Skyrim-0.22.apk": [
+              4963
+            ]
+          },
+          "complete": true
+        },
+        "424852848": {
+          "tag_name": "0.23",
+          "name": "Version 0.23",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 4964,
+          "assets": {
+            "Skyrim-0.23.apk": [
+              4965
+            ]
+          },
+          "complete": true
+        },
+        "425980673": {
+          "tag_name": "0.24.2",
+          "name": "Version 0.24.2",
+          "published_at": "2026-10-27",
+          "changelog_msg_id": 4966,
+          "assets": {
+            "Skyrim-0.24.2.apk": [
+              4967
+            ]
+          },
+          "complete": true
+        },
+        "426331528": {
+          "tag_name": "0.25",
+          "name": "Version 0.25",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 4968,
+          "assets": {
+            "Skyrim-0.25.apk": [
+              4969
+            ]
+          },
+          "complete": true
+        },
+        "427092937": {
+          "tag_name": "0.25.1",
+          "name": "Version 0.25.1",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 4970,
+          "assets": {
+            "Skyrim-0.25.1.apk": [
+              4971
+            ]
+          },
+          "complete": true
+        },
+        "427747434": {
+          "tag_name": "0.27.2",
+          "name": "Version 0.27.2",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4972,
+          "assets": {
+            "Skyrim-0.27.2.apk": [
+              4973
             ]
           },
           "complete": true
