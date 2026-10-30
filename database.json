@@ -600,9 +600,9 @@
       "topic_id": 160,
       "header_msg_id": 161,
       "latest_bundle_msg_id": [
-        4976
+        5403
       ],
-      "last_pushed_at": "2026-10-29T19:53:25Z",
+      "last_pushed_at": "2026-10-30T17:32:51Z",
       "releases": {
         "418079030": {
           "tag_name": "v5.2.1",
@@ -1807,9 +1807,9 @@
       "topic_id": 438,
       "header_msg_id": 439,
       "latest_bundle_msg_id": [
-        4977
+        5404
       ],
-      "last_pushed_at": "2026-10-30T03:54:43Z",
+      "last_pushed_at": "2026-10-30T15:49:28Z",
       "releases": {
         "265375024": {
           "tag_name": "v2.0.3",
@@ -2455,9 +2455,9 @@
       "topic_id": 550,
       "header_msg_id": 551,
       "latest_bundle_msg_id": [
-        4978
+        5405
       ],
-      "last_pushed_at": "2026-10-30T00:16:05Z",
+      "last_pushed_at": "2026-10-30T12:33:30Z",
       "releases": {
         "139154184": {
           "tag_name": "v1.0.0",
@@ -9047,9 +9047,9 @@
       "topic_id": 1792,
       "header_msg_id": 1793,
       "latest_bundle_msg_id": [
-        2018
+        5406
       ],
-      "last_pushed_at": "2026-10-23T09:43:45Z",
+      "last_pushed_at": "2026-10-30T09:44:18Z",
       "releases": {
         "351139131": {
           "tag_name": "v1.0.0",
@@ -10406,9 +10406,9 @@
       "topic_id": 2019,
       "header_msg_id": 2020,
       "latest_bundle_msg_id": [
-        4979
+        5407
       ],
-      "last_pushed_at": "2026-10-30T02:32:57Z",
+      "last_pushed_at": "2026-10-30T10:02:02Z",
       "releases": {
         "40610586": {
           "tag_name": "v0.0.1",
@@ -14240,9 +14240,9 @@
       "topic_id": 3165,
       "header_msg_id": 3166,
       "latest_bundle_msg_id": [
-        4980
+        5408
       ],
-      "last_pushed_at": "2026-10-30T04:06:28Z",
+      "last_pushed_at": "2026-10-30T17:40:50Z",
       "releases": {}
     },
     "snes19xx/surface-dots": {
@@ -14556,9 +14556,9 @@
       "topic_id": 3222,
       "header_msg_id": 3223,
       "latest_bundle_msg_id": [
-        4981
+        5409
       ],
-      "last_pushed_at": "2026-10-29T22:49:39Z",
+      "last_pushed_at": "2026-10-30T17:38:40Z",
       "releases": {
         "352658215": {
           "tag_name": "rea-0.2.0",
@@ -14883,9 +14883,9 @@
       "topic_id": 3264,
       "header_msg_id": 3265,
       "latest_bundle_msg_id": [
-        4801
+        5410
       ],
-      "last_pushed_at": "2026-10-29T10:16:18Z",
+      "last_pushed_at": "2026-10-30T10:19:38Z",
       "releases": {}
     },
     "keepvaibin/nebula": {
@@ -14897,9 +14897,9 @@
       "topic_id": 3267,
       "header_msg_id": 3268,
       "latest_bundle_msg_id": [
-        4982
+        5411
       ],
-      "last_pushed_at": "2026-10-30T02:57:13Z",
+      "last_pushed_at": "2026-10-30T16:06:58Z",
       "releases": {
         "411874563": {
           "tag_name": "v1.0.0",
@@ -14957,9 +14957,9 @@
       "topic_id": 3279,
       "header_msg_id": 3280,
       "latest_bundle_msg_id": [
-        4988
+        5417
       ],
-      "last_pushed_at": "2026-10-30T03:35:38Z",
+      "last_pushed_at": "2026-10-30T06:36:03Z",
       "releases": {
         "422405806": {
           "tag_name": "beta_5",
@@ -15209,6 +15209,27 @@
             ],
             "LAS.Recomp-test-462-arc-2-windows.zip": [
               4987
+            ]
+          },
+          "complete": true
+        },
+        "428719418": {
+          "tag_name": "test-462-arc-3",
+          "name": "Test build: test-462-arc-3",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5412,
+          "assets": {
+            "LAS.Recomp-test-462-arc-3-linux-aarch64.AppImage": [
+              5413
+            ],
+            "LAS.Recomp-test-462-arc-3-linux-x86_64.AppImage": [
+              5414
+            ],
+            "LAS.Recomp-test-462-arc-3-macOS.dmg": [
+              5415
+            ],
+            "LAS.Recomp-test-462-arc-3-windows.zip": [
+              5416
             ]
           },
           "complete": true
@@ -15463,9 +15484,9 @@
       "topic_id": 3374,
       "header_msg_id": 3375,
       "latest_bundle_msg_id": [
-        4743
+        5420
       ],
-      "last_pushed_at": "2026-10-29T02:45:26Z",
+      "last_pushed_at": "2026-10-30T12:22:28Z",
       "releases": {
         "414873814": {
           "tag_name": "v0.1.0",
@@ -15739,6 +15760,18 @@
           "assets": {
             "LASRecomp-Android-0.5.7.apk": [
               3421
+            ]
+          },
+          "complete": true
+        },
+        "429001685": {
+          "tag_name": "v0.5.8",
+          "name": "LAS Recomp for Android 0.5.8 (preview): native game code, game files in place / código nativo do jogo, arquivos do jogo no lugar",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5418,
+          "assets": {
+            "LASRecomp-Android-0.5.8.apk": [
+              5419
             ]
           },
           "complete": true
@@ -16560,9 +16593,9 @@
       "topic_id": 3582,
       "header_msg_id": 3583,
       "latest_bundle_msg_id": [
-        4809
+        5421
       ],
-      "last_pushed_at": "2026-10-29T14:39:52Z",
+      "last_pushed_at": "2026-10-30T13:50:07Z",
       "releases": {
         "411077931": {
           "tag_name": "v0.2.0-preview.1",
@@ -16947,9 +16980,9 @@
       "topic_id": 3665,
       "header_msg_id": 3666,
       "latest_bundle_msg_id": [
-        4989
+        5422
       ],
-      "last_pushed_at": "2026-10-29T19:57:39Z",
+      "last_pushed_at": "2026-10-30T16:45:49Z",
       "releases": {
         "358839850": {
           "tag_name": "1.0",
@@ -17910,9 +17943,9 @@
       "topic_id": 3890,
       "header_msg_id": 3891,
       "latest_bundle_msg_id": [
-        4990
+        5423
       ],
-      "last_pushed_at": "2026-10-29T18:32:54Z",
+      "last_pushed_at": "2026-10-30T14:02:07Z",
       "releases": {
         "423412726": {
           "tag_name": "v2026.10.25",
@@ -17933,9 +17966,9 @@
       "topic_id": 3894,
       "header_msg_id": 3895,
       "latest_bundle_msg_id": [
-        4991
+        5435
       ],
-      "last_pushed_at": "2026-10-30T02:49:17Z",
+      "last_pushed_at": "2026-10-30T16:56:04Z",
       "releases": {
         "404130988": {
           "tag_name": "v0.1.0",
@@ -18647,6 +18680,45 @@
             ]
           },
           "complete": true
+        },
+        "429250084": {
+          "tag_name": "devel-build",
+          "name": "Development build (devel @ fab80fc, 2026-10-30)",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5424,
+          "assets": {
+            "SHA256SUMS.txt": [
+              5425
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-android-arm64.apk": [
+              5426
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-android-x86_64.apk": [
+              5427
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-linux-aarch64.AppImage": [
+              5428
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-linux-aarch64.zip": [
+              5429
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-linux-x86_64.AppImage": [
+              5430
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-linux-x86_64.zip": [
+              5431
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-macos-arm64.zip": [
+              5432
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-windows-arm64.zip": [
+              5433
+            ],
+            "WindWakerHD-v0.5.0-devel.fab80fce-windows-x86_64.zip": [
+              5434
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -18659,9 +18731,9 @@
       "topic_id": 4054,
       "header_msg_id": 4055,
       "latest_bundle_msg_id": [
-        4056
+        5436
       ],
-      "last_pushed_at": "2026-10-25T18:13:54Z",
+      "last_pushed_at": "2026-10-30T11:45:06Z",
       "releases": {}
     },
     "Revivedx/SavageWindRecomp": {
@@ -18673,9 +18745,9 @@
       "topic_id": 4057,
       "header_msg_id": 4058,
       "latest_bundle_msg_id": [
-        4992
+        5437
       ],
-      "last_pushed_at": "2026-10-30T02:02:52Z",
+      "last_pushed_at": "2026-10-30T15:15:39Z",
       "releases": {
         "415611760": {
           "tag_name": "v0.1.0-alpha.1",
@@ -18742,9 +18814,9 @@
       "topic_id": 4070,
       "header_msg_id": 4071,
       "latest_bundle_msg_id": [
-        4997
+        5440
       ],
-      "last_pushed_at": "2026-10-29T23:04:13Z",
+      "last_pushed_at": "2026-10-30T17:11:10Z",
       "releases": {
         "418720681": {
           "tag_name": "0.40.0-alpha",
@@ -18970,6 +19042,18 @@
           "assets": {
             "CubeEvil4-0.95.2-beta.apk": [
               4996
+            ]
+          },
+          "complete": true
+        },
+        "429202589": {
+          "tag_name": "0.96.0-beta",
+          "name": "CubeEvil4 v0.96.0-beta",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5438,
+          "assets": {
+            "CubeEvil4-0.96.0-beta.apk": [
+              5439
             ]
           },
           "complete": true
@@ -19672,9 +19756,9 @@
       "topic_id": 4247,
       "header_msg_id": 4248,
       "latest_bundle_msg_id": [
-        5000
+        5441
       ],
-      "last_pushed_at": "2026-10-30T03:10:14Z",
+      "last_pushed_at": "2026-10-30T17:06:32Z",
       "releases": {}
     },
     "scarletnx/ScarletNX": {
@@ -19686,9 +19770,9 @@
       "topic_id": 4250,
       "header_msg_id": 4251,
       "latest_bundle_msg_id": [
-        5001
+        5442
       ],
-      "last_pushed_at": "2026-10-30T03:37:20Z",
+      "last_pushed_at": "2026-10-30T14:21:39Z",
       "releases": {
         "415454328": {
           "tag_name": "nightly",
@@ -19709,9 +19793,9 @@
       "topic_id": 4254,
       "header_msg_id": 4255,
       "latest_bundle_msg_id": [
-        4364
+        5465
       ],
-      "last_pushed_at": "2026-10-27T20:51:16Z",
+      "last_pushed_at": "2026-10-30T17:36:54Z",
       "releases": {
         "421172681": {
           "tag_name": "v0.1.0-preview",
@@ -20096,6 +20180,84 @@
             ]
           },
           "complete": true
+        },
+        "429074512": {
+          "tag_name": "v0.5.8",
+          "name": "Ocarina ReTuned Preview 0.5.8",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5443,
+          "assets": {
+            "Ocarina-ReTuned-0.5.8-Android-arm64.apk": [
+              5444
+            ],
+            "Ocarina-ReTuned-0.5.8-iOS-Unsigned.ipa": [
+              5445
+            ],
+            "Ocarina-ReTuned-0.5.8-Linux-ARM64.tar.gz": [
+              5446
+            ],
+            "Ocarina-ReTuned-0.5.8-Linux-x86_64.tar.gz": [
+              5447
+            ],
+            "Ocarina-ReTuned-0.5.8-Mac.zip": [
+              5448
+            ],
+            "Ocarina-ReTuned-0.5.8-Switch-Experimental.zip": [
+              5449
+            ],
+            "Ocarina-ReTuned-0.5.8-tvOS-Unsigned.ipa": [
+              5450
+            ],
+            "Ocarina-ReTuned-0.5.8-Windows-ARM64.zip": [
+              5451
+            ],
+            "Ocarina-ReTuned-0.5.8-Windows-x64.zip": [
+              5452
+            ],
+            "SHA256-Checksums.txt": [
+              5453
+            ]
+          },
+          "complete": true
+        },
+        "429317539": {
+          "tag_name": "v0.5.9",
+          "name": "Ocarina ReTuned Preview 0.5.9",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5454,
+          "assets": {
+            "Ocarina-ReTuned-0.5.8-iOS-Unsigned.ipa": [
+              5455
+            ],
+            "Ocarina-ReTuned-0.5.8-Linux-ARM64.tar.gz": [
+              5456
+            ],
+            "Ocarina-ReTuned-0.5.8-Linux-x86_64.tar.gz": [
+              5457
+            ],
+            "Ocarina-ReTuned-0.5.8-Mac.zip": [
+              5458
+            ],
+            "Ocarina-ReTuned-0.5.8-Switch-Experimental.zip": [
+              5459
+            ],
+            "Ocarina-ReTuned-0.5.8-tvOS-Unsigned.ipa": [
+              5460
+            ],
+            "Ocarina-ReTuned-0.5.8-Windows-ARM64.zip": [
+              5461
+            ],
+            "Ocarina-ReTuned-0.5.8-Windows-x64.zip": [
+              5462
+            ],
+            "Ocarina-ReTuned-0.5.9-Android-arm64.apk": [
+              5463
+            ],
+            "SHA256-Checksums.txt": [
+              5464
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20189,9 +20351,9 @@
       "topic_id": 4384,
       "header_msg_id": 4385,
       "latest_bundle_msg_id": [
-        5014
+        5479
       ],
-      "last_pushed_at": "2026-10-30T02:20:51Z",
+      "last_pushed_at": "2026-10-30T15:49:56Z",
       "releases": {
         "425102420": {
           "tag_name": "v0.3.0",
@@ -20318,6 +20480,63 @@
             ]
           },
           "complete": true
+        },
+        "429018934": {
+          "tag_name": "mods",
+          "name": "Mods bundled with ACNHRecomp",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5466,
+          "assets": {
+            "ACNHRecomp-ptbr-mod.zip": [
+              5467
+            ],
+            "ACNHRecomp-speedfix60-mod.zip": [
+              5468
+            ]
+          },
+          "complete": true
+        },
+        "429083067": {
+          "tag_name": "v0.6.3",
+          "name": "ACNHRecomp 0.6.3",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5469,
+          "assets": {
+            "ACNHRecomp-v0.6.3-android.apk": [
+              5470
+            ],
+            "ACNHRecomp-v0.6.3-linux-x64.tar.gz": [
+              5471
+            ],
+            "ACNHRecomp-v0.6.3-macOS-arm64.zip": [
+              5472
+            ],
+            "ACNHRecomp-v0.6.3-windows-x64.zip": [
+              5473
+            ]
+          },
+          "complete": true
+        },
+        "429159645": {
+          "tag_name": "v0.6.4",
+          "name": "ACNHRecomp 0.6.4",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5474,
+          "assets": {
+            "ACNHRecomp-v0.6.4-android.apk": [
+              5475
+            ],
+            "ACNHRecomp-v0.6.4-linux-x64.tar.gz": [
+              5476
+            ],
+            "ACNHRecomp-v0.6.4-macOS-arm64.zip": [
+              5477
+            ],
+            "ACNHRecomp-v0.6.4-windows-x64.zip": [
+              5478
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20383,9 +20602,9 @@
       "topic_id": 4409,
       "header_msg_id": 4410,
       "latest_bundle_msg_id": [
-        5019
+        5484
       ],
-      "last_pushed_at": "2026-10-30T02:34:11Z",
+      "last_pushed_at": "2026-10-30T17:38:50Z",
       "releases": {
         "419862397": {
           "tag_name": "v0.1.0",
@@ -20662,6 +20881,24 @@
             ]
           },
           "complete": true
+        },
+        "428809422": {
+          "tag_name": "v0.7.2",
+          "name": "v0.7.2 — 修复黑屏 / Black screen fix",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5480,
+          "assets": {
+            "NS-Port-Builder-macOS-arm64.zip": [
+              5481
+            ],
+            "NX2Apple-macOS-arm64.zip": [
+              5482
+            ],
+            "nxnative-macOS-arm64.zip": [
+              5483
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20688,9 +20925,9 @@
       "topic_id": 4461,
       "header_msg_id": 4462,
       "latest_bundle_msg_id": [
-        5020
+        5485
       ],
-      "last_pushed_at": "2026-10-29T21:03:58Z",
+      "last_pushed_at": "2026-10-30T14:54:31Z",
       "releases": {
         "423368718": {
           "tag_name": "v0.1.0-beta",
@@ -21084,9 +21321,9 @@
       "topic_id": 4525,
       "header_msg_id": 4526,
       "latest_bundle_msg_id": [
-        4870
+        5495
       ],
-      "last_pushed_at": "2026-10-29T12:16:14Z",
+      "last_pushed_at": "2026-10-30T05:14:07Z",
       "releases": {
         "420601197": {
           "tag_name": "v1.0",
@@ -21291,6 +21528,39 @@
             ]
           },
           "complete": true
+        },
+        "428689705": {
+          "tag_name": "v1.4.2",
+          "name": "Glassline 1.4.2",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5486,
+          "assets": {
+            "glassline-android-1.4.2.apk": [
+              5487
+            ],
+            "glassline-linux-x64-1.4.2.AppImage": [
+              5488
+            ],
+            "glassline-linux-x64-1.4.2.AppImage.sig": [
+              5489
+            ],
+            "glassline-linux-x64-1.4.2.tar.gz": [
+              5490
+            ],
+            "glassline-web-1.4.2.zip": [
+              5491
+            ],
+            "glassline-web-1.4.2.zip.sig": [
+              5492
+            ],
+            "glassline-windows-x64-1.4.2.zip": [
+              5493
+            ],
+            "glassline-windows-x64-1.4.2.zip.sig": [
+              5494
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -21303,9 +21573,9 @@
       "topic_id": 4573,
       "header_msg_id": 4574,
       "latest_bundle_msg_id": [
-        5022
+        5496
       ],
-      "last_pushed_at": "2026-10-30T01:28:53Z",
+      "last_pushed_at": "2026-10-30T14:48:32Z",
       "releases": {
         "425032335": {
           "tag_name": "v0.1.0",
@@ -21366,9 +21636,9 @@
       "topic_id": 4582,
       "header_msg_id": 4583,
       "latest_bundle_msg_id": [
-        4874
+        5499
       ],
-      "last_pushed_at": "2026-10-29T04:22:09Z",
+      "last_pushed_at": "2026-10-30T16:48:50Z",
       "releases": {
         "425041585": {
           "tag_name": "v0.13",
@@ -21585,6 +21855,18 @@
             ]
           },
           "complete": true
+        },
+        "429271969": {
+          "tag_name": "v0.37",
+          "name": "Pokémon Shield Android v0.37",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5497,
+          "assets": {
+            "PokemonShield-v0.37.apk": [
+              5498
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -21678,9 +21960,9 @@
       "topic_id": 4632,
       "header_msg_id": 4633,
       "latest_bundle_msg_id": [
-        5029
+        5505
       ],
-      "last_pushed_at": "2026-10-30T03:26:15Z",
+      "last_pushed_at": "2026-10-30T16:13:42Z",
       "releases": {
         "424305159": {
           "tag_name": "V1.0.0",
@@ -21861,6 +22143,33 @@
             ]
           },
           "complete": true
+        },
+        "428686625": {
+          "tag_name": "v1.8.5",
+          "name": "NxNative Launcher v1.8.5",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5500,
+          "assets": {
+            "NxNative_Launcher.dmg": [
+              5501
+            ]
+          },
+          "complete": true
+        },
+        "429237592": {
+          "tag_name": "v1.8.6",
+          "name": "NxNative Launcher v1.8.6",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5502,
+          "assets": {
+            "NxNative_Launcher-v1.8.6.dmg": [
+              5503
+            ],
+            "NxNative_Launcher.dmg": [
+              5504
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -21951,9 +22260,9 @@
       "topic_id": 4669,
       "header_msg_id": 4670,
       "latest_bundle_msg_id": [
-        5030
+        5506
       ],
-      "last_pushed_at": "2026-10-30T03:45:33Z",
+      "last_pushed_at": "2026-10-30T11:38:23Z",
       "releases": {}
     },
     "SoldadoGhost/T6Requiem-APK": {
@@ -22045,9 +22354,9 @@
       "topic_id": 4687,
       "header_msg_id": 4688,
       "latest_bundle_msg_id": [
-        5032
+        5509
       ],
-      "last_pushed_at": "2026-10-30T02:09:52Z",
+      "last_pushed_at": "2026-10-30T10:56:07Z",
       "releases": {
         "410256835": {
           "tag_name": "v0.2.0-mobile",
@@ -22159,6 +22468,18 @@
           "assets": {
             "GalaxyMobile0.6.0.apk": [
               4710
+            ]
+          },
+          "complete": true
+        },
+        "428922162": {
+          "tag_name": "V0.7.0-mobilebeta",
+          "name": "GalaxyMobile v0.7.0-beta",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5507,
+          "assets": {
+            "GalaxyMobile0.7.0beta.apk": [
+              5508
             ]
           },
           "complete": true
@@ -22342,9 +22663,9 @@
       "topic_id": 4778,
       "header_msg_id": 4779,
       "latest_bundle_msg_id": [
-        4890
+        5513
       ],
-      "last_pushed_at": "2026-10-29T13:15:42Z",
+      "last_pushed_at": "2026-10-30T16:52:03Z",
       "releases": {
         "421189372": {
           "tag_name": "v0.2.0",
@@ -22399,6 +22720,21 @@
             ],
             "BrawlRecompiled-v0.5.0-Windows.zip": [
               4790
+            ]
+          },
+          "complete": true
+        },
+        "429274942": {
+          "tag_name": "v0.5.1",
+          "name": "Brawl Recompiled v0.5.1",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5510,
+          "assets": {
+            "BrawlRecompiled-v0.5.1-Linux.tar.gz": [
+              5511
+            ],
+            "BrawlRecompiled-v0.5.1-Windows.zip": [
+              5512
             ]
           },
           "complete": true
@@ -22926,9 +23262,9 @@
       "topic_id": 5045,
       "header_msg_id": 5046,
       "latest_bundle_msg_id": [
-        5049
+        5514
       ],
-      "last_pushed_at": "2026-10-29T15:05:56Z",
+      "last_pushed_at": "2026-10-30T13:19:44Z",
       "releases": {
         "428016406": {
           "tag_name": "v0.1.1",
@@ -23856,9 +24192,9 @@
       "topic_id": 5241,
       "header_msg_id": 5242,
       "latest_bundle_msg_id": [
-        5308
+        5528
       ],
-      "last_pushed_at": "2026-10-29T23:10:06Z",
+      "last_pushed_at": "2026-10-30T16:45:14Z",
       "releases": {
         "427207188": {
           "tag_name": "v0.6.0",
@@ -24084,6 +24420,51 @@
             ]
           },
           "complete": true
+        },
+        "428959783": {
+          "tag_name": "v0.6.5",
+          "name": "0.6.5",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5515,
+          "assets": {
+            "metroid-prime2-port-0.6.5-android-arm64.apk": [
+              5516
+            ],
+            "metroid-prime2-port-0.6.5-linux-aarch64.debug": [
+              5517
+            ],
+            "metroid-prime2-port-0.6.5-linux-aarch64.tar.gz": [
+              5518
+            ],
+            "metroid-prime2-port-0.6.5-linux-x86_64.debug": [
+              5519
+            ],
+            "metroid-prime2-port-0.6.5-linux-x86_64.tar.gz": [
+              5520
+            ],
+            "metroid-prime2-port-0.6.5-macos-arm64.zip": [
+              5521
+            ],
+            "metroid-prime2-port-0.6.5-windows-arm64.zip": [
+              5522
+            ],
+            "metroid-prime2-port-0.6.5-windows-x86_64.zip": [
+              5523
+            ],
+            "MetroidPrime2-aarch64.AppImage": [
+              5524
+            ],
+            "MetroidPrime2-x86_64.AppImage": [
+              5525
+            ],
+            "MetroidPrime2Port.flatpak": [
+              5526
+            ],
+            "MetroidPrime2Port.ipa": [
+              5527
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -24159,9 +24540,9 @@
       "topic_id": 5320,
       "header_msg_id": 5321,
       "latest_bundle_msg_id": [
-        5399
+        5534
       ],
-      "last_pushed_at": "2026-10-29T21:03:57Z",
+      "last_pushed_at": "2026-10-30T05:47:14Z",
       "releases": {
         "421362813": {
           "tag_name": "knack2-alpha-Version-0.10",
@@ -24507,8 +24888,208 @@
             ]
           },
           "complete": true
+        },
+        "428707346": {
+          "tag_name": "knack2-Version-0.18.2",
+          "name": "Knack II PC — 0.18.2 — Persistência de jogadores e base 0.18.1",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5529,
+          "assets": {
+            "Knack-II-sources-V0.18.2.zip": [
+              5530
+            ],
+            "Knack-II-Windows-x64-V0.18.2.zip": [
+              5531
+            ],
+            "Knack-II-x86_64-0.18.2.AppImage": [
+              5532
+            ],
+            "SHA256SUMS.txt": [
+              5533
+            ]
+          },
+          "complete": true
         }
       }
+    },
+    "josiahg2502-glitch/TomodachiLife-recomp": {
+      "name": "TomodachiLife-recomp",
+      "owner": "josiahg2502-glitch",
+      "owner_url": "https://github.com/josiahg2502-glitch",
+      "repo_url": "https://github.com/josiahg2502-glitch/TomodachiLife-recomp",
+      "description": "Static recompilation of Tomodachi Life: Living the Dream to a native Windows program: tools and runtime only, bring your own dump",
+      "topic_id": 5535,
+      "header_msg_id": 5536,
+      "latest_bundle_msg_id": [
+        5540
+      ],
+      "last_pushed_at": "2026-10-29T22:26:55Z",
+      "releases": {
+        "427791899": {
+          "tag_name": "v0.1.0-beta",
+          "name": "0.1.0-beta",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5537,
+          "assets": {},
+          "complete": true
+        },
+        "428166145": {
+          "tag_name": "v0.1.1-beta",
+          "name": "Tomodachi Life PC 0.1.1-beta",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5538,
+          "assets": {
+            "Tomodachi-Life-PC.zip": [
+              5539
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "0x2593/Eden-NS2": {
+      "name": "Eden-NS2",
+      "owner": "0x2593",
+      "owner_url": "https://github.com/0x2593",
+      "repo_url": "https://github.com/0x2593/Eden-NS2",
+      "description": "A fork of the Eden Nintendo Switch emulator that runs Nintendo Switch 2 games.",
+      "topic_id": 5541,
+      "header_msg_id": 5542,
+      "latest_bundle_msg_id": [
+        5543
+      ],
+      "last_pushed_at": "2026-10-30T10:15:35Z",
+      "releases": {}
+    },
+    "JFC-Group/Housekeeping-PoC": {
+      "name": "Housekeeping-PoC",
+      "owner": "JFC-Group",
+      "owner_url": "https://github.com/JFC-Group",
+      "repo_url": "https://github.com/JFC-Group/Housekeeping-PoC",
+      "description": "Sweeping in the cracks",
+      "topic_id": 5544,
+      "header_msg_id": 5545,
+      "latest_bundle_msg_id": [
+        5546
+      ],
+      "last_pushed_at": "2026-10-27T08:03:49Z",
+      "releases": {}
+    },
+    "badcompany94-rcmp/project-tandem": {
+      "name": "project-tandem",
+      "owner": "badcompany94-rcmp",
+      "owner_url": "https://github.com/badcompany94-rcmp",
+      "repo_url": "https://github.com/badcompany94-rcmp/project-tandem",
+      "description": "Play Mario Kart: Double Dash!! online on Windows. Project Tandem is a native PC recompilation with 2-8 player solo/shared-kart multiplayer, widescreen, and mouse/keyboard controls. Requires your own compatible USA disc image.",
+      "topic_id": 5547,
+      "header_msg_id": 5548,
+      "latest_bundle_msg_id": [
+        5553
+      ],
+      "last_pushed_at": "2026-10-23T23:24:10Z",
+      "releases": {
+        "422152351": {
+          "tag_name": "v0.1.0-beta.1",
+          "name": "Project Tandem Public Beta 1 - Mario Kart: Double Dash!! Online on PC",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 5549,
+          "assets": {
+            "Project-Tandem-Public-Beta-1-Cumulative-Update.zip": [
+              5550
+            ],
+            "Project-Tandem-Windows-Public-Beta-1.zip": [
+              5551
+            ],
+            "SHA256SUMS.txt": [
+              5552
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "BluetufieBugado/BotW-Native-Plus": {
+      "name": "BotW-Native-Plus",
+      "owner": "BluetufieBugado",
+      "owner_url": "https://github.com/BluetufieBugado",
+      "repo_url": "https://github.com/BluetufieBugado/BotW-Native-Plus",
+      "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
+      "topic_id": 5554,
+      "header_msg_id": 5555,
+      "latest_bundle_msg_id": [
+        5558
+      ],
+      "last_pushed_at": "2026-10-29T20:35:52Z",
+      "releases": {
+        "427865687": {
+          "tag_name": "Release",
+          "name": "v0.1.1-Plus",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5556,
+          "assets": {
+            "BotW-Native-Plus-v0.1.1.zip": [
+              5557
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "jeff-strutb/nativeshvc": {
+      "name": "nativeshvc",
+      "owner": "jeff-strutb",
+      "owner_url": "https://github.com/jeff-strutb",
+      "repo_url": "https://github.com/jeff-strutb/nativeshvc",
+      "description": "A native implementation of Super Nintendo / Super Famicom APIs for decompilations",
+      "topic_id": 5559,
+      "header_msg_id": 5560,
+      "latest_bundle_msg_id": [
+        5561
+      ],
+      "last_pushed_at": "2026-10-30T15:02:50Z",
+      "releases": {}
+    },
+    "ghostyshell/nx2apk": {
+      "name": "nx2apk",
+      "owner": "ghostyshell",
+      "owner_url": "https://github.com/ghostyshell",
+      "repo_url": "https://github.com/ghostyshell/nx2apk",
+      "description": "Turn a Nintendo Switch game you own into an Android app that runs its code natively (Vulkan, no emulation). Fork of nxnative for Android.",
+      "topic_id": 5562,
+      "header_msg_id": 5563,
+      "latest_bundle_msg_id": [
+        5564
+      ],
+      "last_pushed_at": "2026-10-27T02:47:56Z",
+      "releases": {}
+    },
+    "CowKillers/ninja-gaiden-sigma-2-nx2android": {
+      "name": "ninja-gaiden-sigma-2-nx2android",
+      "owner": "CowKillers",
+      "owner_url": "https://github.com/CowKillers",
+      "repo_url": "https://github.com/CowKillers/ninja-gaiden-sigma-2-nx2android",
+      "description": "Ninja Gaiden Sigma 2 no Android via nx2android — capturas, video e grupo de testes. Sem jogo, sem chaves, sem release.",
+      "topic_id": 5565,
+      "header_msg_id": 5566,
+      "latest_bundle_msg_id": [
+        5567
+      ],
+      "last_pushed_at": "2026-10-30T16:35:56Z",
+      "releases": {}
+    },
+    "weisserw/romatlas": {
+      "name": "romatlas",
+      "owner": "weisserw",
+      "owner_url": "https://github.com/weisserw",
+      "repo_url": "https://github.com/weisserw/romatlas",
+      "description": "No description provided.",
+      "topic_id": 5568,
+      "header_msg_id": 5569,
+      "latest_bundle_msg_id": [
+        5570
+      ],
+      "last_pushed_at": "2026-10-30T13:28:20Z",
+      "releases": {}
     }
   }
 }
