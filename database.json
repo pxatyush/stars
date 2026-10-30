@@ -600,9 +600,9 @@
       "topic_id": 160,
       "header_msg_id": 161,
       "latest_bundle_msg_id": [
-        4793
+        4976
       ],
-      "last_pushed_at": "2026-10-29T17:16:39Z",
+      "last_pushed_at": "2026-10-29T19:53:25Z",
       "releases": {
         "418079030": {
           "tag_name": "v5.2.1",
@@ -1807,9 +1807,9 @@
       "topic_id": 438,
       "header_msg_id": 439,
       "latest_bundle_msg_id": [
-        4794
+        4977
       ],
-      "last_pushed_at": "2026-10-29T14:51:38Z",
+      "last_pushed_at": "2026-10-30T03:54:43Z",
       "releases": {
         "265375024": {
           "tag_name": "v2.0.3",
@@ -2455,9 +2455,9 @@
       "topic_id": 550,
       "header_msg_id": 551,
       "latest_bundle_msg_id": [
-        4797
+        4978
       ],
-      "last_pushed_at": "2026-10-29T12:08:57Z",
+      "last_pushed_at": "2026-10-30T00:16:05Z",
       "releases": {
         "139154184": {
           "tag_name": "v1.0.0",
@@ -10406,9 +10406,9 @@
       "topic_id": 2019,
       "header_msg_id": 2020,
       "latest_bundle_msg_id": [
-        4798
+        4979
       ],
-      "last_pushed_at": "2026-10-29T13:17:22Z",
+      "last_pushed_at": "2026-10-30T02:32:57Z",
       "releases": {
         "40610586": {
           "tag_name": "v0.0.1",
@@ -14240,9 +14240,9 @@
       "topic_id": 3165,
       "header_msg_id": 3166,
       "latest_bundle_msg_id": [
-        4799
+        4980
       ],
-      "last_pushed_at": "2026-10-29T17:13:09Z",
+      "last_pushed_at": "2026-10-30T04:06:28Z",
       "releases": {}
     },
     "snes19xx/surface-dots": {
@@ -14556,9 +14556,9 @@
       "topic_id": 3222,
       "header_msg_id": 3223,
       "latest_bundle_msg_id": [
-        4800
+        4981
       ],
-      "last_pushed_at": "2026-10-29T16:07:42Z",
+      "last_pushed_at": "2026-10-29T22:49:39Z",
       "releases": {
         "352658215": {
           "tag_name": "rea-0.2.0",
@@ -14897,9 +14897,9 @@
       "topic_id": 3267,
       "header_msg_id": 3268,
       "latest_bundle_msg_id": [
-        4802
+        4982
       ],
-      "last_pushed_at": "2026-10-29T15:07:50Z",
+      "last_pushed_at": "2026-10-30T02:57:13Z",
       "releases": {
         "411874563": {
           "tag_name": "v1.0.0",
@@ -14957,9 +14957,9 @@
       "topic_id": 3279,
       "header_msg_id": 3280,
       "latest_bundle_msg_id": [
-        4808
+        4988
       ],
-      "last_pushed_at": "2026-10-29T17:44:49Z",
+      "last_pushed_at": "2026-10-30T03:35:38Z",
       "releases": {
         "422405806": {
           "tag_name": "beta_5",
@@ -15188,6 +15188,27 @@
             ],
             "LAS.Recomp-beta_5.4-windows.zip": [
               4807
+            ]
+          },
+          "complete": true
+        },
+        "427634997": {
+          "tag_name": "test-462-arc-2",
+          "name": "Test build: test-462-arc-2",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4983,
+          "assets": {
+            "LAS.Recomp-test-462-arc-2-linux-aarch64.AppImage": [
+              4984
+            ],
+            "LAS.Recomp-test-462-arc-2-linux-x86_64.AppImage": [
+              4985
+            ],
+            "LAS.Recomp-test-462-arc-2-macOS.dmg": [
+              4986
+            ],
+            "LAS.Recomp-test-462-arc-2-windows.zip": [
+              4987
             ]
           },
           "complete": true
@@ -16926,9 +16947,9 @@
       "topic_id": 3665,
       "header_msg_id": 3666,
       "latest_bundle_msg_id": [
-        4810
+        4989
       ],
-      "last_pushed_at": "2026-10-29T17:32:19Z",
+      "last_pushed_at": "2026-10-29T19:57:39Z",
       "releases": {
         "358839850": {
           "tag_name": "1.0",
@@ -17889,9 +17910,9 @@
       "topic_id": 3890,
       "header_msg_id": 3891,
       "latest_bundle_msg_id": [
-        4812
+        4990
       ],
-      "last_pushed_at": "2026-10-29T17:25:34Z",
+      "last_pushed_at": "2026-10-29T18:32:54Z",
       "releases": {
         "423412726": {
           "tag_name": "v2026.10.25",
@@ -17912,9 +17933,9 @@
       "topic_id": 3894,
       "header_msg_id": 3895,
       "latest_bundle_msg_id": [
-        4836
+        4991
       ],
-      "last_pushed_at": "2026-10-29T16:37:24Z",
+      "last_pushed_at": "2026-10-30T02:49:17Z",
       "releases": {
         "404130988": {
           "tag_name": "v0.1.0",
@@ -18652,9 +18673,9 @@
       "topic_id": 4057,
       "header_msg_id": 4058,
       "latest_bundle_msg_id": [
-        4837
+        4992
       ],
-      "last_pushed_at": "2026-10-29T17:49:42Z",
+      "last_pushed_at": "2026-10-30T02:02:52Z",
       "releases": {
         "415611760": {
           "tag_name": "v0.1.0-alpha.1",
@@ -18721,9 +18742,9 @@
       "topic_id": 4070,
       "header_msg_id": 4071,
       "latest_bundle_msg_id": [
-        4838
+        4997
       ],
-      "last_pushed_at": "2026-10-29T13:44:29Z",
+      "last_pushed_at": "2026-10-29T23:04:13Z",
       "releases": {
         "418720681": {
           "tag_name": "0.40.0-alpha",
@@ -18928,6 +18949,30 @@
             ]
           },
           "complete": true
+        },
+        "428307046": {
+          "tag_name": "0.95.1-beta",
+          "name": "CubeEvil4 v0.95.1-beta",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4993,
+          "assets": {
+            "CubeEvil4-0.95.1-beta.apk": [
+              4994
+            ]
+          },
+          "complete": true
+        },
+        "428481817": {
+          "tag_name": "0.95.2-beta",
+          "name": "CubeEvil4 v0.95.2-beta",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 4995,
+          "assets": {
+            "CubeEvil4-0.95.2-beta.apk": [
+              4996
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -18991,9 +19036,9 @@
       "topic_id": 4116,
       "header_msg_id": 4117,
       "latest_bundle_msg_id": [
-        4839
+        4998
       ],
-      "last_pushed_at": "2026-10-29T10:51:23Z",
+      "last_pushed_at": "2026-10-30T00:54:41Z",
       "releases": {
         "422252542": {
           "tag_name": "v0.3.0",
@@ -19141,9 +19186,9 @@
       "topic_id": 4141,
       "header_msg_id": 4142,
       "latest_bundle_msg_id": [
-        4761
+        4999
       ],
-      "last_pushed_at": "2026-10-29T04:09:31Z",
+      "last_pushed_at": "2026-10-30T01:41:07Z",
       "releases": {
         "409242998": {
           "tag_name": "windows-v2.0",
@@ -19627,9 +19672,9 @@
       "topic_id": 4247,
       "header_msg_id": 4248,
       "latest_bundle_msg_id": [
-        4840
+        5000
       ],
-      "last_pushed_at": "2026-10-29T17:51:18Z",
+      "last_pushed_at": "2026-10-30T03:10:14Z",
       "releases": {}
     },
     "scarletnx/ScarletNX": {
@@ -19641,9 +19686,9 @@
       "topic_id": 4250,
       "header_msg_id": 4251,
       "latest_bundle_msg_id": [
-        4841
+        5001
       ],
-      "last_pushed_at": "2026-10-29T17:25:50Z",
+      "last_pushed_at": "2026-10-30T03:37:20Z",
       "releases": {
         "415454328": {
           "tag_name": "nightly",
@@ -20144,9 +20189,9 @@
       "topic_id": 4384,
       "header_msg_id": 4385,
       "latest_bundle_msg_id": [
-        4848
+        5014
       ],
-      "last_pushed_at": "2026-10-29T17:54:34Z",
+      "last_pushed_at": "2026-10-30T02:20:51Z",
       "releases": {
         "425102420": {
           "tag_name": "v0.3.0",
@@ -20225,6 +20270,54 @@
             ]
           },
           "complete": true
+        },
+        "428401557": {
+          "tag_name": "v0.6.1",
+          "name": "ACNHRecomp 0.6.1",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5002,
+          "assets": {
+            "ACNHRecomp-v0.6.1-android.apk": [
+              5003
+            ],
+            "ACNHRecomp-v0.6.1-linux-x64.tar.gz": [
+              5004
+            ],
+            "ACNHRecomp-v0.6.1-macOS-arm64.zip": [
+              5005
+            ],
+            "ACNHRecomp-v0.6.1-windows-x64.zip": [
+              5006
+            ],
+            "libvulkan_freedreno.so": [
+              5007
+            ]
+          },
+          "complete": true
+        },
+        "428437504": {
+          "tag_name": "v0.6.2",
+          "name": "ACNHRecomp 0.6.2",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5008,
+          "assets": {
+            "ACNHRecomp-v0.6.2-android.apk": [
+              5009
+            ],
+            "ACNHRecomp-v0.6.2-linux-x64.tar.gz": [
+              5010
+            ],
+            "ACNHRecomp-v0.6.2-macOS-arm64.zip": [
+              5011
+            ],
+            "ACNHRecomp-v0.6.2-windows-x64.zip": [
+              5012
+            ],
+            "libvulkan_freedreno.so": [
+              5013
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20290,9 +20383,9 @@
       "topic_id": 4409,
       "header_msg_id": 4410,
       "latest_bundle_msg_id": [
-        4853
+        5019
       ],
-      "last_pushed_at": "2026-10-29T17:52:01Z",
+      "last_pushed_at": "2026-10-30T02:34:11Z",
       "releases": {
         "419862397": {
           "tag_name": "v0.1.0",
@@ -20551,6 +20644,24 @@
             ]
           },
           "complete": true
+        },
+        "428456882": {
+          "tag_name": "v0.7.1",
+          "name": "v0.7.1 — 主机模式全屏、金手指、失败行卡片 / Console fullscreen, cheats, failure rows",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5015,
+          "assets": {
+            "NS-Port-Builder-macOS-arm64.zip": [
+              5016
+            ],
+            "NX2Apple-macOS-arm64.zip": [
+              5017
+            ],
+            "nxnative-macOS-arm64.zip": [
+              5018
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20577,9 +20688,9 @@
       "topic_id": 4461,
       "header_msg_id": 4462,
       "latest_bundle_msg_id": [
-        4854
+        5020
       ],
-      "last_pushed_at": "2026-10-29T17:06:23Z",
+      "last_pushed_at": "2026-10-29T21:03:58Z",
       "releases": {
         "423368718": {
           "tag_name": "v0.1.0-beta",
@@ -20604,9 +20715,9 @@
       "topic_id": 4466,
       "header_msg_id": 4467,
       "latest_bundle_msg_id": [
-        4857
+        5021
       ],
-      "last_pushed_at": "2026-10-29T17:06:38Z",
+      "last_pushed_at": "2026-10-29T20:15:07Z",
       "releases": {
         "422431048": {
           "tag_name": "v0.1.0-beta",
@@ -21192,9 +21303,9 @@
       "topic_id": 4573,
       "header_msg_id": 4574,
       "latest_bundle_msg_id": [
-        4873
+        5022
       ],
-      "last_pushed_at": "2026-10-29T16:41:30Z",
+      "last_pushed_at": "2026-10-30T01:28:53Z",
       "releases": {
         "425032335": {
           "tag_name": "v0.1.0",
@@ -21567,9 +21678,9 @@
       "topic_id": 4632,
       "header_msg_id": 4633,
       "latest_bundle_msg_id": [
-        4886
+        5029
       ],
-      "last_pushed_at": "2026-10-29T13:38:17Z",
+      "last_pushed_at": "2026-10-30T03:26:15Z",
       "releases": {
         "424305159": {
           "tag_name": "V1.0.0",
@@ -21714,6 +21825,42 @@
             ]
           },
           "complete": true
+        },
+        "428335818": {
+          "tag_name": "v1.8.2",
+          "name": "v1.8.2 — Isolated Standalone Runtime, Python 3.15 Fix & iCloud Sync Toggle",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5023,
+          "assets": {
+            "NxNative_Launcher.dmg": [
+              5024
+            ]
+          },
+          "complete": true
+        },
+        "428504717": {
+          "tag_name": "v1.8.3",
+          "name": "NxNative Launcher v1.8.3",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5025,
+          "assets": {
+            "NxNative_Launcher.dmg": [
+              5026
+            ]
+          },
+          "complete": true
+        },
+        "428611652": {
+          "tag_name": "v1.8.4",
+          "name": "NxNative Launcher v1.8.4",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5027,
+          "assets": {
+            "NxNative_Launcher.dmg": [
+              5028
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -21804,9 +21951,9 @@
       "topic_id": 4669,
       "header_msg_id": 4670,
       "latest_bundle_msg_id": [
-        4671
+        5030
       ],
-      "last_pushed_at": "2026-10-28T19:08:36Z",
+      "last_pushed_at": "2026-10-30T03:45:33Z",
       "releases": {}
     },
     "SoldadoGhost/T6Requiem-APK": {
@@ -21857,9 +22004,9 @@
       "topic_id": 4679,
       "header_msg_id": 4680,
       "latest_bundle_msg_id": [
-        4681
+        5031
       ],
-      "last_pushed_at": "2026-10-19T02:00:02Z",
+      "last_pushed_at": "2026-10-29T21:27:25Z",
       "releases": {}
     },
     "KaliKylee/AnimalCrossing": {
@@ -21898,9 +22045,9 @@
       "topic_id": 4687,
       "header_msg_id": 4688,
       "latest_bundle_msg_id": [
-        4711
+        5032
       ],
-      "last_pushed_at": "2026-10-22T22:52:25Z",
+      "last_pushed_at": "2026-10-30T02:09:52Z",
       "releases": {
         "410256835": {
           "tag_name": "v0.2.0-mobile",
@@ -22141,9 +22288,9 @@
       "topic_id": 4773,
       "header_msg_id": 4774,
       "latest_bundle_msg_id": [
-        4889
+        5036
       ],
-      "last_pushed_at": "2026-10-29T14:40:53Z",
+      "last_pushed_at": "2026-10-29T18:51:30Z",
       "releases": {
         "426802511": {
           "tag_name": "v0.1",
@@ -22165,6 +22312,21 @@
           "assets": {
             "MKart8Port-release07.apk": [
               4888
+            ]
+          },
+          "complete": true
+        },
+        "428269999": {
+          "tag_name": "v0.2-xclipse-mali-test",
+          "name": "0.2 Xclipse/Mali TEST",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5033,
+          "assets": {
+            "MKart8Port-Mali-TEST.apk": [
+              5034
+            ],
+            "MKart8Port-Xclipse-TEST.apk": [
+              5035
             ]
           },
           "complete": true
@@ -22252,9 +22414,9 @@
       "topic_id": 4891,
       "header_msg_id": 4892,
       "latest_bundle_msg_id": [
-        4896
+        5040
       ],
-      "last_pushed_at": "2026-10-28T21:55:01Z",
+      "last_pushed_at": "2026-10-30T00:07:18Z",
       "releases": {
         "427228156": {
           "tag_name": "v0.1.0",
@@ -22267,6 +22429,21 @@
             ],
             "Cha-Cha-0.1.0-x86_64.AppImage": [
               4895
+            ]
+          },
+          "complete": true
+        },
+        "428517687": {
+          "tag_name": "v0.1.1",
+          "name": "Cha-Cha 0.1.1",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5037,
+          "assets": {
+            "Cha-Cha-0.1.1-windows-x64.zip": [
+              5038
+            ],
+            "Cha-Cha-0.1.1-x86_64.AppImage": [
+              5039
             ]
           },
           "complete": true
@@ -22321,9 +22498,9 @@
       "topic_id": 4904,
       "header_msg_id": 4905,
       "latest_bundle_msg_id": [
-        4906
+        5041
       ],
-      "last_pushed_at": "2026-10-29T17:26:52Z",
+      "last_pushed_at": "2026-10-29T21:26:55Z",
       "releases": {}
     },
     "GioPixelGH/Crash-Twinsanity-Windows": {
@@ -22590,9 +22767,9 @@
       "topic_id": 4950,
       "header_msg_id": 4951,
       "latest_bundle_msg_id": [
-        4974
+        5044
       ],
-      "last_pushed_at": "2026-10-29T11:00:03Z",
+      "last_pushed_at": "2026-10-29T18:45:21Z",
       "releases": {
         "423163844": {
           "tag_name": "0.17",
@@ -22722,6 +22899,1611 @@
           "assets": {
             "Skyrim-0.27.2.apk": [
               4973
+            ]
+          },
+          "complete": true
+        },
+        "428263721": {
+          "tag_name": "0.27.3",
+          "name": "Version 0.27.3",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5042,
+          "assets": {
+            "Skyrim-0.27.3.apk": [
+              5043
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "valentderah/totk-pc-recomp": {
+      "name": "totk-pc-recomp",
+      "owner": "valentderah",
+      "owner_url": "https://github.com/valentderah",
+      "repo_url": "https://github.com/valentderah/totk-pc-recomp",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+      "topic_id": 5045,
+      "header_msg_id": 5046,
+      "latest_bundle_msg_id": [
+        5049
+      ],
+      "last_pushed_at": "2026-10-29T15:05:56Z",
+      "releases": {
+        "428016406": {
+          "tag_name": "v0.1.1",
+          "name": "v0.1.1",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5047,
+          "assets": {
+            "TotK-Setup-0.1.1-windows.zip": [
+              5048
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "rfandango/hakuX": {
+      "name": "hakuX",
+      "owner": "rfandango",
+      "owner_url": "https://github.com/rfandango",
+      "repo_url": "https://github.com/rfandango/hakuX",
+      "description": "xbox emulator for Android",
+      "topic_id": 5050,
+      "header_msg_id": 5051,
+      "latest_bundle_msg_id": [
+        5070
+      ],
+      "last_pushed_at": "2026-10-26T22:48:49Z",
+      "releases": {
+        "292881465": {
+          "tag_name": "1.1.3",
+          "name": "X1 BOX 1.1.3",
+          "published_at": "2026-03-04",
+          "changelog_msg_id": 5052,
+          "assets": {
+            "app-debug.apk": [
+              5053
+            ]
+          },
+          "complete": true
+        },
+        "301946906": {
+          "tag_name": "v0.1.0",
+          "name": "hakuX 0.1.0",
+          "published_at": "2026-03-26",
+          "changelog_msg_id": 5054,
+          "assets": {
+            "app-release.apk": [
+              5055
+            ]
+          },
+          "complete": true
+        },
+        "302482836": {
+          "tag_name": "v0.2.0",
+          "name": "hakuX 0.2.0 ",
+          "published_at": "2026-03-27",
+          "changelog_msg_id": 5056,
+          "assets": {
+            "app-release.apk": [
+              5057
+            ]
+          },
+          "complete": true
+        },
+        "302651549": {
+          "tag_name": "v0.2.1",
+          "name": "hakuX 0.2.1",
+          "published_at": "2026-03-28",
+          "changelog_msg_id": 5058,
+          "assets": {
+            "app-release.apk": [
+              5059
+            ]
+          },
+          "complete": true
+        },
+        "306085624": {
+          "tag_name": "v0.3.0",
+          "name": "hakuX 0.3.0",
+          "published_at": "2026-04-07",
+          "changelog_msg_id": 5060,
+          "assets": {
+            "app-release.apk": [
+              5061
+            ]
+          },
+          "complete": true
+        },
+        "306987593": {
+          "tag_name": "v0.3.1",
+          "name": "hakuX 0.3.1",
+          "published_at": "2026-04-09",
+          "changelog_msg_id": 5062,
+          "assets": {
+            "app-release.apk": [
+              5063
+            ]
+          },
+          "complete": true
+        },
+        "422240373": {
+          "tag_name": "v1.0.0",
+          "name": "hakuX 1.0.0",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 5064,
+          "assets": {
+            "hakuX-1.0.0.apk": [
+              5065
+            ]
+          },
+          "complete": true
+        },
+        "422694866": {
+          "tag_name": "v1.1.0",
+          "name": "hakuX 1.1.0",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 5066,
+          "assets": {
+            "hakuX-1.1.0.apk": [
+              5067
+            ]
+          },
+          "complete": true
+        },
+        "424852618": {
+          "tag_name": "v1.2.0",
+          "name": "hakuX 1.2.0",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 5068,
+          "assets": {
+            "hakuX-1.2.0.apk": [
+              5069
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "izzy2lost/xemu": {
+      "name": "xemu",
+      "owner": "izzy2lost",
+      "owner_url": "https://github.com/izzy2lost",
+      "repo_url": "https://github.com/izzy2lost/xemu",
+      "description": "Original Xbox Emulator for Android",
+      "topic_id": 5071,
+      "header_msg_id": 5072,
+      "latest_bundle_msg_id": [
+        5101
+      ],
+      "last_pushed_at": "2026-10-26T16:38:42Z",
+      "releases": {
+        "294905531": {
+          "tag_name": "1.1.9",
+          "name": "X1 BOX ",
+          "published_at": "2026-03-09",
+          "changelog_msg_id": 5073,
+          "assets": {
+            "app-release.apk": [
+              5074
+            ]
+          },
+          "complete": true
+        },
+        "297631751": {
+          "tag_name": "1.2.0",
+          "name": "X1 BOX 1.2.0",
+          "published_at": "2026-03-16",
+          "changelog_msg_id": 5075,
+          "assets": {
+            "app-release.apk": [
+              5076
+            ]
+          },
+          "complete": true
+        },
+        "299085860": {
+          "tag_name": "1.2.1",
+          "name": "X1 BOX 1.2.1",
+          "published_at": "2026-03-19",
+          "changelog_msg_id": 5077,
+          "assets": {
+            "app-release.apk": [
+              5078
+            ]
+          },
+          "complete": true
+        },
+        "299950452": {
+          "tag_name": "1.2.2",
+          "name": "X1 BOX 1.2.2",
+          "published_at": "2026-03-22",
+          "changelog_msg_id": 5079,
+          "assets": {
+            "app-release.apk": [
+              5080
+            ]
+          },
+          "complete": true
+        },
+        "300949272": {
+          "tag_name": "1.2.3",
+          "name": "X1 BOX 1.2.3",
+          "published_at": "2026-03-25",
+          "changelog_msg_id": 5081,
+          "assets": {
+            "app-release.apk": [
+              5082
+            ]
+          },
+          "complete": true
+        },
+        "306429857": {
+          "tag_name": "1.2.4",
+          "name": "X1 BOX 1.2.4",
+          "published_at": "2026-04-08",
+          "changelog_msg_id": 5083,
+          "assets": {
+            "app-release.apk": [
+              5084
+            ]
+          },
+          "complete": true
+        },
+        "312312735": {
+          "tag_name": "1.2.5",
+          "name": "X1 BOX 1.2.5",
+          "published_at": "2026-04-22",
+          "changelog_msg_id": 5085,
+          "assets": {
+            "app-release.apk": [
+              5086
+            ]
+          },
+          "complete": true
+        },
+        "368415580": {
+          "tag_name": "1.2.6",
+          "name": "X1 BOX 1.2.6",
+          "published_at": "2026-08-11",
+          "changelog_msg_id": 5087,
+          "assets": {
+            "app-release.apk": [
+              5088
+            ]
+          },
+          "complete": true
+        },
+        "374765035": {
+          "tag_name": "1.2.7",
+          "name": "X1 BOX 1.2.7",
+          "published_at": "2026-08-22",
+          "changelog_msg_id": 5089,
+          "assets": {
+            "app-release.apk": [
+              5090
+            ]
+          },
+          "complete": true
+        },
+        "395224360": {
+          "tag_name": "1.2.8",
+          "name": "X1 BOX 1.2.8",
+          "published_at": "2026-09-24",
+          "changelog_msg_id": 5091,
+          "assets": {
+            "app-release.apk": [
+              5092
+            ]
+          },
+          "complete": true
+        },
+        "402666944": {
+          "tag_name": "1.2.9",
+          "name": "X1 BOX 1.2.9",
+          "published_at": "2026-10-03",
+          "changelog_msg_id": 5093,
+          "assets": {
+            "app-release.apk": [
+              5094
+            ]
+          },
+          "complete": true
+        },
+        "415588715": {
+          "tag_name": "1.3.0",
+          "name": "X1 BOX 1.3.0",
+          "published_at": "2026-10-17",
+          "changelog_msg_id": 5095,
+          "assets": {
+            "app-release.apk": [
+              5096
+            ]
+          },
+          "complete": true
+        },
+        "422734356": {
+          "tag_name": "1.3.1",
+          "name": "X1 BOX 1.3.1",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 5097,
+          "assets": {
+            "app-release.apk": [
+              5098
+            ]
+          },
+          "complete": true
+        },
+        "424505393": {
+          "tag_name": "1.3.2",
+          "name": "X1 BOX 1.3.2",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 5099,
+          "assets": {
+            "app-release.apk": [
+              5100
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "0herculabs/hl360-forza4": {
+      "name": "hl360-forza4",
+      "owner": "0herculabs",
+      "owner_url": "https://github.com/0herculabs",
+      "repo_url": "https://github.com/0herculabs/hl360-forza4",
+      "description": "Forza Motorsport 4 native on PC",
+      "topic_id": 5102,
+      "header_msg_id": 5103,
+      "latest_bundle_msg_id": [
+        5110
+      ],
+      "last_pushed_at": "2026-10-27T16:10:57Z",
+      "releases": {
+        "416188125": {
+          "tag_name": "v0.3.8",
+          "name": "FM4 v0.3.8 - Native PC Port (Windows x64)",
+          "published_at": "2026-10-18",
+          "changelog_msg_id": 5104,
+          "assets": {
+            "FM4-v0.3.8-windows-x64.zip": [
+              5105
+            ],
+            "FM4-v0.3.8-windows-x64.zip.sha256": [
+              5106
+            ]
+          },
+          "complete": true
+        },
+        "417148101": {
+          "tag_name": "v0.3.9",
+          "name": "FM4 v0.3.9 - Native PC Port (Windows x64)",
+          "published_at": "2026-10-19",
+          "changelog_msg_id": 5107,
+          "assets": {
+            "FM4-v0.3.9-windows-x64.zip": [
+              5108
+            ],
+            "FM4-v0.3.9-windows-x64.zip.sha256": [
+              5109
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "vishal-vs-1/j2me-revival": {
+      "name": "j2me-revival",
+      "owner": "vishal-vs-1",
+      "owner_url": "https://github.com/vishal-vs-1",
+      "repo_url": "https://github.com/vishal-vs-1/j2me-revival",
+      "description": "Windows desktop library for Java ME (J2ME) games, with local artwork upscaling, persistent asset caching, and GPU-accelerated playback powered by FreeJ2ME-Plus.",
+      "topic_id": 5111,
+      "header_msg_id": 5112,
+      "latest_bundle_msg_id": [
+        5115
+      ],
+      "last_pushed_at": "2026-10-29T19:40:50Z",
+      "releases": {
+        "428277519": {
+          "tag_name": "v0.1.0-preview.1",
+          "name": "JAR Revival for Windows — Preview 1",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5113,
+          "assets": {
+            "JAR-Revival-Windows-x64-preview.zip": [
+              5114
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "sindufha/Devil-may-cry-3-recomp": {
+      "name": "Devil-may-cry-3-recomp",
+      "owner": "sindufha",
+      "owner_url": "https://github.com/sindufha",
+      "repo_url": "https://github.com/sindufha/Devil-may-cry-3-recomp",
+      "description": "Experimental Android recompilation preview of Devil May Cry 3: Special Edition. APK, installation, controls, and development status.",
+      "topic_id": 5116,
+      "header_msg_id": 5117,
+      "latest_bundle_msg_id": [
+        5127
+      ],
+      "last_pushed_at": "2026-10-30T02:28:30Z",
+      "releases": {
+        "428122983": {
+          "tag_name": "v0.25",
+          "name": "v0.25 - Android ARM64 Preview",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5118,
+          "assets": {
+            "BRANDING-NOTICE.txt": [
+              5119
+            ],
+            "build-info.json": [
+              5120
+            ],
+            "DMC3-Android-arm64-v0.25.apk": [
+              5121
+            ],
+            "GPU-NOTICES.txt": [
+              5122
+            ],
+            "LICENSE": [
+              5123
+            ],
+            "SHA256SUMS": [
+              5124
+            ]
+          },
+          "complete": true
+        },
+        "428592150": {
+          "tag_name": "v0.28",
+          "name": "v0.28 - Icon fix, DMC3 naming and widescreen",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5125,
+          "assets": {
+            "DMC3-Android-arm64-v0.28.apk": [
+              5126
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "linkssy2/UrbanChaosRiotResponseBurnerEdition": {
+      "name": "UrbanChaosRiotResponseBurnerEdition",
+      "owner": "linkssy2",
+      "owner_url": "https://github.com/linkssy2",
+      "repo_url": "https://github.com/linkssy2/UrbanChaosRiotResponseBurnerEdition",
+      "description": "Urban Chaos: Riot Response Burner Edition — PC port powered by XboxXBERecomp. Bring your own Xbox ISO.",
+      "topic_id": 5128,
+      "header_msg_id": 5129,
+      "latest_bundle_msg_id": [
+        5172
+      ],
+      "last_pushed_at": "2026-10-26T19:01:18Z",
+      "releases": {
+        "408658431": {
+          "tag_name": "v0.01",
+          "name": "Urban Chaos: Riot Response Burner Edition 0.01",
+          "published_at": "2026-10-10",
+          "changelog_msg_id": 5130,
+          "assets": {
+            "SHA256SUMS.txt": [
+              5131
+            ],
+            "Urban-Chaos-Burner-Edition-0.01-Source.zip": [
+              5132
+            ],
+            "Urban-Chaos-Burner-Edition-0.01-Win64.zip": [
+              5133
+            ]
+          },
+          "complete": true
+        },
+        "409095053": {
+          "tag_name": "v0.02",
+          "name": "Urban Chaos: Riot Response Burner Edition 0.02",
+          "published_at": "2026-10-10",
+          "changelog_msg_id": 5134,
+          "assets": {
+            "SHA256SUMS.txt": [
+              5135
+            ],
+            "Urban-Chaos-Burner-Edition-0.02-Source.zip": [
+              5136
+            ],
+            "Urban-Chaos-Burner-Edition-0.02-Win64.zip": [
+              5137
+            ]
+          },
+          "complete": true
+        },
+        "414484630": {
+          "tag_name": "v0.03",
+          "name": "Urban Chaos: Riot Response Burner Edition 0.03",
+          "published_at": "2026-10-16",
+          "changelog_msg_id": 5138,
+          "assets": {
+            "SHA256SUMS.txt": [
+              5139
+            ],
+            "UrbanChaos-BurnerEdition-0.03-Source.zip": [
+              5140
+            ],
+            "UrbanChaos-BurnerEdition-0.03-Windows-x64.zip": [
+              5141
+            ]
+          },
+          "complete": true
+        },
+        "415080480": {
+          "tag_name": "v0.04",
+          "name": "Urban Chaos: Riot Response Burner Edition 0.04",
+          "published_at": "2026-10-16",
+          "changelog_msg_id": 5142,
+          "assets": {
+            "SHA256SUMS.txt": [
+              5143
+            ],
+            "UrbanChaos-BurnerEdition-0.04-Source.zip": [
+              5144
+            ],
+            "UrbanChaos-BurnerEdition-0.04-Windows-x64.zip": [
+              5145
+            ]
+          },
+          "complete": true
+        },
+        "416865726": {
+          "tag_name": "v0.05",
+          "name": "Urban Chaos: Riot Response Burner Edition 0.05",
+          "published_at": "2026-10-19",
+          "changelog_msg_id": 5146,
+          "assets": {
+            "SHA256SUMS.txt": [
+              5147
+            ],
+            "UrbanChaos-BurnerEdition-0.05-Source.zip": [
+              5148
+            ],
+            "UrbanChaos-BurnerEdition-0.05-Windows-x64.zip": [
+              5149
+            ]
+          },
+          "complete": true
+        },
+        "419298008": {
+          "tag_name": "v0.06",
+          "name": "Urban Chaos: Riot Response Burner Edition 0.06",
+          "published_at": "2026-10-21",
+          "changelog_msg_id": 5150,
+          "assets": {
+            "SHA256SUMS.txt": [
+              5151
+            ],
+            "UrbanChaos-BurnerEdition-0.06-HD-Game-Textures.zip": [
+              5152
+            ],
+            "UrbanChaos-BurnerEdition-0.06-Source.zip": [
+              5153
+            ],
+            "UrbanChaos-BurnerEdition-0.06-Windows-x64.zip": [
+              5154
+            ]
+          },
+          "complete": true
+        },
+        "421980419": {
+          "tag_name": "v0.07",
+          "name": "Urban Chaos: Riot Response Burner Edition 0.07",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 5155,
+          "assets": {
+            "RELEASE-NOTES-0.07.txt": [
+              5156
+            ],
+            "SHA256SUMS.txt": [
+              5157
+            ],
+            "UrbanChaos-BurnerEdition-0.06-HD-Game-Textures.zip": [
+              5158
+            ],
+            "UrbanChaos-BurnerEdition-0.07-Linux-Proton-Experimental.tar.gz": [
+              5159
+            ],
+            "UrbanChaos-BurnerEdition-0.07-Source.zip": [
+              5160
+            ],
+            "UrbanChaos-BurnerEdition-0.07-Windows-x64.zip": [
+              5161
+            ]
+          },
+          "complete": true
+        },
+        "422132827": {
+          "tag_name": "v0.07.5",
+          "name": "v0.07.5 — Linux Compatibility Test/Patch",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 5162,
+          "assets": {
+            "README-linux.txt": [
+              5163
+            ],
+            "RELEASE-NOTES-0.07.5.txt": [
+              5164
+            ],
+            "SHA256SUMS.txt": [
+              5165
+            ],
+            "UrbanChaos-BurnerEdition-0.07.5-Linux-Compatibility-Test.tar.gz": [
+              5166
+            ]
+          },
+          "complete": true
+        },
+        "424644247": {
+          "tag_name": "v0.08",
+          "name": "v0.08 — Single Player & Local Co-op",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 5167,
+          "assets": {
+            "SHA256SUMS-0.08.txt": [
+              5168
+            ],
+            "UrbanChaos-BurnerEdition-0.08-Linux-Proton.tar.gz": [
+              5169
+            ],
+            "UrbanChaos-BurnerEdition-0.08-Source.zip": [
+              5170
+            ],
+            "UrbanChaos-BurnerEdition-0.08-Windows-x64.zip": [
+              5171
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "linkssy2/DarkwatchDarkerEdition": {
+      "name": "DarkwatchDarkerEdition",
+      "owner": "linkssy2",
+      "owner_url": "https://github.com/linkssy2",
+      "repo_url": "https://github.com/linkssy2/DarkwatchDarkerEdition",
+      "description": "Darkwatch: Darker Edition — PC port powered by XboxXBERecomp. Bring your own Xbox ISO.",
+      "topic_id": 5173,
+      "header_msg_id": 5174,
+      "latest_bundle_msg_id": [
+        5235
+      ],
+      "last_pushed_at": "2026-10-26T20:50:48Z",
+      "releases": {
+        "416458197": {
+          "tag_name": "v0.1",
+          "name": "Darkwatch: Darker Edition — 0.1",
+          "published_at": "2026-10-18",
+          "changelog_msg_id": 5175,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.1-Source.zip": [
+              5176
+            ],
+            "Darkwatch-Darker-Edition-0.1-Windows-x64.zip": [
+              5177
+            ],
+            "SHA256SUMS.txt": [
+              5178
+            ]
+          },
+          "complete": true
+        },
+        "416571116": {
+          "tag_name": "v0.1.1-test.1",
+          "name": "Darkwatch: Darker Edition — 0.1.1 Test 1",
+          "published_at": "2026-10-18",
+          "changelog_msg_id": 5179,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.1.1-test.1-Source.zip": [
+              5180
+            ],
+            "Darkwatch-Darker-Edition-0.1.1-test.1-Windows-x64.zip": [
+              5181
+            ],
+            "SHA256SUMS.txt": [
+              5182
+            ]
+          },
+          "complete": true
+        },
+        "416596862": {
+          "tag_name": "v0.2",
+          "name": "Darkwatch: Darker Edition — 0.2",
+          "published_at": "2026-10-18",
+          "changelog_msg_id": 5183,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.2-Source.zip": [
+              5184
+            ],
+            "Darkwatch-Darker-Edition-0.2-Windows-x64.zip": [
+              5185
+            ],
+            "SHA256SUMS.txt": [
+              5186
+            ]
+          },
+          "complete": true
+        },
+        "416842167": {
+          "tag_name": "v0.3",
+          "name": "Darkwatch: Darker Edition — 0.3",
+          "published_at": "2026-10-19",
+          "changelog_msg_id": 5187,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.3-Source.zip": [
+              5188
+            ],
+            "Darkwatch-Darker-Edition-0.3-Windows-x64.zip": [
+              5189
+            ],
+            "SHA256SUMS.txt": [
+              5190
+            ]
+          },
+          "complete": true
+        },
+        "419565610": {
+          "tag_name": "v0.4",
+          "name": "Darkwatch: Darker Edition — 0.4",
+          "published_at": "2026-10-21",
+          "changelog_msg_id": 5191,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.4-Source.zip": [
+              5192
+            ],
+            "Darkwatch-Darker-Edition-0.4-Windows-x64.zip": [
+              5193
+            ],
+            "Darkwatch-Darker-Edition-HD-Textures-v1.zip.001": [
+              5194
+            ],
+            "Darkwatch-Darker-Edition-HD-Textures-v1.zip.002": [
+              5195
+            ],
+            "Darkwatch-Darker-Edition-HD-Textures-v1.zip.003": [
+              5196
+            ],
+            "Darkwatch-Darker-Edition-HD-Textures-v1.zip.004": [
+              5197
+            ],
+            "Darkwatch-Darker-Edition-HD-Textures-v1.zip.005": [
+              5198
+            ],
+            "HD-TEXTURES-SHA256SUMS.txt": [
+              5199
+            ],
+            "OPTIONAL-HD-TEXTURES.txt": [
+              5200
+            ],
+            "RELEASE-NOTES.txt": [
+              5201
+            ],
+            "SHA256SUMS.txt": [
+              5202
+            ]
+          },
+          "complete": true
+        },
+        "421998457": {
+          "tag_name": "v0.5",
+          "name": "Darkwatch: Darker Edition — 0.5",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 5203,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.5-HD-Textures.parts.json": [
+              5204
+            ],
+            "Darkwatch-Darker-Edition-0.5-HD-Textures.README.txt": [
+              5205
+            ],
+            "Darkwatch-Darker-Edition-0.5-HD-Textures.zip.001": [
+              5206
+            ],
+            "Darkwatch-Darker-Edition-0.5-HD-Textures.zip.002": [
+              5207
+            ],
+            "Darkwatch-Darker-Edition-0.5-HD-Textures.zip.003": [
+              5208
+            ],
+            "Darkwatch-Darker-Edition-0.5-HD-Textures.zip.004": [
+              5209
+            ],
+            "Darkwatch-Darker-Edition-0.5-HD-Textures.zip.005": [
+              5210
+            ],
+            "Darkwatch-Darker-Edition-0.5-Linux-Proton-Experimental.tar.gz": [
+              5211
+            ],
+            "Darkwatch-Darker-Edition-0.5-Source.zip": [
+              5212
+            ],
+            "Darkwatch-Darker-Edition-0.5-Windows-x64.zip": [
+              5213
+            ],
+            "RELEASE-NOTES.txt": [
+              5214
+            ],
+            "RELEASE_NOTES.md": [
+              5215
+            ],
+            "SHA256SUMS.txt": [
+              5216
+            ]
+          },
+          "complete": true
+        },
+        "422267569": {
+          "tag_name": "v0.5.5",
+          "name": "Darkwatch: Darker Edition — 0.5.5 Linux Compatibility Test",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 5217,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.5.5-Linux-Proton-Experimental.tar.gz": [
+              5218
+            ],
+            "README-LINUX.md": [
+              5219
+            ],
+            "RELEASE_NOTES.md": [
+              5220
+            ],
+            "SHA256SUMS.txt": [
+              5221
+            ]
+          },
+          "complete": true
+        },
+        "423564600": {
+          "tag_name": "v0.6",
+          "name": "Darkwatch: Darker Edition — 0.6",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 5222,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.6-HD-Textures.zip.001": [
+              5223
+            ],
+            "Darkwatch-Darker-Edition-0.6-HD-Textures.zip.002": [
+              5224
+            ],
+            "Darkwatch-Darker-Edition-0.6-HD-Textures.zip.003": [
+              5225
+            ],
+            "Darkwatch-Darker-Edition-0.6-HD-Textures.zip.004": [
+              5226
+            ],
+            "Darkwatch-Darker-Edition-0.6-HD-Textures.zip.005": [
+              5227
+            ],
+            "Darkwatch-Darker-Edition-0.6-Linux-Proton-Experimental.tar.gz": [
+              5228
+            ],
+            "Darkwatch-Darker-Edition-0.6-Source.zip": [
+              5229
+            ],
+            "Darkwatch-Darker-Edition-0.6-Windows-x64.zip": [
+              5230
+            ]
+          },
+          "complete": true
+        },
+        "424753237": {
+          "tag_name": "v0.6.1",
+          "name": "Darkwatch: Darker Edition — 0.6.1",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 5231,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.6.1-Linux-Proton-Experimental.tar.gz": [
+              5232
+            ],
+            "Darkwatch-Darker-Edition-0.6.1-Source.zip": [
+              5233
+            ],
+            "Darkwatch-Darker-Edition-0.6.1-Windows-x64.zip": [
+              5234
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "mamcjr/TOTKRecompAndroid": {
+      "name": "TOTKRecompAndroid",
+      "owner": "mamcjr",
+      "owner_url": "https://github.com/mamcjr",
+      "repo_url": "https://github.com/mamcjr/TOTKRecompAndroid",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom (Switch 1.4.3) for Android - no game files included",
+      "topic_id": 5236,
+      "header_msg_id": 5237,
+      "latest_bundle_msg_id": [
+        5240
+      ],
+      "last_pushed_at": "2026-10-29T13:03:14Z",
+      "releases": {
+        "427835411": {
+          "tag_name": "v0.0.1-alpha",
+          "name": "TOTKRecompAndroid 0.0.1 (alpha 1)",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5238,
+          "assets": {
+            "TOTKRecompAndroid-0.0.1-alpha.apk": [
+              5239
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "Odrannnn/MetroidPrime2Port": {
+      "name": "MetroidPrime2Port",
+      "owner": "Odrannnn",
+      "owner_url": "https://github.com/Odrannnn",
+      "repo_url": "https://github.com/Odrannnn/MetroidPrime2Port",
+      "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
+      "topic_id": 5241,
+      "header_msg_id": 5242,
+      "latest_bundle_msg_id": [
+        5308
+      ],
+      "last_pushed_at": "2026-10-29T23:10:06Z",
+      "releases": {
+        "427207188": {
+          "tag_name": "v0.6.0",
+          "name": "0.6.0",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 5243,
+          "assets": {
+            "metroid-prime2-port-0.6.0-android-arm64.apk": [
+              5244
+            ],
+            "metroid-prime2-port-0.6.0-linux-aarch64.debug": [
+              5245
+            ],
+            "metroid-prime2-port-0.6.0-linux-aarch64.tar.gz": [
+              5246
+            ],
+            "metroid-prime2-port-0.6.0-linux-x86_64.debug": [
+              5247
+            ],
+            "metroid-prime2-port-0.6.0-linux-x86_64.tar.gz": [
+              5248
+            ],
+            "metroid-prime2-port-0.6.0-macos-arm64.zip": [
+              5249
+            ],
+            "metroid-prime2-port-0.6.0-windows-arm64.zip": [
+              5250
+            ],
+            "metroid-prime2-port-0.6.0-windows-x86_64.zip": [
+              5251
+            ],
+            "MetroidPrime2-aarch64.AppImage": [
+              5252
+            ],
+            "MetroidPrime2-x86_64.AppImage": [
+              5253
+            ],
+            "MetroidPrime2Port.flatpak": [
+              5254
+            ],
+            "MetroidPrime2Port.ipa": [
+              5255
+            ]
+          },
+          "complete": true
+        },
+        "427328252": {
+          "tag_name": "v0.6.1",
+          "name": "0.6.1",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5256,
+          "assets": {
+            "metroid-prime2-port-0.6.1-android-arm64.apk": [
+              5257
+            ],
+            "metroid-prime2-port-0.6.1-linux-aarch64.debug": [
+              5258
+            ],
+            "metroid-prime2-port-0.6.1-linux-aarch64.tar.gz": [
+              5259
+            ],
+            "metroid-prime2-port-0.6.1-linux-x86_64.debug": [
+              5260
+            ],
+            "metroid-prime2-port-0.6.1-linux-x86_64.tar.gz": [
+              5261
+            ],
+            "metroid-prime2-port-0.6.1-macos-arm64.zip": [
+              5262
+            ],
+            "metroid-prime2-port-0.6.1-windows-arm64.zip": [
+              5263
+            ],
+            "metroid-prime2-port-0.6.1-windows-x86_64.zip": [
+              5264
+            ],
+            "MetroidPrime2-aarch64.AppImage": [
+              5265
+            ],
+            "MetroidPrime2-x86_64.AppImage": [
+              5266
+            ],
+            "MetroidPrime2Port.flatpak": [
+              5267
+            ],
+            "MetroidPrime2Port.ipa": [
+              5268
+            ]
+          },
+          "complete": true
+        },
+        "427705512": {
+          "tag_name": "v0.6.2",
+          "name": "0.6.2",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5269,
+          "assets": {
+            "metroid-prime2-port-0.6.2-android-arm64.apk": [
+              5270
+            ],
+            "metroid-prime2-port-0.6.2-linux-aarch64.debug": [
+              5271
+            ],
+            "metroid-prime2-port-0.6.2-linux-aarch64.tar.gz": [
+              5272
+            ],
+            "metroid-prime2-port-0.6.2-linux-x86_64.debug": [
+              5273
+            ],
+            "metroid-prime2-port-0.6.2-linux-x86_64.tar.gz": [
+              5274
+            ],
+            "metroid-prime2-port-0.6.2-macos-arm64.zip": [
+              5275
+            ],
+            "metroid-prime2-port-0.6.2-windows-arm64.zip": [
+              5276
+            ],
+            "metroid-prime2-port-0.6.2-windows-x86_64.zip": [
+              5277
+            ],
+            "MetroidPrime2-aarch64.AppImage": [
+              5278
+            ],
+            "MetroidPrime2-x86_64.AppImage": [
+              5279
+            ],
+            "MetroidPrime2Port.flatpak": [
+              5280
+            ],
+            "MetroidPrime2Port.ipa": [
+              5281
+            ]
+          },
+          "complete": true
+        },
+        "428257805": {
+          "tag_name": "v0.6.3",
+          "name": "0.6.3",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5282,
+          "assets": {
+            "metroid-prime2-port-0.6.3-android-arm64.apk": [
+              5283
+            ],
+            "metroid-prime2-port-0.6.3-linux-aarch64.debug": [
+              5284
+            ],
+            "metroid-prime2-port-0.6.3-linux-aarch64.tar.gz": [
+              5285
+            ],
+            "metroid-prime2-port-0.6.3-linux-x86_64.debug": [
+              5286
+            ],
+            "metroid-prime2-port-0.6.3-linux-x86_64.tar.gz": [
+              5287
+            ],
+            "metroid-prime2-port-0.6.3-macos-arm64.zip": [
+              5288
+            ],
+            "metroid-prime2-port-0.6.3-windows-arm64.zip": [
+              5289
+            ],
+            "metroid-prime2-port-0.6.3-windows-x86_64.zip": [
+              5290
+            ],
+            "MetroidPrime2-aarch64.AppImage": [
+              5291
+            ],
+            "MetroidPrime2-x86_64.AppImage": [
+              5292
+            ],
+            "MetroidPrime2Port.flatpak": [
+              5293
+            ],
+            "MetroidPrime2Port.ipa": [
+              5294
+            ]
+          },
+          "complete": true
+        },
+        "428496283": {
+          "tag_name": "v0.6.4",
+          "name": "0.6.4 mini bugfix",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5295,
+          "assets": {
+            "metroid-prime2-port-0.6.4-android-arm64.apk": [
+              5296
+            ],
+            "metroid-prime2-port-0.6.4-linux-aarch64.debug": [
+              5297
+            ],
+            "metroid-prime2-port-0.6.4-linux-aarch64.tar.gz": [
+              5298
+            ],
+            "metroid-prime2-port-0.6.4-linux-x86_64.debug": [
+              5299
+            ],
+            "metroid-prime2-port-0.6.4-linux-x86_64.tar.gz": [
+              5300
+            ],
+            "metroid-prime2-port-0.6.4-macos-arm64.zip": [
+              5301
+            ],
+            "metroid-prime2-port-0.6.4-windows-arm64.zip": [
+              5302
+            ],
+            "metroid-prime2-port-0.6.4-windows-x86_64.zip": [
+              5303
+            ],
+            "MetroidPrime2-aarch64.AppImage": [
+              5304
+            ],
+            "MetroidPrime2-x86_64.AppImage": [
+              5305
+            ],
+            "MetroidPrime2Port.flatpak": [
+              5306
+            ],
+            "MetroidPrime2Port.ipa": [
+              5307
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "ttom795/LMS_Android": {
+      "name": "LMS_Android",
+      "owner": "ttom795",
+      "owner_url": "https://github.com/ttom795",
+      "repo_url": "https://github.com/ttom795/LMS_Android",
+      "description": "A static recompilation of LEGO Marvel Superheroes (2013) for Android devices.",
+      "topic_id": 5309,
+      "header_msg_id": 5310,
+      "latest_bundle_msg_id": [
+        5319
+      ],
+      "last_pushed_at": "2026-10-27T00:45:04Z",
+      "releases": {
+        "422475191": {
+          "tag_name": "0.2.7",
+          "name": "Version 0.2.7",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 5311,
+          "assets": {
+            "LegoMarvel-0.2.7.apk": [
+              5312
+            ]
+          },
+          "complete": true
+        },
+        "423910991": {
+          "tag_name": "0.3.1",
+          "name": "Version 0.3.1",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 5313,
+          "assets": {
+            "LegoMarvel-0.3.1.apk": [
+              5314
+            ]
+          },
+          "complete": true
+        },
+        "424833778": {
+          "tag_name": "0.3.3",
+          "name": "0.3.3",
+          "published_at": "2026-10-26",
+          "changelog_msg_id": 5315,
+          "assets": {
+            "LegoMarvel-0.3.3.apk": [
+              5316
+            ]
+          },
+          "complete": true
+        },
+        "424918909": {
+          "tag_name": "0.3.4",
+          "name": "Version 0.3.4",
+          "published_at": "2026-10-27",
+          "changelog_msg_id": 5317,
+          "assets": {
+            "LegoMarvel-0.3.4.apk": [
+              5318
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "Hyant4/Knack-II-pc-port": {
+      "name": "Knack-II-pc-port",
+      "owner": "Hyant4",
+      "owner_url": "https://github.com/Hyant4",
+      "repo_url": "https://github.com/Hyant4/Knack-II-pc-port",
+      "description": "Unofficial Knack II (Knack 2) PC port for Windows. Experimental Vulkan alpha, launcher and local co-op; requires your own PS4 game dump.",
+      "topic_id": 5320,
+      "header_msg_id": 5321,
+      "latest_bundle_msg_id": [
+        5399
+      ],
+      "last_pushed_at": "2026-10-29T21:03:57Z",
+      "releases": {
+        "421362813": {
+          "tag_name": "knack2-alpha-Version-0.10",
+          "name": "Knack II PC — Alpha Windows x64 V 0.10",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 5322,
+          "assets": {
+            "Knack-II-sources-audio-V0.10.zip": [
+              5323
+            ],
+            "Knack-II-Windows-x64-audio-V0.10.zip": [
+              5324
+            ],
+            "SHA256SUMS.txt": [
+              5325
+            ]
+          },
+          "complete": true
+        },
+        "422369365": {
+          "tag_name": "knack2-alpha-Version-0.11",
+          "name": "Knack II PC — Alpha Windows x64 V 0.11",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 5326,
+          "assets": {
+            "Knack-II-sources-V0.11.zip": [
+              5327
+            ],
+            "Knack-II-Windows-x64-V0.11.zip": [
+              5328
+            ],
+            "SHA256SUMS.txt": [
+              5329
+            ]
+          },
+          "complete": true
+        },
+        "422432741": {
+          "tag_name": "knack2-alpha-Version-0.12",
+          "name": "Knack II PC — Alpha Windows x64 V 0.12",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 5330,
+          "assets": {
+            "Knack-II-sources-V0.12.zip": [
+              5331
+            ],
+            "Knack-II-Windows-x64-V0.12.zip": [
+              5332
+            ],
+            "SHA256SUMS.txt": [
+              5333
+            ]
+          },
+          "complete": true
+        },
+        "422495951": {
+          "tag_name": "knack2-alpha-Version-0.13",
+          "name": "Knack II PC — Alpha Windows x64 V 0.13",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 5334,
+          "assets": {
+            "Knack-II-sources-V0.13.zip": [
+              5335
+            ],
+            "Knack-II-Windows-x64-V0.13.zip": [
+              5336
+            ],
+            "SHA256SUMS.txt": [
+              5337
+            ]
+          },
+          "complete": true
+        },
+        "422545759": {
+          "tag_name": "knack2-Version-0.14",
+          "name": "Knack II PC — Windows x64 V 0.14",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 5338,
+          "assets": {
+            "Knack-II-sources-V0.14.zip": [
+              5339
+            ],
+            "Knack-II-Windows-x64-V0.14.zip": [
+              5340
+            ],
+            "SHA256SUMS.txt": [
+              5341
+            ]
+          },
+          "complete": true
+        },
+        "422610499": {
+          "tag_name": "knack2-Version-0.15",
+          "name": "Knack II PC — Windows x64 V 0.15",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 5342,
+          "assets": {
+            "Knack-II-sources-V0.15.zip": [
+              5343
+            ],
+            "Knack-II-Windows-x64-V0.15.zip": [
+              5344
+            ],
+            "SHA256SUMS.txt": [
+              5345
+            ]
+          },
+          "complete": true
+        },
+        "423063440": {
+          "tag_name": "knack2-Version-0.16",
+          "name": "Knack II PC — Windows x64 V 0.16",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 5346,
+          "assets": {
+            "Knack-II-sources-V0.16.zip": [
+              5347
+            ],
+            "Knack-II-Windows-x64-V0.16.zip": [
+              5348
+            ],
+            "SHA256SUMS.txt": [
+              5349
+            ]
+          },
+          "complete": true
+        },
+        "423137678": {
+          "tag_name": "knack2-Version-0.17",
+          "name": "Knack II PC — Windows x64 V 0.17",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 5350,
+          "assets": {
+            "Knack-II-sources-V0.17.zip": [
+              5351
+            ],
+            "Knack-II-Windows-x64-V0.17.zip": [
+              5352
+            ],
+            "SHA256SUMS.txt": [
+              5353
+            ]
+          },
+          "complete": true
+        },
+        "423240929": {
+          "tag_name": "knack2-Version-0.17.1",
+          "name": "Knack II PC — Hotfix Windows x64 V0.17.1",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 5354,
+          "assets": {
+            "Knack-II-sources-V0.17.1.zip": [
+              5355
+            ],
+            "Knack-II-Windows-x64-V0.17.1.zip": [
+              5356
+            ],
+            "SHA256SUMS.txt": [
+              5357
+            ]
+          },
+          "complete": true
+        },
+        "423582465": {
+          "tag_name": "knack2-Version-0.17.2",
+          "name": "Knack II PC — Atualização do launcher V0.17.2",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 5358,
+          "assets": {
+            "Knack-II-sources-V0.17.2.zip": [
+              5359
+            ],
+            "Knack-II-Windows-x64-V0.17.2.zip": [
+              5360
+            ],
+            "SHA256SUMS.txt": [
+              5361
+            ]
+          },
+          "complete": true
+        },
+        "423657460": {
+          "tag_name": "knack2-Version-0.17.3",
+          "name": "Knack II PC — Pré-carregamento / Shader preloading V0.17.3",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 5362,
+          "assets": {
+            "Knack-II-sources-V0.17.3.zip": [
+              5363
+            ],
+            "Knack-II-Windows-x64-V0.17.3.zip": [
+              5364
+            ],
+            "SHA256SUMS.txt": [
+              5365
+            ]
+          },
+          "complete": true
+        },
+        "423737081": {
+          "tag_name": "knack2-Version-0.17.5",
+          "name": "Knack II PC V0.17.5",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 5366,
+          "assets": {
+            "Knack-II-Windows-x64-V0.17.5.zip": [
+              5367
+            ],
+            "SHA256SUMS.txt": [
+              5368
+            ]
+          },
+          "complete": true
+        },
+        "424961413": {
+          "tag_name": "knack2-Version-0.17.7-rc1",
+          "name": "Knack II PC — 0.17.7-rc1 — teste da issue #12",
+          "published_at": "2026-10-27",
+          "changelog_msg_id": 5369,
+          "assets": {
+            "Knack-II-sources-V0.17.7-rc1.zip": [
+              5370
+            ],
+            "Knack-II-Windows-x64-V0.17.7-rc1.zip": [
+              5371
+            ],
+            "SHA256SUMS.txt": [
+              5372
+            ]
+          },
+          "complete": true
+        },
+        "425754219": {
+          "tag_name": "knack2-Version-0.17.7-rc2",
+          "name": "Knack II PC — 0.17.7-rc2 — teste da issue #12",
+          "published_at": "2026-10-27",
+          "changelog_msg_id": 5373,
+          "assets": {
+            "Knack-II-sources-V0.17.7-rc2.zip": [
+              5374
+            ],
+            "Knack-II-Windows-x64-V0.17.7-rc2.zip": [
+              5375
+            ],
+            "SHA256SUMS.txt": [
+              5376
+            ]
+          },
+          "complete": true
+        },
+        "426346970": {
+          "tag_name": "knack2-Version-0.17.7-rc3",
+          "name": "Knack II PC — 0.17.7-rc3 — captura GTX 1060",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 5377,
+          "assets": {
+            "Knack-II-sources-V0.17.7-rc3.zip": [
+              5378
+            ],
+            "Knack-II-Windows-x64-V0.17.7-rc3.zip": [
+              5379
+            ],
+            "SHA256SUMS.txt": [
+              5380
+            ]
+          },
+          "complete": true
+        },
+        "427079577": {
+          "tag_name": "knack2-Version-0.17.7-rc4",
+          "name": "Knack II PC — 0.17.7-rc4 — interpolação automática",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 5381,
+          "assets": {
+            "Knack-II-sources-V0.17.7-rc4.zip": [
+              5382
+            ],
+            "Knack-II-Windows-x64-V0.17.7-rc4.zip": [
+              5383
+            ],
+            "SHA256SUMS.txt": [
+              5384
+            ]
+          },
+          "complete": true
+        },
+        "428131745": {
+          "tag_name": "knack2-Version-0.17.7-rc5",
+          "name": "Knack II PC — 0.17.7-rc5 — teste RX 580 / base atual",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5385,
+          "assets": {
+            "Knack-II-sources-V0.17.7-rc5.zip": [
+              5386
+            ],
+            "Knack-II-Windows-x64-V0.17.7-rc5.zip": [
+              5387
+            ],
+            "SHA256SUMS.txt": [
+              5388
+            ]
+          },
+          "complete": true
+        },
+        "428331500": {
+          "tag_name": "knack2-Version-0.18",
+          "name": "Knack II PC — V0.18 — Windows e Linux",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 5389,
+          "assets": {
+            "Knack-II-sources-V0.18.zip": [
+              5390
+            ],
+            "Knack-II-Windows-x64-V0.18.zip": [
+              5391
+            ],
+            "Knack-II-x86_64-0.18.0.AppImage": [
+              5392
+            ],
+            "SHA256SUMS.txt": [
+              5393
+            ]
+          },
+          "complete": true
+        },
+        "428663331": {
+          "tag_name": "knack2-Version-0.18.1",
+          "name": "Knack II PC — 0.18.1 — teste RX 580 / base atual",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 5394,
+          "assets": {
+            "Knack-II-sources-V0.18.1.zip": [
+              5395
+            ],
+            "Knack-II-Windows-x64-V0.18.1.zip": [
+              5396
+            ],
+            "Knack-II-x86_64-0.18.1.AppImage": [
+              5397
+            ],
+            "SHA256SUMS.txt": [
+              5398
             ]
           },
           "complete": true
