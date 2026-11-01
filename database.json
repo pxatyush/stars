@@ -385,9 +385,9 @@
       "topic_id": 111,
       "header_msg_id": 112,
       "latest_bundle_msg_id": [
-        113
+        6203
       ],
-      "last_pushed_at": "2026-09-29T07:29:52Z",
+      "last_pushed_at": "2026-10-31T23:22:55Z",
       "releases": {}
     },
     "souravgl0/PdfToUnicode": {
@@ -2380,9 +2380,9 @@
       "topic_id": 537,
       "header_msg_id": 538,
       "latest_bundle_msg_id": [
-        5776
+        6204
       ],
-      "last_pushed_at": "2026-10-31T14:33:57Z",
+      "last_pushed_at": "2026-10-31T16:50:06Z",
       "releases": {
         "341558150": {
           "tag_name": "1",
@@ -2455,9 +2455,9 @@
       "topic_id": 550,
       "header_msg_id": 551,
       "latest_bundle_msg_id": [
-        5777
+        6205
       ],
-      "last_pushed_at": "2026-10-31T12:06:26Z",
+      "last_pushed_at": "2026-11-01T00:16:55Z",
       "releases": {
         "139154184": {
           "tag_name": "v1.0.0",
@@ -14240,9 +14240,9 @@
       "topic_id": 3165,
       "header_msg_id": 3166,
       "latest_bundle_msg_id": [
-        5779
+        6206
       ],
-      "last_pushed_at": "2026-10-31T16:23:27Z",
+      "last_pushed_at": "2026-11-01T03:42:09Z",
       "releases": {}
     },
     "snes19xx/surface-dots": {
@@ -14556,9 +14556,9 @@
       "topic_id": 3222,
       "header_msg_id": 3223,
       "latest_bundle_msg_id": [
-        5780
+        6207
       ],
-      "last_pushed_at": "2026-10-31T16:35:32Z",
+      "last_pushed_at": "2026-11-01T03:48:28Z",
       "releases": {
         "352658215": {
           "tag_name": "rea-0.2.0",
@@ -14897,9 +14897,9 @@
       "topic_id": 3267,
       "header_msg_id": 3268,
       "latest_bundle_msg_id": [
-        5782
+        6208
       ],
-      "last_pushed_at": "2026-10-31T15:03:42Z",
+      "last_pushed_at": "2026-11-01T02:55:52Z",
       "releases": {
         "411874563": {
           "tag_name": "v1.0.0",
@@ -14957,9 +14957,9 @@
       "topic_id": 3279,
       "header_msg_id": 3280,
       "latest_bundle_msg_id": [
-        5783
+        6217
       ],
-      "last_pushed_at": "2026-10-31T07:23:45Z",
+      "last_pushed_at": "2026-11-01T03:16:54Z",
       "releases": {
         "422405806": {
           "tag_name": "beta_5",
@@ -15257,6 +15257,42 @@
             ]
           },
           "complete": true
+        },
+        "430230859": {
+          "tag_name": "test-arm-483-copy",
+          "name": "Test build: arm-483-copy",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6209,
+          "assets": {
+            "LAS.Recomp-test-arm-483-copy-linux-aarch64.AppImage": [
+              6210
+            ],
+            "LAS.Recomp-test-arm-483-copy-windows-arm64.zip": [
+              6211
+            ]
+          },
+          "complete": true
+        },
+        "430273825": {
+          "tag_name": "test-462-arc-4",
+          "name": "Test build: test-462-arc-4",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6212,
+          "assets": {
+            "LAS.Recomp-test-462-arc-4-linux-aarch64.AppImage": [
+              6213
+            ],
+            "LAS.Recomp-test-462-arc-4-linux-x86_64.AppImage": [
+              6214
+            ],
+            "LAS.Recomp-test-462-arc-4-macOS.dmg": [
+              6215
+            ],
+            "LAS.Recomp-test-462-arc-4-windows.zip": [
+              6216
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -15508,9 +15544,9 @@
       "topic_id": 3374,
       "header_msg_id": 3375,
       "latest_bundle_msg_id": [
-        5420
+        6220
       ],
-      "last_pushed_at": "2026-10-30T12:22:28Z",
+      "last_pushed_at": "2026-10-31T23:08:45Z",
       "releases": {
         "414873814": {
           "tag_name": "v0.1.0",
@@ -15796,6 +15832,18 @@
           "assets": {
             "LASRecomp-Android-0.5.8.apk": [
               5419
+            ]
+          },
+          "complete": true
+        },
+        "430240685": {
+          "tag_name": "v0.5.9",
+          "name": "LAS Recomp for Android 0.5.9 (preview): PowerVR and Chinese fixes, fewer CPU copies on Mali / correções na PowerVR e no chinês, menos cópias na Mali",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6218,
+          "assets": {
+            "LASRecomp-Android-0.5.9.apk": [
+              6219
             ]
           },
           "complete": true
@@ -17004,9 +17052,9 @@
       "topic_id": 3665,
       "header_msg_id": 3666,
       "latest_bundle_msg_id": [
-        5589
+        6221
       ],
-      "last_pushed_at": "2026-10-30T21:10:48Z",
+      "last_pushed_at": "2026-11-01T02:44:37Z",
       "releases": {
         "358839850": {
           "tag_name": "1.0",
@@ -17415,9 +17463,9 @@
       "topic_id": 3748,
       "header_msg_id": 3749,
       "latest_bundle_msg_id": [
-        5784
+        6229
       ],
-      "last_pushed_at": "2026-10-31T15:35:17Z",
+      "last_pushed_at": "2026-11-01T03:53:57Z",
       "releases": {
         "399199022": {
           "tag_name": "v0.1.0",
@@ -17586,6 +17634,33 @@
             ]
           },
           "complete": true
+        },
+        "429758446": {
+          "tag_name": "v0.10.0",
+          "name": "BlueWake 0.10.0",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6222,
+          "assets": {
+            "BlueWake-v0.10.0-ios-unsigned.ipa": [
+              6223
+            ],
+            "BlueWake-v0.10.0-linux-x86_64.AppImage": [
+              6224
+            ],
+            "BlueWake-v0.10.0-padmint.json": [
+              6225
+            ],
+            "BlueWake-v0.10.0-source.zip": [
+              6226
+            ],
+            "BlueWake-v0.10.0-windows-x64.zip": [
+              6227
+            ],
+            "SHA256SUMS": [
+              6228
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -17598,9 +17673,9 @@
       "topic_id": 3793,
       "header_msg_id": 3794,
       "latest_bundle_msg_id": [
-        3889
+        6230
       ],
-      "last_pushed_at": "2026-10-27T13:26:26Z",
+      "last_pushed_at": "2026-11-01T01:12:41Z",
       "releases": {
         "367741303": {
           "tag_name": "Version1.0.0",
@@ -17991,9 +18066,9 @@
       "topic_id": 3890,
       "header_msg_id": 3891,
       "latest_bundle_msg_id": [
-        5423
+        6231
       ],
-      "last_pushed_at": "2026-10-30T14:02:07Z",
+      "last_pushed_at": "2026-10-31T18:37:10Z",
       "releases": {
         "423412726": {
           "tag_name": "v2026.10.25",
@@ -18014,9 +18089,9 @@
       "topic_id": 3894,
       "header_msg_id": 3895,
       "latest_bundle_msg_id": [
-        5796
+        6243
       ],
-      "last_pushed_at": "2026-10-31T12:37:56Z",
+      "last_pushed_at": "2026-11-01T02:58:25Z",
       "releases": {
         "404130988": {
           "tag_name": "v0.1.0",
@@ -18845,6 +18920,45 @@
             ]
           },
           "complete": true
+        },
+        "430328349": {
+          "tag_name": "devel-build",
+          "name": "Development build (devel @ 3fc4db7, 2026-11-01)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6232,
+          "assets": {
+            "SHA256SUMS.txt": [
+              6233
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-android-arm64.apk": [
+              6234
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-android-x86_64.apk": [
+              6235
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-linux-aarch64.AppImage": [
+              6236
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-linux-aarch64.zip": [
+              6237
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-linux-x86_64.AppImage": [
+              6238
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-linux-x86_64.zip": [
+              6239
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-macos-arm64.zip": [
+              6240
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-windows-arm64.zip": [
+              6241
+            ],
+            "WindWakerHD-v0.5.0-devel.3fc4db71-windows-x86_64.zip": [
+              6242
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -18857,9 +18971,9 @@
       "topic_id": 4054,
       "header_msg_id": 4055,
       "latest_bundle_msg_id": [
-        5436
+        6244
       ],
-      "last_pushed_at": "2026-10-30T11:45:06Z",
+      "last_pushed_at": "2026-10-31T22:15:14Z",
       "releases": {}
     },
     "Revivedx/SavageWindRecomp": {
@@ -18871,9 +18985,9 @@
       "topic_id": 4057,
       "header_msg_id": 4058,
       "latest_bundle_msg_id": [
-        5797
+        6249
       ],
-      "last_pushed_at": "2026-10-31T05:57:11Z",
+      "last_pushed_at": "2026-11-01T00:26:14Z",
       "releases": {
         "415611760": {
           "tag_name": "v0.1.0-alpha.1",
@@ -18928,6 +19042,24 @@
             ]
           },
           "complete": true
+        },
+        "430269404": {
+          "tag_name": "v0.4.0-alpha.4",
+          "name": "Savage Wind Alpha 4 (0.4.0-alpha.4)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6245,
+          "assets": {
+            "SavageWind-0.4.0-alpha.4-windows.zip": [
+              6246
+            ],
+            "Savage_Wind-0.4.0-alpha.4-aarch64.AppImage": [
+              6247
+            ],
+            "Savage_Wind-0.4.0-alpha.4-x86_64.AppImage": [
+              6248
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -18940,9 +19072,9 @@
       "topic_id": 4070,
       "header_msg_id": 4071,
       "latest_bundle_msg_id": [
-        5802
+        6254
       ],
-      "last_pushed_at": "2026-10-31T15:58:31Z",
+      "last_pushed_at": "2026-10-31T22:35:17Z",
       "releases": {
         "418720681": {
           "tag_name": "0.40.0-alpha",
@@ -19231,6 +19363,30 @@
             ]
           },
           "complete": true
+        },
+        "430132409": {
+          "tag_name": "0.96.5-beta",
+          "name": "CubeEvil4 v0.96.5-beta",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6250,
+          "assets": {
+            "CubeEvil4-0.96.5-beta.apk": [
+              6251
+            ]
+          },
+          "complete": true
+        },
+        "430226705": {
+          "tag_name": "0.96.6-beta",
+          "name": "CubeEvil4 v0.96.6-beta",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6252,
+          "assets": {
+            "CubeEvil4-0.96.6-beta.apk": [
+              6253
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -19456,9 +19612,9 @@
       "topic_id": 4141,
       "header_msg_id": 4142,
       "latest_bundle_msg_id": [
-        5810
+        6262
       ],
-      "last_pushed_at": "2026-10-31T16:28:02Z",
+      "last_pushed_at": "2026-11-01T02:26:52Z",
       "releases": {
         "409242998": {
           "tag_name": "windows-v2.0",
@@ -20011,6 +20167,33 @@
             ]
           },
           "complete": true
+        },
+        "430286915": {
+          "tag_name": "windows-v3.0.0",
+          "name": "SpartanPort 3.0.0",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6255,
+          "assets": {
+            "release-linux.json": [
+              6256
+            ],
+            "release-windows.json": [
+              6257
+            ],
+            "spartanport-windows.zip": [
+              6258
+            ],
+            "spartanport-windows.zip.sha256": [
+              6259
+            ],
+            "spartanport-x86_64.AppImage": [
+              6260
+            ],
+            "spartanport-x86_64.AppImage.sha256": [
+              6261
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20023,9 +20206,9 @@
       "topic_id": 4247,
       "header_msg_id": 4248,
       "latest_bundle_msg_id": [
-        5811
+        6263
       ],
-      "last_pushed_at": "2026-10-31T15:47:55Z",
+      "last_pushed_at": "2026-11-01T03:58:12Z",
       "releases": {}
     },
     "scarletnx/ScarletNX": {
@@ -20037,9 +20220,9 @@
       "topic_id": 4250,
       "header_msg_id": 4251,
       "latest_bundle_msg_id": [
-        5812
+        6264
       ],
-      "last_pushed_at": "2026-10-31T16:22:14Z",
+      "last_pushed_at": "2026-11-01T02:46:09Z",
       "releases": {
         "415454328": {
           "tag_name": "nightly",
@@ -20947,9 +21130,9 @@
       "topic_id": 4409,
       "header_msg_id": 4410,
       "latest_bundle_msg_id": [
-        5848
+        6293
       ],
-      "last_pushed_at": "2026-10-31T16:43:16Z",
+      "last_pushed_at": "2026-11-01T03:55:08Z",
       "releases": {
         "419862397": {
           "tag_name": "v0.1.0",
@@ -21310,6 +21493,114 @@
             ]
           },
           "complete": true
+        },
+        "430204155": {
+          "tag_name": "v0.8.0-rc1",
+          "name": "NX2Apple 0.8.0 release candidate 1",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6265,
+          "assets": {
+            "latest.json": [
+              6266
+            ],
+            "latest.json.sig": [
+              6267
+            ],
+            "NS-Port-Builder-macOS-arm64.zip": [
+              6268
+            ],
+            "NX2Apple-engine.zip": [
+              6269
+            ],
+            "NX2Apple-macOS-arm64.zip": [
+              6270
+            ],
+            "nxnative-macOS-arm64.zip": [
+              6271
+            ]
+          },
+          "complete": true
+        },
+        "430304485": {
+          "tag_name": "v0.8.0-rc2",
+          "name": "NX2Apple 0.8.0 release candidate 2",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6272,
+          "assets": {
+            "latest.json": [
+              6273
+            ],
+            "latest.json.sig": [
+              6274
+            ],
+            "NS-Port-Builder-macOS-arm64.zip": [
+              6275
+            ],
+            "NX2Apple-engine.zip": [
+              6276
+            ],
+            "NX2Apple-macOS-arm64.zip": [
+              6277
+            ],
+            "nxnative-macOS-arm64.zip": [
+              6278
+            ]
+          },
+          "complete": true
+        },
+        "430307755": {
+          "tag_name": "v0.8.0-rc3",
+          "name": "NX2Apple 0.8.0 release candidate 3",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6279,
+          "assets": {
+            "latest.json": [
+              6280
+            ],
+            "latest.json.sig": [
+              6281
+            ],
+            "NS-Port-Builder-macOS-arm64.zip": [
+              6282
+            ],
+            "NX2Apple-engine.zip": [
+              6283
+            ],
+            "NX2Apple-macOS-arm64.zip": [
+              6284
+            ],
+            "nxnative-macOS-arm64.zip": [
+              6285
+            ]
+          },
+          "complete": true
+        },
+        "430331386": {
+          "tag_name": "v0.8.0-rc4",
+          "name": "NX2Apple 0.8.0 release candidate 4",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6286,
+          "assets": {
+            "latest.json": [
+              6287
+            ],
+            "latest.json.sig": [
+              6288
+            ],
+            "NS-Port-Builder-macOS-arm64.zip": [
+              6289
+            ],
+            "NX2Apple-engine.zip": [
+              6290
+            ],
+            "NX2Apple-macOS-arm64.zip": [
+              6291
+            ],
+            "nxnative-macOS-arm64.zip": [
+              6292
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -21336,9 +21627,9 @@
       "topic_id": 4461,
       "header_msg_id": 4462,
       "latest_bundle_msg_id": [
-        5849
+        6294
       ],
-      "last_pushed_at": "2026-10-31T15:09:17Z",
+      "last_pushed_at": "2026-10-31T18:12:17Z",
       "releases": {
         "423368718": {
           "tag_name": "v0.1.0-beta",
@@ -21363,9 +21654,9 @@
       "topic_id": 4466,
       "header_msg_id": 4467,
       "latest_bundle_msg_id": [
-        5852
+        6299
       ],
-      "last_pushed_at": "2026-10-31T10:46:31Z",
+      "last_pushed_at": "2026-10-31T21:53:54Z",
       "releases": {
         "422431048": {
           "tag_name": "v0.1.0-beta",
@@ -21594,6 +21885,30 @@
           "assets": {
             "BOTWRecompAndroid-0.2.6-beta.apk": [
               5851
+            ]
+          },
+          "complete": true
+        },
+        "430190935": {
+          "tag_name": "v0.2.7-beta",
+          "name": "BOTWRecompAndroid 0.2.7 (beta 20): giroscópio com controle, aviso de mods de DLC, ajustes para Mali",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6295,
+          "assets": {
+            "BOTWRecompAndroid-0.2.7-beta.apk": [
+              6296
+            ]
+          },
+          "complete": true
+        },
+        "430208382": {
+          "tag_name": "v0.2.8-beta",
+          "name": "BOTWRecompAndroid 0.2.8 (beta 21): FPS caindo com o tempo de jogo nas Mali",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6297,
+          "assets": {
+            "BOTWRecompAndroid-0.2.8-beta.apk": [
+              6298
             ]
           },
           "complete": true
@@ -22032,9 +22347,9 @@
       "topic_id": 4573,
       "header_msg_id": 4574,
       "latest_bundle_msg_id": [
-        5859
+        6300
       ],
-      "last_pushed_at": "2026-10-31T11:19:20Z",
+      "last_pushed_at": "2026-11-01T03:29:18Z",
       "releases": {
         "425032335": {
           "tag_name": "v0.1.0",
@@ -22377,9 +22692,9 @@
       "topic_id": 4619,
       "header_msg_id": 4620,
       "latest_bundle_msg_id": [
-        4881
+        6307
       ],
-      "last_pushed_at": "2026-10-29T11:30:55Z",
+      "last_pushed_at": "2026-10-31T23:05:53Z",
       "releases": {
         "423573729": {
           "tag_name": "v1.0.1",
@@ -22443,6 +22758,30 @@
             ],
             "SHA256SUMS.txt": [
               4880
+            ]
+          },
+          "complete": true
+        },
+        "430236888": {
+          "tag_name": "v1.1.0",
+          "name": "Rayman 3 HD Recompiled — v1.1.0",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6301,
+          "assets": {
+            "r3hd-lgpl-source-1.1.0.zip": [
+              6302
+            ],
+            "rayman3hd-turkish-1.0.1.zip": [
+              6303
+            ],
+            "Rayman3HDRecompiled-1.1.0-portable.zip": [
+              6304
+            ],
+            "Rayman3HDRecompiled-1.1.0-setup.exe": [
+              6305
+            ],
+            "SHA256SUMS.txt": [
+              6306
             ]
           },
           "complete": true
@@ -22761,9 +23100,9 @@
       "topic_id": 4664,
       "header_msg_id": 4665,
       "latest_bundle_msg_id": [
-        5658
+        6310
       ],
-      "last_pushed_at": "2026-10-30T23:55:48Z",
+      "last_pushed_at": "2026-11-01T02:12:20Z",
       "releases": {
         "425799259": {
           "tag_name": "v0.8",
@@ -22785,6 +23124,18 @@
           "assets": {
             "RaCACiT_Launcher_v0.9.7z": [
               5657
+            ]
+          },
+          "complete": true
+        },
+        "430300761": {
+          "tag_name": "v0.9.3",
+          "name": "RACiT v0.9.3 (BETA)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6308,
+          "assets": {
+            "RaCACiT_Launcher_v0.9.3.7z": [
+              6309
             ]
           },
           "complete": true
@@ -23416,9 +23767,9 @@
       "topic_id": 4904,
       "header_msg_id": 4905,
       "latest_bundle_msg_id": [
-        5865
+        6311
       ],
-      "last_pushed_at": "2026-10-31T16:33:42Z",
+      "last_pushed_at": "2026-10-31T21:31:23Z",
       "releases": {}
     },
     "GioPixelGH/Crash-Twinsanity-Windows": {
@@ -23856,9 +24207,9 @@
       "topic_id": 5045,
       "header_msg_id": 5046,
       "latest_bundle_msg_id": [
-        5871
+        6315
       ],
-      "last_pushed_at": "2026-10-31T12:37:46Z",
+      "last_pushed_at": "2026-10-31T18:30:12Z",
       "releases": {
         "428016406": {
           "tag_name": "v0.1.1",
@@ -23910,6 +24261,21 @@
             ]
           },
           "complete": true
+        },
+        "430111666": {
+          "tag_name": "v0.2.8",
+          "name": "v0.2.8",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6312,
+          "assets": {
+            "TotK-Setup-0.2.8-windows.zip": [
+              6313
+            ],
+            "TotK-Setup-x86_64.AppImage": [
+              6314
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -23922,9 +24288,9 @@
       "topic_id": 5050,
       "header_msg_id": 5051,
       "latest_bundle_msg_id": [
-        5874
+        6316
       ],
-      "last_pushed_at": "2026-10-31T12:43:01Z",
+      "last_pushed_at": "2026-10-31T21:17:51Z",
       "releases": {
         "292881465": {
           "tag_name": "1.1.3",
@@ -24576,9 +24942,9 @@
       "topic_id": 5173,
       "header_msg_id": 5174,
       "latest_bundle_msg_id": [
-        5684
+        6321
       ],
-      "last_pushed_at": "2026-10-30T21:11:22Z",
+      "last_pushed_at": "2026-10-31T19:46:10Z",
       "releases": {
         "416458197": {
           "tag_name": "v0.1",
@@ -24846,6 +25212,24 @@
             ]
           },
           "complete": true
+        },
+        "430147315": {
+          "tag_name": "v0.7.1",
+          "name": "Darkwatch: Darker Edition — 0.7.1",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6317,
+          "assets": {
+            "Darkwatch-Darker-Edition-0.7.1-Linux-Proton-Experimental.tar.gz": [
+              6318
+            ],
+            "Darkwatch-Darker-Edition-0.7.1-Source.zip": [
+              6319
+            ],
+            "Darkwatch-Darker-Edition-0.7.1-Windows-x64.zip": [
+              6320
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -24885,9 +25269,9 @@
       "topic_id": 5241,
       "header_msg_id": 5242,
       "latest_bundle_msg_id": [
-        5879
+        6335
       ],
-      "last_pushed_at": "2026-10-31T12:56:26Z",
+      "last_pushed_at": "2026-10-31T23:47:25Z",
       "releases": {
         "427207188": {
           "tag_name": "v0.6.0",
@@ -25200,6 +25584,51 @@
             ],
             "MetroidPrime2Port.ipa": [
               5702
+            ]
+          },
+          "complete": true
+        },
+        "430256497": {
+          "tag_name": "v0.7.0",
+          "name": "0.7.0",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6322,
+          "assets": {
+            "metroid-prime2-port-0.7.0-android-arm64.apk": [
+              6323
+            ],
+            "metroid-prime2-port-0.7.0-linux-aarch64.debug": [
+              6324
+            ],
+            "metroid-prime2-port-0.7.0-linux-aarch64.tar.gz": [
+              6325
+            ],
+            "metroid-prime2-port-0.7.0-linux-x86_64.debug": [
+              6326
+            ],
+            "metroid-prime2-port-0.7.0-linux-x86_64.tar.gz": [
+              6327
+            ],
+            "metroid-prime2-port-0.7.0-macos-arm64.zip": [
+              6328
+            ],
+            "metroid-prime2-port-0.7.0-windows-arm64.zip": [
+              6329
+            ],
+            "metroid-prime2-port-0.7.0-windows-x86_64.zip": [
+              6330
+            ],
+            "MetroidPrime2-aarch64.AppImage": [
+              6331
+            ],
+            "MetroidPrime2-x86_64.AppImage": [
+              6332
+            ],
+            "MetroidPrime2Port.flatpak": [
+              6333
+            ],
+            "MetroidPrime2Port.ipa": [
+              6334
             ]
           },
           "complete": true
@@ -25694,9 +26123,9 @@
       "topic_id": 5541,
       "header_msg_id": 5542,
       "latest_bundle_msg_id": [
-        5880
+        6336
       ],
-      "last_pushed_at": "2026-10-31T11:18:12Z",
+      "last_pushed_at": "2026-10-31T21:08:01Z",
       "releases": {}
     },
     "JFC-Group/Housekeeping-PoC": {
@@ -25722,9 +26151,9 @@
       "topic_id": 5547,
       "header_msg_id": 5548,
       "latest_bundle_msg_id": [
-        5881
+        6357
       ],
-      "last_pushed_at": "2026-10-31T04:48:41Z",
+      "last_pushed_at": "2026-11-01T03:14:35Z",
       "releases": {
         "422152351": {
           "tag_name": "v0.1.0-beta.1",
@@ -25776,6 +26205,96 @@
             ],
             "SHA256SUMS.txt": [
               5712
+            ]
+          },
+          "complete": true
+        },
+        "430084878": {
+          "tag_name": "v0.1.0-beta.4",
+          "name": "Project Tandem Public Beta 4 — Cursor Stutter Fix",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6337,
+          "assets": {
+            "Project-Tandem-Public-Beta-4-Cumulative-Update.zip": [
+              6338
+            ],
+            "Project-Tandem-Windows-Public-Beta-4.zip": [
+              6339
+            ],
+            "SHA256SUMS.txt": [
+              6340
+            ]
+          },
+          "complete": true
+        },
+        "430152273": {
+          "tag_name": "v0.1.0-beta.5",
+          "name": "Project Tandem Public Beta 5 — Trigger Click Points",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6341,
+          "assets": {
+            "Project-Tandem-Public-Beta-5-Cumulative-Update.zip": [
+              6342
+            ],
+            "Project-Tandem-Windows-Public-Beta-5.zip": [
+              6343
+            ],
+            "SHA256SUMS.txt": [
+              6344
+            ]
+          },
+          "complete": true
+        },
+        "430279985": {
+          "tag_name": "v0.1.0-beta.6",
+          "name": "Project Tandem Public Beta 6 - Experimental Networking, LAN and 16 Players",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6345,
+          "assets": {
+            "Project-Tandem-Public-Beta-6-Cumulative-Update.zip": [
+              6346
+            ],
+            "Project-Tandem-Windows-Public-Beta-6.zip": [
+              6347
+            ],
+            "SHA256SUMS.txt": [
+              6348
+            ]
+          },
+          "complete": true
+        },
+        "430316123": {
+          "tag_name": "v0.1.0-beta.7",
+          "name": "Project Tandem Public Beta 7 - Adapter and Portable Launch Fixes",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6349,
+          "assets": {
+            "Project-Tandem-Public-Beta-7-Cumulative-Update.zip": [
+              6350
+            ],
+            "Project-Tandem-Windows-Public-Beta-7.zip": [
+              6351
+            ],
+            "SHA256SUMS.txt": [
+              6352
+            ]
+          },
+          "complete": true
+        },
+        "430334315": {
+          "tag_name": "v0.1.0-beta.8",
+          "name": "Project Tandem Public Beta 8 - Automatic Windows Launcher Updates",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6353,
+          "assets": {
+            "Project-Tandem-Public-Beta-8-Cumulative-Update.zip": [
+              6354
+            ],
+            "Project-Tandem-Windows-Public-Beta-8.zip": [
+              6355
+            ],
+            "SHA256SUMS.txt": [
+              6356
             ]
           },
           "complete": true
@@ -25873,9 +26392,9 @@
       "topic_id": 5568,
       "header_msg_id": 5569,
       "latest_bundle_msg_id": [
-        5882
+        6358
       ],
-      "last_pushed_at": "2026-10-31T13:05:06Z",
+      "last_pushed_at": "2026-11-01T00:19:32Z",
       "releases": {}
     },
     "mamcjr/TOTKDroid": {
@@ -25914,9 +26433,9 @@
       "topic_id": 5719,
       "header_msg_id": 5720,
       "latest_bundle_msg_id": [
-        5896
+        6429
       ],
-      "last_pushed_at": "2026-10-31T15:52:04Z",
+      "last_pushed_at": "2026-11-01T03:08:43Z",
       "releases": {
         "428695109": {
           "tag_name": "build-28",
@@ -26214,6 +26733,276 @@
             ]
           },
           "complete": true
+        },
+        "430085651": {
+          "tag_name": "build-77",
+          "name": "Eglantine nx2 build 77 (1051d39)",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6359,
+          "assets": {
+            "eglantine-1051d394d2063bcf69d69010659fba54c97a4cdf-linux-x86_64-pgo.AppImage": [
+              6360
+            ],
+            "eglantine-1051d394d2063bcf69d69010659fba54c97a4cdf-linux-x86_64.AppImage": [
+              6361
+            ],
+            "eglantine-windows-x86_64-1051d394d2063bcf69d69010659fba54c97a4cdf.zip": [
+              6362
+            ],
+            "eglantine-windows-x86_64-pgo-1051d394d2063bcf69d69010659fba54c97a4cdf.zip": [
+              6363
+            ]
+          },
+          "complete": true
+        },
+        "430115614": {
+          "tag_name": "build-79",
+          "name": "Eglantine nx2 build 79 (c08864b)",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6364,
+          "assets": {
+            "eglantine-c08864b3fed3b6c70418af0e1305395459e266c8-linux-x86_64-pgo.AppImage": [
+              6365
+            ],
+            "eglantine-c08864b3fed3b6c70418af0e1305395459e266c8-linux-x86_64.AppImage": [
+              6366
+            ],
+            "eglantine-windows-x86_64-c08864b3fed3b6c70418af0e1305395459e266c8.zip": [
+              6367
+            ],
+            "eglantine-windows-x86_64-pgo-c08864b3fed3b6c70418af0e1305395459e266c8.zip": [
+              6368
+            ]
+          },
+          "complete": true
+        },
+        "430164021": {
+          "tag_name": "build-83",
+          "name": "Eglantine nx2 build 83 (9dca3ab)",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6369,
+          "assets": {
+            "eglantine-9dca3ab2e436e786ab53e862e4d515f620a11669-linux-x86_64-pgo.AppImage": [
+              6370
+            ],
+            "eglantine-9dca3ab2e436e786ab53e862e4d515f620a11669-linux-x86_64.AppImage": [
+              6371
+            ],
+            "eglantine-windows-x86_64-9dca3ab2e436e786ab53e862e4d515f620a11669.zip": [
+              6372
+            ],
+            "eglantine-windows-x86_64-pgo-9dca3ab2e436e786ab53e862e4d515f620a11669.zip": [
+              6373
+            ]
+          },
+          "complete": true
+        },
+        "430188117": {
+          "tag_name": "build-85",
+          "name": "Eglantine nx2-aarch64 build 85 (609e5f7)",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6374,
+          "assets": {
+            "eglantine-609e5f71f4d2ae319f960a15ac8432a5ca29e5b3-linux-aarch64-pgo.AppImage": [
+              6375
+            ],
+            "eglantine-609e5f71f4d2ae319f960a15ac8432a5ca29e5b3-linux-aarch64.AppImage": [
+              6376
+            ],
+            "eglantine-609e5f71f4d2ae319f960a15ac8432a5ca29e5b3-linux-x86_64-pgo.AppImage": [
+              6377
+            ],
+            "eglantine-609e5f71f4d2ae319f960a15ac8432a5ca29e5b3-linux-x86_64.AppImage": [
+              6378
+            ],
+            "eglantine-windows-x86_64-609e5f71f4d2ae319f960a15ac8432a5ca29e5b3.zip": [
+              6379
+            ],
+            "eglantine-windows-x86_64-pgo-609e5f71f4d2ae319f960a15ac8432a5ca29e5b3.zip": [
+              6380
+            ]
+          },
+          "complete": true
+        },
+        "430194612": {
+          "tag_name": "build-86",
+          "name": "Eglantine nx2 build 86 (edc3b6b)",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6381,
+          "assets": {
+            "eglantine-edc3b6bf9475eff8f59cfcee10e36c1e04c35bd1-linux-x86_64-pgo.AppImage": [
+              6382
+            ],
+            "eglantine-edc3b6bf9475eff8f59cfcee10e36c1e04c35bd1-linux-x86_64.AppImage": [
+              6383
+            ],
+            "eglantine-windows-x86_64-edc3b6bf9475eff8f59cfcee10e36c1e04c35bd1.zip": [
+              6384
+            ],
+            "eglantine-windows-x86_64-pgo-edc3b6bf9475eff8f59cfcee10e36c1e04c35bd1.zip": [
+              6385
+            ]
+          },
+          "complete": true
+        },
+        "430208515": {
+          "tag_name": "build-87",
+          "name": "Eglantine nx2 build 87 (919368b)",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6386,
+          "assets": {
+            "eglantine-919368bec2bfbf8ee4162d6e386049cdf6651bd8-linux-x86_64-pgo.AppImage": [
+              6387
+            ],
+            "eglantine-919368bec2bfbf8ee4162d6e386049cdf6651bd8-linux-x86_64.AppImage": [
+              6388
+            ],
+            "eglantine-windows-x86_64-919368bec2bfbf8ee4162d6e386049cdf6651bd8.zip": [
+              6389
+            ],
+            "eglantine-windows-x86_64-pgo-919368bec2bfbf8ee4162d6e386049cdf6651bd8.zip": [
+              6390
+            ]
+          },
+          "complete": true
+        },
+        "430226896": {
+          "tag_name": "build-89",
+          "name": "Eglantine nx2 build 89 (e36d466)",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6391,
+          "assets": {
+            "eglantine-e36d46693b0cc1324861625ee90e90b4799811d4-linux-aarch64-pgo.AppImage": [
+              6392
+            ],
+            "eglantine-e36d46693b0cc1324861625ee90e90b4799811d4-linux-aarch64-pgo.tar.gz": [
+              6393
+            ],
+            "eglantine-e36d46693b0cc1324861625ee90e90b4799811d4-linux-aarch64.AppImage": [
+              6394
+            ],
+            "eglantine-e36d46693b0cc1324861625ee90e90b4799811d4-linux-aarch64.tar.gz": [
+              6395
+            ],
+            "eglantine-e36d46693b0cc1324861625ee90e90b4799811d4-linux-x86_64-pgo.AppImage": [
+              6396
+            ],
+            "eglantine-e36d46693b0cc1324861625ee90e90b4799811d4-linux-x86_64-pgo.tar.gz": [
+              6397
+            ],
+            "eglantine-e36d46693b0cc1324861625ee90e90b4799811d4-linux-x86_64.AppImage": [
+              6398
+            ],
+            "eglantine-e36d46693b0cc1324861625ee90e90b4799811d4-linux-x86_64.tar.gz": [
+              6399
+            ],
+            "eglantine-windows-x86_64-e36d46693b0cc1324861625ee90e90b4799811d4.zip": [
+              6400
+            ],
+            "eglantine-windows-x86_64-pgo-e36d46693b0cc1324861625ee90e90b4799811d4.zip": [
+              6401
+            ]
+          },
+          "complete": true
+        },
+        "430269769": {
+          "tag_name": "build-91",
+          "name": "Eglantine nx2 build 91 (feff94e)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6402,
+          "assets": {
+            "eglantine-feff94e8bb60bae13995b30dcb3abe717cfaaff3-linux-aarch64-pgo.AppImage": [
+              6403
+            ],
+            "eglantine-feff94e8bb60bae13995b30dcb3abe717cfaaff3-linux-aarch64-pgo.tar.gz": [
+              6404
+            ],
+            "eglantine-feff94e8bb60bae13995b30dcb3abe717cfaaff3-linux-aarch64.AppImage": [
+              6405
+            ],
+            "eglantine-feff94e8bb60bae13995b30dcb3abe717cfaaff3-linux-aarch64.tar.gz": [
+              6406
+            ],
+            "eglantine-feff94e8bb60bae13995b30dcb3abe717cfaaff3-linux-x86_64-pgo.AppImage": [
+              6407
+            ],
+            "eglantine-feff94e8bb60bae13995b30dcb3abe717cfaaff3-linux-x86_64-pgo.tar.gz": [
+              6408
+            ],
+            "eglantine-feff94e8bb60bae13995b30dcb3abe717cfaaff3-linux-x86_64.AppImage": [
+              6409
+            ],
+            "eglantine-feff94e8bb60bae13995b30dcb3abe717cfaaff3-linux-x86_64.tar.gz": [
+              6410
+            ],
+            "eglantine-windows-x86_64-feff94e8bb60bae13995b30dcb3abe717cfaaff3.zip": [
+              6411
+            ],
+            "eglantine-windows-x86_64-pgo-feff94e8bb60bae13995b30dcb3abe717cfaaff3.zip": [
+              6412
+            ]
+          },
+          "complete": true
+        },
+        "430301285": {
+          "tag_name": "build-92",
+          "name": "Eglantine nx2 build 92 (3790898)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6413,
+          "assets": {
+            "eglantine-37908985af9d080bc4795c16c8e49c7ef1d2a98b-linux-aarch64-pgo.AppImage": [
+              6414
+            ],
+            "eglantine-37908985af9d080bc4795c16c8e49c7ef1d2a98b-linux-aarch64-pgo.tar.gz": [
+              6415
+            ],
+            "eglantine-37908985af9d080bc4795c16c8e49c7ef1d2a98b-linux-aarch64.AppImage": [
+              6416
+            ],
+            "eglantine-37908985af9d080bc4795c16c8e49c7ef1d2a98b-linux-aarch64.tar.gz": [
+              6417
+            ],
+            "eglantine-37908985af9d080bc4795c16c8e49c7ef1d2a98b-linux-x86_64-pgo.AppImage": [
+              6418
+            ],
+            "eglantine-37908985af9d080bc4795c16c8e49c7ef1d2a98b-linux-x86_64-pgo.tar.gz": [
+              6419
+            ],
+            "eglantine-37908985af9d080bc4795c16c8e49c7ef1d2a98b-linux-x86_64.AppImage": [
+              6420
+            ],
+            "eglantine-37908985af9d080bc4795c16c8e49c7ef1d2a98b-linux-x86_64.tar.gz": [
+              6421
+            ],
+            "eglantine-windows-x86_64-37908985af9d080bc4795c16c8e49c7ef1d2a98b.zip": [
+              6422
+            ],
+            "eglantine-windows-x86_64-pgo-37908985af9d080bc4795c16c8e49c7ef1d2a98b.zip": [
+              6423
+            ]
+          },
+          "complete": true
+        },
+        "430329361": {
+          "tag_name": "build-94",
+          "name": "AMD Experimental Build 77 (3af11ac)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6424,
+          "assets": {
+            "eglantine-3af11ac401ad3061c183281d8c98c16c1d6da456-linux-x86_64-pgo.AppImage": [
+              6425
+            ],
+            "eglantine-3af11ac401ad3061c183281d8c98c16c1d6da456-linux-x86_64.AppImage": [
+              6426
+            ],
+            "eglantine-windows-x86_64-3af11ac401ad3061c183281d8c98c16c1d6da456.zip": [
+              6427
+            ],
+            "eglantine-windows-x86_64-pgo-3af11ac401ad3061c183281d8c98c16c1d6da456.zip": [
+              6428
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -26267,9 +27056,9 @@
       "topic_id": 5900,
       "header_msg_id": 5901,
       "latest_bundle_msg_id": [
-        5909
+        6430
       ],
-      "last_pushed_at": "2026-10-31T01:27:49Z",
+      "last_pushed_at": "2026-11-01T03:50:20Z",
       "releases": {
         "429647109": {
           "tag_name": "launcher-v0.1.0",
@@ -26348,9 +27137,9 @@
       "topic_id": 5919,
       "header_msg_id": 5920,
       "latest_bundle_msg_id": [
-        5921
+        6431
       ],
-      "last_pushed_at": "2026-10-31T07:16:49Z",
+      "last_pushed_at": "2026-11-01T01:40:58Z",
       "releases": {}
     },
     "Vnnc1/gow-native-pc": {
@@ -26362,9 +27151,9 @@
       "topic_id": 5922,
       "header_msg_id": 5923,
       "latest_bundle_msg_id": [
-        5933
+        6435
       ],
-      "last_pushed_at": "2026-10-31T08:23:40Z",
+      "last_pushed_at": "2026-11-01T03:12:42Z",
       "releases": {
         "423219739": {
           "tag_name": "v1.0.0",
@@ -26413,6 +27202,21 @@
             ],
             "gow-native-pc-windows.zip": [
               5932
+            ]
+          },
+          "complete": true
+        },
+        "430320008": {
+          "tag_name": "v0.4.0",
+          "name": "v0.4.0 — Shipped PGO profile, Fast VU mode, hold instead of mashing and clear install/GPU errors",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6432,
+          "assets": {
+            "gow-native-pc-setup.exe": [
+              6433
+            ],
+            "gow-native-pc-windows.zip": [
+              6434
             ]
           },
           "complete": true
@@ -26548,9 +27352,9 @@
       "topic_id": 5958,
       "header_msg_id": 5959,
       "latest_bundle_msg_id": [
-        5975
+        6439
       ],
-      "last_pushed_at": "2026-10-31T15:04:54Z",
+      "last_pushed_at": "2026-11-01T00:05:37Z",
       "releases": {
         "428434536": {
           "tag_name": "v0.1.0",
@@ -26626,6 +27430,21 @@
             ]
           },
           "complete": true
+        },
+        "430262693": {
+          "tag_name": "v0.2.4",
+          "name": "Mario Party 2: Recompiled v0.2.4",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6436,
+          "assets": {
+            "MarioParty2Recompiled-v0.2.4-linux-x64.tar.gz": [
+              6437
+            ],
+            "MarioParty2Recompiled-v0.2.4-windows-x64.zip": [
+              6438
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -26638,9 +27457,9 @@
       "topic_id": 5976,
       "header_msg_id": 5977,
       "latest_bundle_msg_id": [
-        5993
+        6443
       ],
-      "last_pushed_at": "2026-10-31T15:11:42Z",
+      "last_pushed_at": "2026-11-01T01:30:33Z",
       "releases": {
         "428434632": {
           "tag_name": "v0.1.0",
@@ -26716,6 +27535,21 @@
             ]
           },
           "complete": true
+        },
+        "430296306": {
+          "tag_name": "v0.2.4",
+          "name": "Mario Party 3: Recompiled v0.2.4",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6440,
+          "assets": {
+            "MarioParty3Recompiled-v0.2.4-linux-x64.tar.gz": [
+              6441
+            ],
+            "MarioParty3Recompiled-v0.2.4-windows-x64.zip": [
+              6442
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -26758,9 +27592,9 @@
       "topic_id": 6000,
       "header_msg_id": 6001,
       "latest_bundle_msg_id": [
-        6023
+        6447
       ],
-      "last_pushed_at": "2026-10-31T04:46:46Z",
+      "last_pushed_at": "2026-10-31T23:57:09Z",
       "releases": {
         "425043097": {
           "tag_name": "0.1.0",
@@ -26863,6 +27697,21 @@
             ],
             "COGBox-0.3.0.zip.sha256": [
               6022
+            ]
+          },
+          "complete": true
+        },
+        "430258580": {
+          "tag_name": "0.3.5",
+          "name": "COGBox 0.3.5 (Pre-Release)",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6444,
+          "assets": {
+            "COGBox-0.3.5.zip": [
+              6445
+            ],
+            "COGBox-0.3.5.zip.sha256": [
+              6446
             ]
           },
           "complete": true
@@ -27171,9 +28020,9 @@
       "topic_id": 6081,
       "header_msg_id": 6082,
       "latest_bundle_msg_id": [
-        6107
+        6450
       ],
-      "last_pushed_at": "2026-10-30T23:09:51Z",
+      "last_pushed_at": "2026-10-31T22:23:05Z",
       "releases": {
         "424780172": {
           "tag_name": "v1.5",
@@ -27319,6 +28168,18 @@
           "assets": {
             "NX-Play-1.7.12.dmg": [
               6106
+            ]
+          },
+          "complete": true
+        },
+        "430221445": {
+          "tag_name": "v1.7.13",
+          "name": "NX Play 1.7.13",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6448,
+          "assets": {
+            "NX-Play-1.7.13.dmg": [
+              6449
             ]
           },
           "complete": true
@@ -27715,6 +28576,332 @@
           "assets": {
             "LumaNX-0.2.19-arm64.dmg": [
               6200
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "elripalda/RecompLauncher": {
+      "name": "RecompLauncher",
+      "owner": "elripalda",
+      "owner_url": "https://github.com/elripalda",
+      "repo_url": "https://github.com/elripalda/RecompLauncher",
+      "description": "PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.",
+      "topic_id": 6451,
+      "header_msg_id": 6452,
+      "latest_bundle_msg_id": [
+        6503
+      ],
+      "last_pushed_at": "2026-11-01T03:15:30Z",
+      "releases": {
+        "430024081": {
+          "tag_name": "v0.9.0-beta.1",
+          "name": "RecompLauncher 0.9 Beta 1",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6453,
+          "assets": {
+            "recomplauncher-source-0.9-beta1.zip": [
+              6454
+            ],
+            "RecompLauncher_0.9.0-beta.1_amd64.AppImage": [
+              6455
+            ],
+            "RecompLauncher_0.9.0-beta.1_amd64.deb": [
+              6456
+            ],
+            "RecompLauncher_0.9.0-beta.1_x64-setup.exe": [
+              6457
+            ]
+          },
+          "complete": true
+        },
+        "428692386": {
+          "tag_name": "v0.75.0-beta.10",
+          "name": "RecompLauncher 0.75 Beta 10",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 6458,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.10_x64-setup.exe": [
+              6459
+            ]
+          },
+          "complete": true
+        },
+        "428693036": {
+          "tag_name": "v0.75.0-beta.11",
+          "name": "RecompLauncher 0.75 Beta 11",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 6460,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.11_x64-setup.exe": [
+              6461
+            ]
+          },
+          "complete": true
+        },
+        "428693519": {
+          "tag_name": "v0.75.0-beta.12",
+          "name": "RecompLauncher 0.75 Beta 12",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 6462,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.12_x64-setup.exe": [
+              6463
+            ]
+          },
+          "complete": true
+        },
+        "428693945": {
+          "tag_name": "v0.75.0-beta.13",
+          "name": "RecompLauncher 0.75 Beta 13",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 6464,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.13_x64-setup.exe": [
+              6465
+            ]
+          },
+          "complete": true
+        },
+        "428694386": {
+          "tag_name": "v0.75.0-beta.14",
+          "name": "RecompLauncher 0.75 Beta 14",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 6466,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.14_x64-setup.exe": [
+              6467
+            ]
+          },
+          "complete": true
+        },
+        "429769498": {
+          "tag_name": "v0.75.0-beta.15",
+          "name": "RecompLauncher 0.75 Beta 15",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6468,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.15_x64-setup.exe": [
+              6469
+            ]
+          },
+          "complete": true
+        },
+        "429769836": {
+          "tag_name": "v0.75.0-beta.16",
+          "name": "RecompLauncher 0.75 Beta 16",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6470,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.16_x64-setup.exe": [
+              6471
+            ]
+          },
+          "complete": true
+        },
+        "429770135": {
+          "tag_name": "v0.75.0-beta.17",
+          "name": "RecompLauncher 0.75 Beta 17",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6472,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.17_x64-setup.exe": [
+              6473
+            ]
+          },
+          "complete": true
+        },
+        "429770470": {
+          "tag_name": "v0.75.0-beta.18",
+          "name": "RecompLauncher 0.75 Beta 18",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6474,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.18_x64-setup.exe": [
+              6475
+            ]
+          },
+          "complete": true
+        },
+        "429770728": {
+          "tag_name": "v0.75.0-beta.19",
+          "name": "RecompLauncher 0.75 Beta 19",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6476,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.19_x64-setup.exe": [
+              6477
+            ]
+          },
+          "complete": true
+        },
+        "429772572": {
+          "tag_name": "v0.75.0-beta.20",
+          "name": "RecompLauncher 0.75 Beta 20",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6478,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.20_x64-setup.exe": [
+              6479
+            ]
+          },
+          "complete": true
+        },
+        "429802814": {
+          "tag_name": "v0.75.0-beta.21",
+          "name": "RecompLauncher 0.75 Beta 21",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6480,
+          "assets": {
+            "RecompLauncher_0.75.0-beta.21_x64-setup.exe": [
+              6481
+            ]
+          },
+          "complete": true
+        },
+        "429831817": {
+          "tag_name": "v0.75.0-beta.22",
+          "name": "RecompLauncher 0.75 Beta 22",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6482,
+          "assets": {
+            "recomplauncher-source-beta22.zip": [
+              6483
+            ],
+            "RecompLauncher_0.75.0-beta.22_x64-setup.exe": [
+              6484
+            ]
+          },
+          "complete": true
+        },
+        "429875359": {
+          "tag_name": "v0.75.0-beta.23",
+          "name": "RecompLauncher 0.75 Beta 23",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6485,
+          "assets": {
+            "recomplauncher-source-beta23.zip": [
+              6486
+            ],
+            "RecompLauncher_0.75.0-beta.23_x64-setup.exe": [
+              6487
+            ]
+          },
+          "complete": true
+        },
+        "430040223": {
+          "tag_name": "v0.90.0-beta.1",
+          "name": "RecompLauncher 0.90 Beta 1",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6488,
+          "assets": {
+            "recomplauncher-source-0.90-beta1.zip": [
+              6489
+            ],
+            "RecompLauncher_0.90.0-beta.1_amd64.AppImage": [
+              6490
+            ],
+            "RecompLauncher_0.90.0-beta.1_amd64.deb": [
+              6491
+            ],
+            "RecompLauncher_0.90.0-beta.1_x64-setup.exe": [
+              6492
+            ]
+          },
+          "complete": true
+        },
+        "430121807": {
+          "tag_name": "v0.90.0-beta.2",
+          "name": "RecompLauncher 0.90 Beta 2",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6493,
+          "assets": {
+            "recomplauncher-source-0.90-beta2.zip": [
+              6494
+            ],
+            "RecompLauncher_0.90.0-beta.2_amd64.AppImage": [
+              6495
+            ],
+            "RecompLauncher_0.90.0-beta.2_amd64.deb": [
+              6496
+            ],
+            "RecompLauncher_0.90.0-beta.2_x64-setup.exe": [
+              6497
+            ]
+          },
+          "complete": true
+        },
+        "430333821": {
+          "tag_name": "v0.90.0-beta.3",
+          "name": "RecompLauncher 0.90 Beta 3",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6498,
+          "assets": {
+            "recomplauncher-source-0.90-beta3.zip": [
+              6499
+            ],
+            "RecompLauncher_0.90.0-beta.3_amd64.AppImage": [
+              6500
+            ],
+            "RecompLauncher_0.90.0-beta.3_amd64.deb": [
+              6501
+            ],
+            "RecompLauncher_0.90.0-beta.3_x64-setup.exe": [
+              6502
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "Glitxhhh/XenobladeChroniclesRecompiled": {
+      "name": "XenobladeChroniclesRecompiled",
+      "owner": "Glitxhhh",
+      "owner_url": "https://github.com/Glitxhhh",
+      "repo_url": "https://github.com/Glitxhhh/XenobladeChroniclesRecompiled",
+      "description": "Recompilations & PC Ports of the Xenoblade Chronicles Series",
+      "topic_id": 6504,
+      "header_msg_id": 6505,
+      "latest_bundle_msg_id": [
+        6506
+      ],
+      "last_pushed_at": "2026-11-01T00:54:03Z",
+      "releases": {}
+    },
+    "avanger10/Minecraft-4J": {
+      "name": "Minecraft-4J",
+      "owner": "avanger10",
+      "owner_url": "https://github.com/avanger10",
+      "repo_url": "https://github.com/avanger10/Minecraft-4J",
+      "description": "WIIU",
+      "topic_id": 6507,
+      "header_msg_id": 6508,
+      "latest_bundle_msg_id": [
+        6513
+      ],
+      "last_pushed_at": "2026-10-31T19:22:03Z",
+      "releases": {
+        "430039104": {
+          "tag_name": "Release",
+          "name": "LCE",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6509,
+          "assets": {
+            "LCEWIIU.apk": [
+              6510
+            ]
+          },
+          "complete": true
+        },
+        "430132928": {
+          "tag_name": "NewVersion",
+          "name": "LCE 1.0.2",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6511,
+          "assets": {
+            "LCEWIIU.1.0.2.apk": [
+              6512
             ]
           },
           "complete": true
