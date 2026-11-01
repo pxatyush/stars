@@ -600,9 +600,9 @@
       "topic_id": 160,
       "header_msg_id": 161,
       "latest_bundle_msg_id": [
-        5572
+        6522
       ],
-      "last_pushed_at": "2026-10-30T18:28:33Z",
+      "last_pushed_at": "2026-11-01T16:33:10Z",
       "releases": {
         "418079030": {
           "tag_name": "v5.2.1",
@@ -681,6 +681,33 @@
             ],
             "SHA256SUMS.txt": [
               182
+            ]
+          },
+          "complete": true
+        },
+        "430457731": {
+          "tag_name": "v5.3.0",
+          "name": "Mornye v5.3.0",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6515,
+          "assets": {
+            "Mornye-v5.3.0-arm32.apk": [
+              6516
+            ],
+            "Mornye-v5.3.0-arm32.apk.idsig": [
+              6517
+            ],
+            "Mornye-v5.3.0-arm64.apk": [
+              6518
+            ],
+            "Mornye-v5.3.0-arm64.apk.idsig": [
+              6519
+            ],
+            "Mornye-v5.3.0-ios-unsigned.ipa": [
+              6520
+            ],
+            "SHA256SUMS.txt": [
+              6521
             ]
           },
           "complete": true
@@ -1807,9 +1834,9 @@
       "topic_id": 438,
       "header_msg_id": 439,
       "latest_bundle_msg_id": [
-        5573
+        6523
       ],
-      "last_pushed_at": "2026-10-31T03:34:04Z",
+      "last_pushed_at": "2026-11-01T17:25:49Z",
       "releases": {
         "265375024": {
           "tag_name": "v2.0.3",
@@ -2380,9 +2407,9 @@
       "topic_id": 537,
       "header_msg_id": 538,
       "latest_bundle_msg_id": [
-        6204
+        6524
       ],
-      "last_pushed_at": "2026-10-31T16:50:06Z",
+      "last_pushed_at": "2026-11-01T06:42:32Z",
       "releases": {
         "341558150": {
           "tag_name": "1",
@@ -2455,9 +2482,9 @@
       "topic_id": 550,
       "header_msg_id": 551,
       "latest_bundle_msg_id": [
-        6205
+        6527
       ],
-      "last_pushed_at": "2026-11-01T00:16:55Z",
+      "last_pushed_at": "2026-11-01T13:26:32Z",
       "releases": {
         "139154184": {
           "tag_name": "v1.0.0",
@@ -8230,6 +8257,18 @@
           "assets": {
             "patches-3.11.0-dev.3.mpp": [
               1650
+            ]
+          },
+          "complete": true
+        },
+        "430602084": {
+          "tag_name": "v3.11.0-dev.4",
+          "name": "v3.11.0-dev.4",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6525,
+          "assets": {
+            "patches-3.11.0-dev.4.mpp": [
+              6526
             ]
           },
           "complete": true
@@ -14240,9 +14279,9 @@
       "topic_id": 3165,
       "header_msg_id": 3166,
       "latest_bundle_msg_id": [
-        6206
+        6528
       ],
-      "last_pushed_at": "2026-11-01T03:42:09Z",
+      "last_pushed_at": "2026-11-01T17:33:10Z",
       "releases": {}
     },
     "snes19xx/surface-dots": {
@@ -14556,9 +14595,9 @@
       "topic_id": 3222,
       "header_msg_id": 3223,
       "latest_bundle_msg_id": [
-        6207
+        6529
       ],
-      "last_pushed_at": "2026-11-01T03:48:28Z",
+      "last_pushed_at": "2026-11-01T17:31:01Z",
       "releases": {
         "352658215": {
           "tag_name": "rea-0.2.0",
@@ -14883,9 +14922,9 @@
       "topic_id": 3264,
       "header_msg_id": 3265,
       "latest_bundle_msg_id": [
-        5781
+        6530
       ],
-      "last_pushed_at": "2026-10-31T09:57:13Z",
+      "last_pushed_at": "2026-11-01T10:49:31Z",
       "releases": {}
     },
     "keepvaibin/nebula": {
@@ -14897,9 +14936,9 @@
       "topic_id": 3267,
       "header_msg_id": 3268,
       "latest_bundle_msg_id": [
-        6208
+        6531
       ],
-      "last_pushed_at": "2026-11-01T02:55:52Z",
+      "last_pushed_at": "2026-11-01T17:12:16Z",
       "releases": {
         "411874563": {
           "tag_name": "v1.0.0",
@@ -14957,9 +14996,9 @@
       "topic_id": 3279,
       "header_msg_id": 3280,
       "latest_bundle_msg_id": [
-        6217
+        6537
       ],
-      "last_pushed_at": "2026-11-01T03:16:54Z",
+      "last_pushed_at": "2026-11-01T09:08:17Z",
       "releases": {
         "422405806": {
           "tag_name": "beta_5",
@@ -15293,6 +15332,27 @@
             ]
           },
           "complete": true
+        },
+        "430441225": {
+          "tag_name": "test-462-arc-5",
+          "name": "Test build: test-462-arc-5",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6532,
+          "assets": {
+            "LAS.Recomp-test-462-arc-5-linux-aarch64.AppImage": [
+              6533
+            ],
+            "LAS.Recomp-test-462-arc-5-linux-x86_64.AppImage": [
+              6534
+            ],
+            "LAS.Recomp-test-462-arc-5-macOS.dmg": [
+              6535
+            ],
+            "LAS.Recomp-test-462-arc-5-windows.zip": [
+              6536
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -15544,9 +15604,9 @@
       "topic_id": 3374,
       "header_msg_id": 3375,
       "latest_bundle_msg_id": [
-        6220
+        6540
       ],
-      "last_pushed_at": "2026-10-31T23:08:45Z",
+      "last_pushed_at": "2026-11-01T12:41:19Z",
       "releases": {
         "414873814": {
           "tag_name": "v0.1.0",
@@ -15847,6 +15907,18 @@
             ]
           },
           "complete": true
+        },
+        "430577405": {
+          "tag_name": "v0.5.10",
+          "name": "LAS Recomp for Android 0.5.10 (preview): a Mali crash fixed / um travamento na Mali corrigido",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6538,
+          "assets": {
+            "LASRecomp-Android-0.5.10.apk": [
+              6539
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -15906,9 +15978,9 @@
       "topic_id": 3433,
       "header_msg_id": 3434,
       "latest_bundle_msg_id": [
-        3478
+        6543
       ],
-      "last_pushed_at": "2026-10-25T13:50:04Z",
+      "last_pushed_at": "2026-11-01T14:22:14Z",
       "releases": {
         "414477231": {
           "tag_name": "v0.1.0",
@@ -16155,6 +16227,18 @@
           "assets": {
             "LetsGoRecomp-0.7.5-windows.zip": [
               3477
+            ]
+          },
+          "complete": true
+        },
+        "430633648": {
+          "tag_name": "v0.7.6",
+          "name": "v0.7.6: the long-session freeze, blank text, a battle hang",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6541,
+          "assets": {
+            "LetsGoRecomp-0.7.6-windows.zip": [
+              6542
             ]
           },
           "complete": true
@@ -17463,9 +17547,9 @@
       "topic_id": 3748,
       "header_msg_id": 3749,
       "latest_bundle_msg_id": [
-        6229
+        6544
       ],
-      "last_pushed_at": "2026-11-01T03:53:57Z",
+      "last_pushed_at": "2026-11-01T04:14:41Z",
       "releases": {
         "399199022": {
           "tag_name": "v0.1.0",
@@ -18066,9 +18150,9 @@
       "topic_id": 3890,
       "header_msg_id": 3891,
       "latest_bundle_msg_id": [
-        6231
+        6545
       ],
-      "last_pushed_at": "2026-10-31T18:37:10Z",
+      "last_pushed_at": "2026-11-01T16:22:43Z",
       "releases": {
         "423412726": {
           "tag_name": "v2026.10.25",
@@ -18089,9 +18173,9 @@
       "topic_id": 3894,
       "header_msg_id": 3895,
       "latest_bundle_msg_id": [
-        6243
+        6557
       ],
-      "last_pushed_at": "2026-11-01T02:58:25Z",
+      "last_pushed_at": "2026-11-01T17:03:38Z",
       "releases": {
         "404130988": {
           "tag_name": "v0.1.0",
@@ -18959,6 +19043,45 @@
             ]
           },
           "complete": true
+        },
+        "430726675": {
+          "tag_name": "devel-build",
+          "name": "Development build (devel @ 3fea7b6, 2026-11-01)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6546,
+          "assets": {
+            "SHA256SUMS.txt": [
+              6547
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-android-arm64.apk": [
+              6548
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-android-x86_64.apk": [
+              6549
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-linux-aarch64.AppImage": [
+              6550
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-linux-aarch64.zip": [
+              6551
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-linux-x86_64.AppImage": [
+              6552
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-linux-x86_64.zip": [
+              6553
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-macos-arm64.zip": [
+              6554
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-windows-arm64.zip": [
+              6555
+            ],
+            "WindWakerHD-v0.5.0-devel.3fea7b62-windows-x86_64.zip": [
+              6556
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -18985,9 +19108,9 @@
       "topic_id": 4057,
       "header_msg_id": 4058,
       "latest_bundle_msg_id": [
-        6249
+        6562
       ],
-      "last_pushed_at": "2026-11-01T00:26:14Z",
+      "last_pushed_at": "2026-11-01T15:35:41Z",
       "releases": {
         "415611760": {
           "tag_name": "v0.1.0-alpha.1",
@@ -19060,6 +19183,24 @@
             ]
           },
           "complete": true
+        },
+        "430402212": {
+          "tag_name": "v0.4.1-alpha.4",
+          "name": "Savage Wind Alpha 4.1 (0.4.1-alpha.4)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6558,
+          "assets": {
+            "SavageWind-0.4.1-alpha.4-windows.zip": [
+              6559
+            ],
+            "Savage_Wind-0.4.1-alpha.4-aarch64.AppImage": [
+              6560
+            ],
+            "Savage_Wind-0.4.1-alpha.4-x86_64.AppImage": [
+              6561
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -19072,9 +19213,9 @@
       "topic_id": 4070,
       "header_msg_id": 4071,
       "latest_bundle_msg_id": [
-        6254
+        6565
       ],
-      "last_pushed_at": "2026-10-31T22:35:17Z",
+      "last_pushed_at": "2026-11-01T17:19:17Z",
       "releases": {
         "418720681": {
           "tag_name": "0.40.0-alpha",
@@ -19387,6 +19528,18 @@
             ]
           },
           "complete": true
+        },
+        "430639989": {
+          "tag_name": "0.96.7-beta",
+          "name": "CubeEvil4 v0.96.7-beta",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6563,
+          "assets": {
+            "CubeEvil4-0.96.7-beta.apk": [
+              6564
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -19612,9 +19765,9 @@
       "topic_id": 4141,
       "header_msg_id": 4142,
       "latest_bundle_msg_id": [
-        6262
+        6570
       ],
-      "last_pushed_at": "2026-11-01T02:26:52Z",
+      "last_pushed_at": "2026-11-01T17:17:01Z",
       "releases": {
         "409242998": {
           "tag_name": "windows-v2.0",
@@ -20194,6 +20347,24 @@
             ]
           },
           "complete": true
+        },
+        "430678506": {
+          "tag_name": "windows-v3.0.0-issue1165-test1",
+          "name": "Test build issue1165-test1 on 3.0.0: no audio",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6566,
+          "assets": {
+            "release-windows.json": [
+              6567
+            ],
+            "spartanport-windows.zip": [
+              6568
+            ],
+            "spartanport-windows.zip.sha256": [
+              6569
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -20206,9 +20377,9 @@
       "topic_id": 4247,
       "header_msg_id": 4248,
       "latest_bundle_msg_id": [
-        6263
+        6571
       ],
-      "last_pushed_at": "2026-11-01T03:58:12Z",
+      "last_pushed_at": "2026-11-01T16:25:20Z",
       "releases": {}
     },
     "scarletnx/ScarletNX": {
@@ -20220,9 +20391,9 @@
       "topic_id": 4250,
       "header_msg_id": 4251,
       "latest_bundle_msg_id": [
-        6264
+        6572
       ],
-      "last_pushed_at": "2026-11-01T02:46:09Z",
+      "last_pushed_at": "2026-11-01T17:14:54Z",
       "releases": {
         "415454328": {
           "tag_name": "nightly",
@@ -21130,9 +21301,9 @@
       "topic_id": 4409,
       "header_msg_id": 4410,
       "latest_bundle_msg_id": [
-        6293
+        6580
       ],
-      "last_pushed_at": "2026-11-01T03:55:08Z",
+      "last_pushed_at": "2026-11-01T17:33:43Z",
       "releases": {
         "419862397": {
           "tag_name": "v0.1.0",
@@ -21601,6 +21772,33 @@
             ]
           },
           "complete": true
+        },
+        "430725061": {
+          "tag_name": "v1.0.0",
+          "name": "v1.0.0: The iPhone and iPad app / iPhone 和 iPad 版发布",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6573,
+          "assets": {
+            "latest.json": [
+              6574
+            ],
+            "latest.json.sig": [
+              6575
+            ],
+            "NS-Port-Builder-macOS-arm64.zip": [
+              6576
+            ],
+            "NX2Apple-engine.zip": [
+              6577
+            ],
+            "NX2Apple-macOS-arm64.zip": [
+              6578
+            ],
+            "nxnative-macOS-arm64.zip": [
+              6579
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -21627,9 +21825,9 @@
       "topic_id": 4461,
       "header_msg_id": 4462,
       "latest_bundle_msg_id": [
-        6294
+        6581
       ],
-      "last_pushed_at": "2026-10-31T18:12:17Z",
+      "last_pushed_at": "2026-11-01T15:44:04Z",
       "releases": {
         "423368718": {
           "tag_name": "v0.1.0-beta",
@@ -21654,9 +21852,9 @@
       "topic_id": 4466,
       "header_msg_id": 4467,
       "latest_bundle_msg_id": [
-        6299
+        6586
       ],
-      "last_pushed_at": "2026-10-31T21:53:54Z",
+      "last_pushed_at": "2026-11-01T15:14:53Z",
       "releases": {
         "422431048": {
           "tag_name": "v0.1.0-beta",
@@ -21909,6 +22107,30 @@
           "assets": {
             "BOTWRecompAndroid-0.2.8-beta.apk": [
               6298
+            ]
+          },
+          "complete": true
+        },
+        "430567850": {
+          "tag_name": "v0.2.9-beta",
+          "name": "BOTWRecompAndroid 0.2.9 (beta 22): metade da memória de GPU nas Mali",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6582,
+          "assets": {
+            "BOTWRecompAndroid-0.2.9-beta.apk": [
+              6583
+            ]
+          },
+          "complete": true
+        },
+        "430663379": {
+          "tag_name": "v0.2.10-beta",
+          "name": "BOTWRecompAndroid 0.2.10 (beta 23): fim das cortinas no terreno",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6584,
+          "assets": {
+            "BOTWRecompAndroid-0.2.10-beta.apk": [
+              6585
             ]
           },
           "complete": true
@@ -23245,9 +23467,9 @@
       "topic_id": 4687,
       "header_msg_id": 4688,
       "latest_bundle_msg_id": [
-        5509
+        6587
       ],
-      "last_pushed_at": "2026-10-30T10:56:07Z",
+      "last_pushed_at": "2026-11-01T07:12:42Z",
       "releases": {
         "410256835": {
           "tag_name": "v0.2.0-mobile",
@@ -23500,9 +23722,9 @@
       "topic_id": 4773,
       "header_msg_id": 4774,
       "latest_bundle_msg_id": [
-        5662
+        6590
       ],
-      "last_pushed_at": "2026-10-31T03:15:49Z",
+      "last_pushed_at": "2026-11-01T15:39:31Z",
       "releases": {
         "426802511": {
           "tag_name": "v0.1",
@@ -23551,6 +23773,18 @@
           "assets": {
             "MKart8Port-v0.3.1.apk": [
               5661
+            ]
+          },
+          "complete": true
+        },
+        "430676987": {
+          "tag_name": "v0.3.2",
+          "name": "v0.3.2",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6588,
+          "assets": {
+            "MKart8Port-v0.3.2.apk": [
+              6589
             ]
           },
           "complete": true
@@ -23767,9 +24001,9 @@
       "topic_id": 4904,
       "header_msg_id": 4905,
       "latest_bundle_msg_id": [
-        6311
+        6591
       ],
-      "last_pushed_at": "2026-10-31T21:31:23Z",
+      "last_pushed_at": "2026-11-01T16:47:03Z",
       "releases": {}
     },
     "GioPixelGH/Crash-Twinsanity-Windows": {
@@ -24207,9 +24441,9 @@
       "topic_id": 5045,
       "header_msg_id": 5046,
       "latest_bundle_msg_id": [
-        6315
+        6595
       ],
-      "last_pushed_at": "2026-10-31T18:30:12Z",
+      "last_pushed_at": "2026-11-01T16:51:33Z",
       "releases": {
         "428016406": {
           "tag_name": "v0.1.1",
@@ -24273,6 +24507,21 @@
             ],
             "TotK-Setup-x86_64.AppImage": [
               6314
+            ]
+          },
+          "complete": true
+        },
+        "430694551": {
+          "tag_name": "v0.3.1",
+          "name": "v0.3.1",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6592,
+          "assets": {
+            "TotK-Setup-0.3.1-windows.zip": [
+              6593
+            ],
+            "TotK-Setup-0.3.1-x86_64.AppImage": [
+              6594
             ]
           },
           "complete": true
@@ -25269,9 +25518,9 @@
       "topic_id": 5241,
       "header_msg_id": 5242,
       "latest_bundle_msg_id": [
-        6335
+        6599
       ],
-      "last_pushed_at": "2026-10-31T23:47:25Z",
+      "last_pushed_at": "2026-11-01T14:08:51Z",
       "releases": {
         "427207188": {
           "tag_name": "v0.6.0",
@@ -26137,9 +26386,9 @@
       "topic_id": 5544,
       "header_msg_id": 5545,
       "latest_bundle_msg_id": [
-        5546
+        6600
       ],
-      "last_pushed_at": "2026-10-27T08:03:49Z",
+      "last_pushed_at": "2026-11-01T07:16:33Z",
       "releases": {}
     },
     "badcompany94-rcmp/project-tandem": {
@@ -26151,9 +26400,9 @@
       "topic_id": 5547,
       "header_msg_id": 5548,
       "latest_bundle_msg_id": [
-        6357
+        6609
       ],
-      "last_pushed_at": "2026-11-01T03:14:35Z",
+      "last_pushed_at": "2026-11-01T17:28:30Z",
       "releases": {
         "422152351": {
           "tag_name": "v0.1.0-beta.1",
@@ -26298,6 +26547,42 @@
             ]
           },
           "complete": true
+        },
+        "430739584": {
+          "tag_name": "v0.1.0-beta.10",
+          "name": "Project Tandem Public Beta 10 - Visible Update Progress",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6601,
+          "assets": {
+            "Project-Tandem-Public-Beta-10-Cumulative-Update.zip": [
+              6602
+            ],
+            "Project-Tandem-Windows-Public-Beta-10.zip": [
+              6603
+            ],
+            "SHA256SUMS.txt": [
+              6604
+            ]
+          },
+          "complete": true
+        },
+        "430717450": {
+          "tag_name": "v0.1.0-beta.9",
+          "name": "Project Tandem Public Beta 9 - Linux Portability and Taskbar Icon",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6605,
+          "assets": {
+            "Project-Tandem-Public-Beta-9-Cumulative-Update.zip": [
+              6606
+            ],
+            "Project-Tandem-Windows-Public-Beta-9.zip": [
+              6607
+            ],
+            "SHA256SUMS.txt": [
+              6608
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -26406,9 +26691,9 @@
       "topic_id": 5685,
       "header_msg_id": 5686,
       "latest_bundle_msg_id": [
-        5689
+        6598
       ],
-      "last_pushed_at": "2026-10-29T13:03:14Z",
+      "last_pushed_at": "2026-11-01T12:08:02Z",
       "releases": {
         "427835411": {
           "tag_name": "v0.0.1-alpha",
@@ -26418,6 +26703,18 @@
           "assets": {
             "TOTKRecompAndroid-0.0.1-alpha.apk": [
               5688
+            ]
+          },
+          "complete": true
+        },
+        "430555630": {
+          "tag_name": "v0.2.0-beta",
+          "name": "TOTKDroid 0.2.0 (beta): código nativo, cavernas e água corrigidas, 60 fps, proporção livre",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6596,
+          "assets": {
+            "TOTKDroid-0.2.0-beta.apk": [
+              6597
             ]
           },
           "complete": true
@@ -26433,9 +26730,9 @@
       "topic_id": 5719,
       "header_msg_id": 5720,
       "latest_bundle_msg_id": [
-        6429
+        6649
       ],
-      "last_pushed_at": "2026-11-01T03:08:43Z",
+      "last_pushed_at": "2026-11-01T17:19:09Z",
       "releases": {
         "428695109": {
           "tag_name": "build-28",
@@ -27003,6 +27300,147 @@
             ]
           },
           "complete": true
+        },
+        "430728667": {
+          "tag_name": "build-104",
+          "name": "Eglantine nx2 build 104 (6bde8c2)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6610,
+          "assets": {
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-linux-aarch64-pgo.AppImage": [
+              6611
+            ],
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-linux-aarch64-pgo.tar.gz": [
+              6612
+            ],
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-linux-aarch64.AppImage": [
+              6613
+            ],
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-linux-aarch64.tar.gz": [
+              6614
+            ],
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-linux-x86_64-pgo.AppImage": [
+              6615
+            ],
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-linux-x86_64-pgo.tar.gz": [
+              6616
+            ],
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-linux-x86_64.AppImage": [
+              6617
+            ],
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-linux-x86_64.tar.gz": [
+              6618
+            ],
+            "eglantine-6bde8c20d1f7c020a920e59a989c03822a08445d-macos-arm64.zip": [
+              6619
+            ],
+            "eglantine-windows-x86_64-6bde8c20d1f7c020a920e59a989c03822a08445d.zip": [
+              6620
+            ],
+            "eglantine-windows-x86_64-pgo-6bde8c20d1f7c020a920e59a989c03822a08445d.zip": [
+              6621
+            ]
+          },
+          "complete": true
+        },
+        "430433696": {
+          "tag_name": "build-96",
+          "name": "Eglantine nx2 build 96 (e96917c)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6622,
+          "assets": {
+            "eglantine-e96917cd0e68851ec389dd519f03b52adc11d493-linux-aarch64-pgo.AppImage": [
+              6623
+            ],
+            "eglantine-e96917cd0e68851ec389dd519f03b52adc11d493-linux-aarch64-pgo.tar.gz": [
+              6624
+            ],
+            "eglantine-e96917cd0e68851ec389dd519f03b52adc11d493-linux-aarch64.AppImage": [
+              6625
+            ],
+            "eglantine-e96917cd0e68851ec389dd519f03b52adc11d493-linux-aarch64.tar.gz": [
+              6626
+            ],
+            "eglantine-e96917cd0e68851ec389dd519f03b52adc11d493-linux-x86_64-pgo.AppImage": [
+              6627
+            ],
+            "eglantine-e96917cd0e68851ec389dd519f03b52adc11d493-linux-x86_64-pgo.tar.gz": [
+              6628
+            ],
+            "eglantine-e96917cd0e68851ec389dd519f03b52adc11d493-linux-x86_64.AppImage": [
+              6629
+            ],
+            "eglantine-e96917cd0e68851ec389dd519f03b52adc11d493-linux-x86_64.tar.gz": [
+              6630
+            ],
+            "eglantine-windows-x86_64-e96917cd0e68851ec389dd519f03b52adc11d493.zip": [
+              6631
+            ],
+            "eglantine-windows-x86_64-pgo-e96917cd0e68851ec389dd519f03b52adc11d493.zip": [
+              6632
+            ]
+          },
+          "complete": true
+        },
+        "430590323": {
+          "tag_name": "build-98",
+          "name": "Eglantine nx2 build 98 (adae763)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6633,
+          "assets": {
+            "eglantine-adae7635708e155d967e84d7ad84bf63c5203409-linux-aarch64-pgo.AppImage": [
+              6634
+            ],
+            "eglantine-adae7635708e155d967e84d7ad84bf63c5203409-linux-aarch64-pgo.tar.gz": [
+              6635
+            ],
+            "eglantine-adae7635708e155d967e84d7ad84bf63c5203409-linux-aarch64.AppImage": [
+              6636
+            ],
+            "eglantine-adae7635708e155d967e84d7ad84bf63c5203409-linux-aarch64.tar.gz": [
+              6637
+            ],
+            "eglantine-adae7635708e155d967e84d7ad84bf63c5203409-linux-x86_64-pgo.AppImage": [
+              6638
+            ],
+            "eglantine-adae7635708e155d967e84d7ad84bf63c5203409-linux-x86_64-pgo.tar.gz": [
+              6639
+            ],
+            "eglantine-adae7635708e155d967e84d7ad84bf63c5203409-linux-x86_64.AppImage": [
+              6640
+            ],
+            "eglantine-adae7635708e155d967e84d7ad84bf63c5203409-linux-x86_64.tar.gz": [
+              6641
+            ],
+            "eglantine-windows-x86_64-adae7635708e155d967e84d7ad84bf63c5203409.zip": [
+              6642
+            ],
+            "eglantine-windows-x86_64-pgo-adae7635708e155d967e84d7ad84bf63c5203409.zip": [
+              6643
+            ]
+          },
+          "complete": true
+        },
+        "430612696": {
+          "tag_name": "build-99",
+          "name": "AMD Experimental Build 77-2 (a42b4d4)",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6644,
+          "assets": {
+            "eglantine-a42b4d4c744e12ce5262648eee50daecd1ca4681-linux-x86_64-pgo.AppImage": [
+              6645
+            ],
+            "eglantine-a42b4d4c744e12ce5262648eee50daecd1ca4681-linux-x86_64.AppImage": [
+              6646
+            ],
+            "eglantine-windows-x86_64-a42b4d4c744e12ce5262648eee50daecd1ca4681.zip": [
+              6647
+            ],
+            "eglantine-windows-x86_64-pgo-a42b4d4c744e12ce5262648eee50daecd1ca4681.zip": [
+              6648
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -27042,9 +27480,9 @@
       "topic_id": 5897,
       "header_msg_id": 5898,
       "latest_bundle_msg_id": [
-        5899
+        6650
       ],
-      "last_pushed_at": "2026-10-31T11:12:03Z",
+      "last_pushed_at": "2026-11-01T16:17:35Z",
       "releases": {}
     },
     "danielalves96/gow-pc-port": {
@@ -27083,6 +27521,33 @@
             ],
             "SHA256SUMS-windows.txt": [
               5908
+            ]
+          },
+          "complete": true
+        },
+        "430350554": {
+          "tag_name": "launcher-v0.2.0",
+          "name": "v0.2.0",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6651,
+          "assets": {
+            "God-Of-War-PC-Launcher_0.2.0_x64-portable.zip": [
+              6652
+            ],
+            "God.Of.War.-.PC.Launcher_0.2.0_amd64.AppImage": [
+              6653
+            ],
+            "God.Of.War.-.PC.Launcher_0.2.0_amd64.deb": [
+              6654
+            ],
+            "God.Of.War.-.PC.Launcher_0.2.0_x64-setup.exe": [
+              6655
+            ],
+            "SHA256SUMS-linux.txt": [
+              6656
+            ],
+            "SHA256SUMS-windows.txt": [
+              6657
             ]
           },
           "complete": true
@@ -27137,9 +27602,9 @@
       "topic_id": 5919,
       "header_msg_id": 5920,
       "latest_bundle_msg_id": [
-        6431
+        6658
       ],
-      "last_pushed_at": "2026-11-01T01:40:58Z",
+      "last_pushed_at": "2026-11-01T17:21:18Z",
       "releases": {}
     },
     "Vnnc1/gow-native-pc": {
@@ -27232,9 +27697,9 @@
       "topic_id": 5934,
       "header_msg_id": 5935,
       "latest_bundle_msg_id": [
-        5957
+        6662
       ],
-      "last_pushed_at": "2026-10-31T15:57:42Z",
+      "last_pushed_at": "2026-11-01T13:48:57Z",
       "releases": {
         "428434457": {
           "tag_name": "v0.1.0",
@@ -27340,6 +27805,21 @@
             ]
           },
           "complete": true
+        },
+        "430492548": {
+          "tag_name": "v0.2.4",
+          "name": "Mario Party: Recompiled v0.2.4",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6659,
+          "assets": {
+            "MarioPartyRecompiled-v0.2.4-linux-x64.tar.gz": [
+              6660
+            ],
+            "MarioPartyRecompiled-v0.2.4-windows-x64.zip": [
+              6661
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -27352,9 +27832,9 @@
       "topic_id": 5958,
       "header_msg_id": 5959,
       "latest_bundle_msg_id": [
-        6439
+        6666
       ],
-      "last_pushed_at": "2026-11-01T00:05:37Z",
+      "last_pushed_at": "2026-11-01T13:49:01Z",
       "releases": {
         "428434536": {
           "tag_name": "v0.1.0",
@@ -27445,6 +27925,21 @@
             ]
           },
           "complete": true
+        },
+        "430493253": {
+          "tag_name": "v0.2.5",
+          "name": "Mario Party 2: Recompiled v0.2.5",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6663,
+          "assets": {
+            "MarioParty2Recompiled-v0.2.5-linux-x64.tar.gz": [
+              6664
+            ],
+            "MarioParty2Recompiled-v0.2.5-windows-x64.zip": [
+              6665
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -27457,9 +27952,9 @@
       "topic_id": 5976,
       "header_msg_id": 5977,
       "latest_bundle_msg_id": [
-        6443
+        6673
       ],
-      "last_pushed_at": "2026-11-01T01:30:33Z",
+      "last_pushed_at": "2026-11-01T13:59:38Z",
       "releases": {
         "428434632": {
           "tag_name": "v0.1.0",
@@ -27547,6 +28042,36 @@
             ],
             "MarioParty3Recompiled-v0.2.4-windows-x64.zip": [
               6442
+            ]
+          },
+          "complete": true
+        },
+        "430455249": {
+          "tag_name": "v0.2.5",
+          "name": "Mario Party 3: Recompiled v0.2.5",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6667,
+          "assets": {
+            "MarioParty3Recompiled-v0.2.5-linux-x64.tar.gz": [
+              6668
+            ],
+            "MarioParty3Recompiled-v0.2.5-windows-x64.zip": [
+              6669
+            ]
+          },
+          "complete": true
+        },
+        "430493752": {
+          "tag_name": "v0.2.6",
+          "name": "Mario Party 3: Recompiled v0.2.6",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6670,
+          "assets": {
+            "MarioParty3Recompiled-v0.2.6-linux-x64.tar.gz": [
+              6671
+            ],
+            "MarioParty3Recompiled-v0.2.6-windows-x64.zip": [
+              6672
             ]
           },
           "complete": true
@@ -28020,9 +28545,9 @@
       "topic_id": 6081,
       "header_msg_id": 6082,
       "latest_bundle_msg_id": [
-        6450
+        6678
       ],
-      "last_pushed_at": "2026-10-31T22:23:05Z",
+      "last_pushed_at": "2026-11-01T12:29:22Z",
       "releases": {
         "424780172": {
           "tag_name": "v1.5",
@@ -28183,6 +28708,30 @@
             ]
           },
           "complete": true
+        },
+        "430553526": {
+          "tag_name": "v1.7.14",
+          "name": "NX Play 1.7.14",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6674,
+          "assets": {
+            "NX-Play-1.7.14.dmg": [
+              6675
+            ]
+          },
+          "complete": true
+        },
+        "430570956": {
+          "tag_name": "v1.7.15",
+          "name": "NX Play 1.7.15",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6676,
+          "assets": {
+            "NX-Play-1.7.15.dmg": [
+              6677
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -28195,9 +28744,9 @@
       "topic_id": 6108,
       "header_msg_id": 6109,
       "latest_bundle_msg_id": [
-        6201
+        6679
       ],
-      "last_pushed_at": "2026-10-30T04:34:13Z",
+      "last_pushed_at": "2026-11-01T14:22:46Z",
       "releases": {
         "418164279": {
           "tag_name": "v0.2.0",
@@ -28591,9 +29140,9 @@
       "topic_id": 6451,
       "header_msg_id": 6452,
       "latest_bundle_msg_id": [
-        6503
+        6704
       ],
-      "last_pushed_at": "2026-11-01T03:15:30Z",
+      "last_pushed_at": "2026-11-01T17:01:19Z",
       "releases": {
         "430024081": {
           "tag_name": "v0.9.0-beta.1",
@@ -28852,6 +29401,108 @@
             ]
           },
           "complete": true
+        },
+        "430373661": {
+          "tag_name": "v0.90.0-beta.3.1",
+          "name": "RecompLauncher 0.90 Beta 3.1",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6680,
+          "assets": {
+            "recomplauncher-source-0.90-beta3.1.zip": [
+              6681
+            ],
+            "RecompLauncher_0.90.0-beta.3.1_x64-setup.exe": [
+              6682
+            ]
+          },
+          "complete": true
+        },
+        "430393233": {
+          "tag_name": "v0.90.0-beta.4",
+          "name": "RecompLauncher 0.90 Beta 4",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6683,
+          "assets": {
+            "example-notes.rlplugin": [
+              6684
+            ],
+            "recomplauncher-source-0.90-beta4.zip": [
+              6685
+            ],
+            "RecompLauncher_0.90.0-beta.4_amd64.AppImage": [
+              6686
+            ],
+            "RecompLauncher_0.90.0-beta.4_amd64.deb": [
+              6687
+            ],
+            "RecompLauncher_0.90.0-beta.4_x64-setup.exe": [
+              6688
+            ]
+          },
+          "complete": true
+        },
+        "430467594": {
+          "tag_name": "v0.90.0-beta.5",
+          "name": "RecompLauncher 0.90 Beta 5",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6689,
+          "assets": {
+            "RecompLauncher-0.90.0-beta.5-source.zip": [
+              6690
+            ],
+            "RecompLauncher_0.90.0-beta.5_amd64.AppImage": [
+              6691
+            ],
+            "RecompLauncher_0.90.0-beta.5_amd64.deb": [
+              6692
+            ],
+            "RecompLauncher_0.90.0-beta.5_x64-setup.exe": [
+              6693
+            ]
+          },
+          "complete": true
+        },
+        "430512429": {
+          "tag_name": "v0.90.0-beta.6",
+          "name": "RecompLauncher 0.90 Beta 6",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6694,
+          "assets": {
+            "RecompLauncher-0.90.0-beta.6-source.zip": [
+              6695
+            ],
+            "RecompLauncher_0.90.0-beta.6_amd64.AppImage": [
+              6696
+            ],
+            "RecompLauncher_0.90.0-beta.6_amd64.deb": [
+              6697
+            ],
+            "RecompLauncher_0.90.0-beta.6_x64-setup.exe": [
+              6698
+            ]
+          },
+          "complete": true
+        },
+        "430724636": {
+          "tag_name": "v0.90.0-beta.7",
+          "name": "RecompLauncher 0.90 Beta 7",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6699,
+          "assets": {
+            "RecompLauncher-0.90.0-beta.7-source.zip": [
+              6700
+            ],
+            "RecompLauncher_0.90.0-beta.7_amd64.AppImage": [
+              6701
+            ],
+            "RecompLauncher_0.90.0-beta.7_amd64.deb": [
+              6702
+            ],
+            "RecompLauncher_0.90.0-beta.7_x64-setup.exe": [
+              6703
+            ]
+          },
+          "complete": true
         }
       }
     },
@@ -28902,6 +29553,862 @@
           "assets": {
             "LCEWIIU.1.0.2.apk": [
               6512
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "ExpansionPak/ModernGekko": {
+      "name": "ModernGekko",
+      "owner": "ExpansionPak",
+      "owner_url": "https://github.com/ExpansionPak",
+      "repo_url": "https://github.com/ExpansionPak/ModernGekko",
+      "description": "Runtime for recompilations of GameCube games",
+      "topic_id": 6705,
+      "header_msg_id": 6706,
+      "latest_bundle_msg_id": [
+        6710
+      ],
+      "last_pushed_at": "2026-09-17T02:30:47Z",
+      "releases": {
+        "358030740": {
+          "tag_name": "kirby",
+          "name": "KirbyWii recomp",
+          "published_at": "2026-07-22",
+          "changelog_msg_id": 6707,
+          "assets": {
+            "KirbyWiiRecomp-Linux-x86_64.zip": [
+              6708
+            ],
+            "KirbyWiiRecomp-Windows-x86_64.zip": [
+              6709
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "ExpansionPak/DolRecomp": {
+      "name": "DolRecomp",
+      "owner": "ExpansionPak",
+      "owner_url": "https://github.com/ExpansionPak",
+      "repo_url": "https://github.com/ExpansionPak/DolRecomp",
+      "description": "the best gamecube/wii recompiler ever made (we aren't changing this)",
+      "topic_id": 6711,
+      "header_msg_id": 6712,
+      "latest_bundle_msg_id": [
+        6713
+      ],
+      "last_pushed_at": "2026-10-10T21:10:56Z",
+      "releases": {}
+    },
+    "Cor3Duo/kirikae": {
+      "name": "kirikae",
+      "owner": "Cor3Duo",
+      "owner_url": "https://github.com/Cor3Duo",
+      "repo_url": "https://github.com/Cor3Duo/kirikae",
+      "description": "Static recompiler that turns Nintendo Switch executables into native PC programs, written in Rust.",
+      "topic_id": 6714,
+      "header_msg_id": 6715,
+      "latest_bundle_msg_id": [
+        6722
+      ],
+      "last_pushed_at": "2026-10-28T22:39:09Z",
+      "releases": {
+        "421365318": {
+          "tag_name": "v0.1.0",
+          "name": "v0.1.0",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 6716,
+          "assets": {
+            "kirikae-0.1.0-windows-x64.zip": [
+              6717
+            ]
+          },
+          "complete": true
+        },
+        "421430126": {
+          "tag_name": "v0.1.1",
+          "name": "v0.1.1",
+          "published_at": "2026-10-23",
+          "changelog_msg_id": 6718,
+          "assets": {
+            "kirikae-0.1.1-windows-x64.zip": [
+              6719
+            ]
+          },
+          "complete": true
+        },
+        "423033597": {
+          "tag_name": "v0.1.2",
+          "name": "v0.1.2",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 6720,
+          "assets": {
+            "kirikae-0.1.2-windows-x64.zip": [
+              6721
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "matt-pulsipher/GT3-revisited": {
+      "name": "GT3-revisited",
+      "owner": "matt-pulsipher",
+      "owner_url": "https://github.com/matt-pulsipher",
+      "repo_url": "https://github.com/matt-pulsipher/GT3-revisited",
+      "description": "Gran Turismo 3 A-Spec engine reimplementation for modern platforms (bring your own disc)",
+      "topic_id": 6723,
+      "header_msg_id": 6724,
+      "latest_bundle_msg_id": [
+        6787
+      ],
+      "last_pushed_at": "2026-11-01T17:10:31Z",
+      "releases": {
+        "416645639": {
+          "tag_name": "v0.1.0",
+          "name": "GT3 Revisited v0.1.0",
+          "published_at": "2026-10-18",
+          "changelog_msg_id": 6725,
+          "assets": {
+            "gt3r-android.apk": [
+              6726
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6727
+            ],
+            "gt3r-macos-arm64.zip": [
+              6728
+            ],
+            "gt3r-windows-x64.zip": [
+              6729
+            ],
+            "SHA256SUMS": [
+              6730
+            ]
+          },
+          "complete": true
+        },
+        "418008337": {
+          "tag_name": "v0.2.0",
+          "name": "GT3 Revisited v0.2.0",
+          "published_at": "2026-10-20",
+          "changelog_msg_id": 6731,
+          "assets": {
+            "gt3r-android.apk": [
+              6732
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6733
+            ],
+            "gt3r-macos-arm64.zip": [
+              6734
+            ],
+            "gt3r-quest.apk": [
+              6735
+            ],
+            "gt3r-windows-x64.zip": [
+              6736
+            ],
+            "SHA256SUMS": [
+              6737
+            ]
+          },
+          "complete": true
+        },
+        "422459711": {
+          "tag_name": "v0.3.0",
+          "name": "GT3 Revisited v0.3.0",
+          "published_at": "2026-10-24",
+          "changelog_msg_id": 6738,
+          "assets": {
+            "gt3r-android.apk": [
+              6739
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6740
+            ],
+            "gt3r-macos-arm64.zip": [
+              6741
+            ],
+            "gt3r-quest.apk": [
+              6742
+            ],
+            "gt3r-windows-x64.zip": [
+              6743
+            ],
+            "SHA256SUMS": [
+              6744
+            ]
+          },
+          "complete": true
+        },
+        "426270242": {
+          "tag_name": "v0.4.0",
+          "name": "GT3 Revisited v0.4.0",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 6745,
+          "assets": {
+            "gt3r-android.apk": [
+              6746
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6747
+            ],
+            "gt3r-macos-arm64.zip": [
+              6748
+            ],
+            "gt3r-quest.apk": [
+              6749
+            ],
+            "gt3r-windows-x64.zip": [
+              6750
+            ],
+            "SHA256SUMS": [
+              6751
+            ]
+          },
+          "complete": true
+        },
+        "427527120": {
+          "tag_name": "v0.4.1",
+          "name": "GT3 Revisited v0.4.1",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 6752,
+          "assets": {
+            "gt3r-android.apk": [
+              6753
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6754
+            ],
+            "gt3r-macos-arm64.zip": [
+              6755
+            ],
+            "gt3r-quest.apk": [
+              6756
+            ],
+            "gt3r-windows-x64.zip": [
+              6757
+            ],
+            "SHA256SUMS": [
+              6758
+            ]
+          },
+          "complete": true
+        },
+        "429547216": {
+          "tag_name": "v0.4.2",
+          "name": "GT3 Revisited v0.4.2",
+          "published_at": "2026-10-30",
+          "changelog_msg_id": 6759,
+          "assets": {
+            "gt3r-android.apk": [
+              6760
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6761
+            ],
+            "gt3r-macos-arm64.zip": [
+              6762
+            ],
+            "gt3r-quest.apk": [
+              6763
+            ],
+            "gt3r-windows-x64.zip": [
+              6764
+            ],
+            "SHA256SUMS": [
+              6765
+            ]
+          },
+          "complete": true
+        },
+        "429804435": {
+          "tag_name": "v0.4.3",
+          "name": "GT3 Revisited v0.4.3",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6766,
+          "assets": {
+            "gt3r-android.apk": [
+              6767
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6768
+            ],
+            "gt3r-macos-arm64.zip": [
+              6769
+            ],
+            "gt3r-quest.apk": [
+              6770
+            ],
+            "gt3r-windows-x64.zip": [
+              6771
+            ],
+            "SHA256SUMS": [
+              6772
+            ]
+          },
+          "complete": true
+        },
+        "430198749": {
+          "tag_name": "v0.5.0",
+          "name": "GT3 Revisited v0.5.0",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6773,
+          "assets": {
+            "gt3r-android.apk": [
+              6774
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6775
+            ],
+            "gt3r-macos-arm64.zip": [
+              6776
+            ],
+            "gt3r-quest.apk": [
+              6777
+            ],
+            "gt3r-windows-x64.zip": [
+              6778
+            ],
+            "SHA256SUMS": [
+              6779
+            ]
+          },
+          "complete": true
+        },
+        "430746226": {
+          "tag_name": "v0.6.0",
+          "name": "GT3 Revisited v0.6.0",
+          "published_at": "2026-11-01",
+          "changelog_msg_id": 6780,
+          "assets": {
+            "gt3r-android.apk": [
+              6781
+            ],
+            "gt3r-linux-x86_64.tar.gz": [
+              6782
+            ],
+            "gt3r-macos-arm64.zip": [
+              6783
+            ],
+            "gt3r-quest.apk": [
+              6784
+            ],
+            "gt3r-windows-x64.zip": [
+              6785
+            ],
+            "SHA256SUMS": [
+              6786
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "daniel-madrid-07/weeping-of-the-empire": {
+      "name": "weeping-of-the-empire",
+      "owner": "daniel-madrid-07",
+      "owner_url": "https://github.com/daniel-madrid-07",
+      "repo_url": "https://github.com/daniel-madrid-07/weeping-of-the-empire",
+      "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
+      "topic_id": 6788,
+      "header_msg_id": 6789,
+      "latest_bundle_msg_id": [
+        6807
+      ],
+      "last_pushed_at": "2026-11-01T01:36:57Z",
+      "releases": {
+        "429675497": {
+          "tag_name": "v0.1.0",
+          "name": "v0.1.0: first public release",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6790,
+          "assets": {
+            "Weeping-of-the-Empire-Setup-v0.1.0.exe": [
+              6791
+            ]
+          },
+          "complete": true
+        },
+        "429700227": {
+          "tag_name": "v0.1.1",
+          "name": "v0.1.1: AMD and Intel fixes, steadier loading screens",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6792,
+          "assets": {
+            "screenshot-fight.jpg": [
+              6793
+            ],
+            "screenshot-gliding.jpg": [
+              6794
+            ],
+            "screenshot-kakariko.jpg": [
+              6795
+            ],
+            "Weeping-of-the-Empire-Setup-v0.1.1.exe": [
+              6796
+            ]
+          },
+          "complete": true
+        },
+        "429734087": {
+          "tag_name": "v0.1.2",
+          "name": "v0.1.2: AMD shadows, processors without AVX2, audio",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6797,
+          "assets": {
+            "Weeping-of-the-Empire-Setup-v0.1.2.exe": [
+              6798
+            ]
+          },
+          "complete": true
+        },
+        "429914032": {
+          "tag_name": "v0.1.3",
+          "name": "v0.1.3: new-game black screen and lost sound above 200 fps",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6799,
+          "assets": {
+            "Weeping-of-the-Empire-Setup-v0.1.3.exe": [
+              6800
+            ]
+          },
+          "complete": true
+        },
+        "430045898": {
+          "tag_name": "v0.1.4",
+          "name": "v0.1.4: bottom band, slowdowns, USB freezes",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6801,
+          "assets": {
+            "Weeping-of-the-Empire-Setup-v0.1.4.exe": [
+              6802
+            ]
+          },
+          "complete": true
+        },
+        "430123818": {
+          "tag_name": "v0.1.5",
+          "name": "v0.1.5: up to 240 fps again, optimisation profile",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6803,
+          "assets": {
+            "855fd396bdf75b97.json": [
+              6804
+            ],
+            "855fd396bdf75b97.profdata": [
+              6805
+            ],
+            "Weeping-of-the-Empire-Setup-v0.1.5.exe": [
+              6806
+            ]
+          },
+          "complete": true
+        }
+      }
+    },
+    "GunaCharanTeja/WinlatorMali": {
+      "name": "WinlatorMali",
+      "owner": "GunaCharanTeja",
+      "owner_url": "https://github.com/GunaCharanTeja",
+      "repo_url": "https://github.com/GunaCharanTeja/WinlatorMali",
+      "description": "Android application for running Windows applications with Wine and Box86/Box64",
+      "topic_id": 6808,
+      "header_msg_id": 6809,
+      "latest_bundle_msg_id": [
+        6833
+      ],
+      "last_pushed_at": "2026-10-31T22:06:38Z",
+      "releases": {
+        "185178865": {
+          "tag_name": "1.9",
+          "name": "1.9",
+          "published_at": "2024-11-13",
+          "changelog_msg_id": 6810,
+          "assets": {
+            "WinMali_Proot_Antutu.apk": [
+              6811
+            ]
+          },
+          "complete": true
+        },
+        "188288192": {
+          "tag_name": "2.0",
+          "name": "2.0",
+          "published_at": "2024-11-30",
+          "changelog_msg_id": 6812,
+          "assets": {
+            "WinMali_Glibc.apk": [
+              6813
+            ],
+            "WinMali_Proot_Antutu.apk": [
+              6814
+            ]
+          },
+          "complete": true
+        },
+        "345969897": {
+          "tag_name": "bionic-mali-1.0",
+          "name": "Winlator Mali Bionic 1.0 ( Updated Again )",
+          "published_at": "2026-06-28",
+          "changelog_msg_id": 6815,
+          "assets": {
+            "leegao_bcn.tzst": [
+              6816
+            ],
+            "Winlator-Mali.Updated.Again.-Antutu.apk": [
+              6817
+            ],
+            "Winlator-Mali.Updated.Again.-Ludashi.apk": [
+              6818
+            ],
+            "Winlator-Mali.Updated.Again.apk": [
+              6819
+            ]
+          },
+          "complete": true
+        },
+        "351723038": {
+          "tag_name": "bionic-mali-1.1",
+          "name": "Winlator Mali Bionic 1.1",
+          "published_at": "2026-07-09",
+          "changelog_msg_id": 6820,
+          "assets": {
+            "Winlator-Mali-1.1-Antutu.apk": [
+              6821
+            ],
+            "Winlator-Mali-1.1-Ludashi.apk": [
+              6822
+            ],
+            "Winlator-Mali-1.1.apk": [
+              6823
+            ]
+          },
+          "complete": true
+        },
+        "421120109": {
+          "tag_name": "bionic-mali-1.2",
+          "name": "Winlator Mali Bionic 1.2",
+          "published_at": "2026-10-22",
+          "changelog_msg_id": 6824,
+          "assets": {
+            "Winlator_Mali_1.2_Bionic_AnTuTu.apk": [
+              6825
+            ],
+            "Winlator_Mali_1.2_Bionic_Ludashi.apk": [
+              6826
+            ],
+            "Winlator_Mali_1.2_Bionic_Standard.apk": [
+              6827
+            ]
+          },
+          "complete": true
+        },
+        "427593704": {
+          "tag_name": "bionic-mali-1.2.1",
+          "name": "Winlator Mali Bionic 1.2.1",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 6828,
+          "assets": {
+            "Winlator_Mali_1.2.1_Bionic_AnTuTu.apk": [
+              6829
+            ],
+            "Winlator_Mali_1.2.1_Bionic_Ludashi.apk": [
+              6830
+            ],
+            "Winlator_Mali_1.2.1_Bionic_Standard.apk": [
+              6831
+            ]
+          },
+          "complete": true
+        },
+        "429998400": {
+          "tag_name": "DXML_SUPPORT",
+          "name": "Funding Link For DXML",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6832,
+          "assets": {},
+          "complete": true
+        }
+      }
+    },
+    "Vasysik/horizon-android": {
+      "name": "horizon-android",
+      "owner": "Vasysik",
+      "owner_url": "https://github.com/Vasysik",
+      "repo_url": "https://github.com/Vasysik/horizon-android",
+      "description": "Unofficial Horizon Android port: Rust Minecraft 26.3, Vulkan, editable touch controls and native .hmod mods.",
+      "topic_id": 6834,
+      "header_msg_id": 6835,
+      "latest_bundle_msg_id": [
+        6904
+      ],
+      "last_pushed_at": "2026-11-01T16:41:54Z",
+      "releases": {
+        "423707919": {
+          "tag_name": "v0.6.7",
+          "name": "Horizon Android 0.6.7",
+          "published_at": "2026-10-25",
+          "changelog_msg_id": 6836,
+          "assets": {
+            "Horizon-Android-0.6.7-arm64-v8a.apk": [
+              6837
+            ],
+            "LICENSE.txt": [
+              6838
+            ],
+            "SHA256SUMS.txt": [
+              6839
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6840
+            ]
+          },
+          "complete": true
+        },
+        "425901402": {
+          "tag_name": "v0.7.0",
+          "name": "Horizon Android 0.7.0",
+          "published_at": "2026-10-27",
+          "changelog_msg_id": 6841,
+          "assets": {
+            "Horizon-Android-0.7.0-arm64-v8a.apk": [
+              6842
+            ],
+            "LICENSE.txt": [
+              6843
+            ],
+            "SHA256SUMS.txt": [
+              6844
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6845
+            ]
+          },
+          "complete": true
+        },
+        "426104287": {
+          "tag_name": "v0.7.1",
+          "name": "Horizon Android 0.7.1",
+          "published_at": "2026-10-27",
+          "changelog_msg_id": 6846,
+          "assets": {
+            "Horizon-Android-0.7.1-arm64-v8a.apk": [
+              6847
+            ],
+            "Horizon-Android-0.7.1-armeabi-v7a.apk": [
+              6848
+            ],
+            "Horizon-Android-0.7.1-x86.apk": [
+              6849
+            ],
+            "Horizon-Android-0.7.1-x86_64.apk": [
+              6850
+            ],
+            "LICENSE.txt": [
+              6851
+            ],
+            "SHA256SUMS.txt": [
+              6852
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6853
+            ]
+          },
+          "complete": true
+        },
+        "426744538": {
+          "tag_name": "v0.7.2",
+          "name": "Horizon Android 0.7.2",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 6854,
+          "assets": {
+            "Horizon-Android-0.7.2-arm64-v8a.apk": [
+              6855
+            ],
+            "Horizon-Android-0.7.2-armeabi-v7a.apk": [
+              6856
+            ],
+            "Horizon-Android-0.7.2-x86.apk": [
+              6857
+            ],
+            "Horizon-Android-0.7.2-x86_64.apk": [
+              6858
+            ],
+            "LICENSE.txt": [
+              6859
+            ],
+            "SHA256SUMS.txt": [
+              6860
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6861
+            ]
+          },
+          "complete": true
+        },
+        "427304256": {
+          "tag_name": "v0.7.3",
+          "name": "Horizon Android 0.7.3",
+          "published_at": "2026-10-28",
+          "changelog_msg_id": 6862,
+          "assets": {
+            "Horizon-Android-0.7.3-arm64-v8a.apk": [
+              6863
+            ],
+            "Horizon-Android-0.7.3-armeabi-v7a.apk": [
+              6864
+            ],
+            "Horizon-Android-0.7.3-x86.apk": [
+              6865
+            ],
+            "Horizon-Android-0.7.3-x86_64.apk": [
+              6866
+            ],
+            "LICENSE.txt": [
+              6867
+            ],
+            "SHA256SUMS.txt": [
+              6868
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6869
+            ]
+          },
+          "complete": true
+        },
+        "428402057": {
+          "tag_name": "v0.7.4",
+          "name": "Horizon Android 0.7.4",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 6870,
+          "assets": {
+            "Horizon-Android-0.7.4-arm64-v8a.apk": [
+              6871
+            ],
+            "Horizon-Android-0.7.4-armeabi-v7a.apk": [
+              6872
+            ],
+            "Horizon-Android-0.7.4-x86.apk": [
+              6873
+            ],
+            "Horizon-Android-0.7.4-x86_64.apk": [
+              6874
+            ],
+            "LICENSE.txt": [
+              6875
+            ],
+            "SHA256SUMS.txt": [
+              6876
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6877
+            ]
+          },
+          "complete": true
+        },
+        "428503124": {
+          "tag_name": "v0.7.5-rc.1",
+          "name": "Horizon Android 0.7.5 RC1",
+          "published_at": "2026-10-29",
+          "changelog_msg_id": 6878,
+          "assets": {
+            "Horizon-Android-0.7.5-arm64-v8a.apk": [
+              6879
+            ],
+            "LICENSE.txt": [
+              6880
+            ],
+            "SHA256SUMS.txt": [
+              6881
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6882
+            ]
+          },
+          "complete": true
+        },
+        "429603702": {
+          "tag_name": "v0.7.5",
+          "name": "Horizon Android 0.7.5",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6883,
+          "assets": {
+            "Horizon-Android-0.7.5-arm64-v8a.apk": [
+              6884
+            ],
+            "Horizon-Android-0.7.5-armeabi-v7a.apk": [
+              6885
+            ],
+            "Horizon-Android-0.7.5-x86.apk": [
+              6886
+            ],
+            "Horizon-Android-0.7.5-x86_64.apk": [
+              6887
+            ],
+            "LICENSE.txt": [
+              6888
+            ],
+            "SHA256SUMS.txt": [
+              6889
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6890
+            ]
+          },
+          "complete": true
+        },
+        "429938946": {
+          "tag_name": "v0.7.6-rc1",
+          "name": "Horizon Android 0.7.6 RC1",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6891,
+          "assets": {
+            "Horizon-Android-0.7.6-arm64-v8a.apk": [
+              6892
+            ],
+            "LICENSE.txt": [
+              6893
+            ],
+            "SHA256SUMS.txt": [
+              6894
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6895
+            ]
+          },
+          "complete": true
+        },
+        "430246932": {
+          "tag_name": "v0.7.6",
+          "name": "Horizon Android 0.7.6",
+          "published_at": "2026-10-31",
+          "changelog_msg_id": 6896,
+          "assets": {
+            "Horizon-Android-0.7.6-arm64-v8a.apk": [
+              6897
+            ],
+            "Horizon-Android-0.7.6-armeabi-v7a.apk": [
+              6898
+            ],
+            "Horizon-Android-0.7.6-x86.apk": [
+              6899
+            ],
+            "Horizon-Android-0.7.6-x86_64.apk": [
+              6900
+            ],
+            "LICENSE.txt": [
+              6901
+            ],
+            "SHA256SUMS.txt": [
+              6902
+            ],
+            "THIRD_PARTY_NOTICES.md": [
+              6903
             ]
           },
           "complete": true
